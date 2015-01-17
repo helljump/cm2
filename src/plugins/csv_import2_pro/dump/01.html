@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Ingress Intel Map</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0" />
+    <meta property="og:type" content="website" />
+    <meta name="name" itemprop="name" property="og:title" content="Ingress - Game Reality" />
+    <meta name="description" itemprop="description" property="og:description" content="The world around you is not what it seems. Our future is at stake and you must choose a side. Join my faction in Ingress - a global game of mystery, intrique and conquest." />
+    <meta itemprop="image" property="og:image" content="//commondatastorage.googleapis.com/ingress.com/img/Ingress_logo_512px.png" />
+
+    <link rel='stylesheet' type='text/css' href='/css/ap_icons.css' />
+    <link rel='stylesheet' type='text/css' href='/css/map_icons.css' />
+    <link rel='stylesheet' type='text/css' href='/css/misc_icons.css' />
+    <link rel='stylesheet' type='text/css' href='/css/common.css' />
+    <link rel='stylesheet' type='text/css' href='/css/style_full.css' />
+    <link rel='stylesheet' type='text/css' href='/css/portalrender.css' />
+    <script type="text/javascript"
+            src="//maps.googleapis.com/maps/api/js?key=AIzaSyD4JcEYV1vNEjqdKSCO2aUWh75NZHxAh4A&amp;sensor=true&amp;v=3.12"></script>
+    <script type="text/javascript" language="javascript">
+      var ZOOM_LEVEL;
+      var IS_MOBILE = false;
+      var MAP_PARAMS = {"lat": 52.610911999999999, "lng": 39.591563000000001, "zoom": 13};
+      var PLAYER = {"ap": "73101", "energy": 248, "available_invites": 2, "nickname": "helljump", "team": "ENLIGHTENED"};
+
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-28246397-5']);
+      _gaq.push(['_trackPageview']);
+
+      (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+    </script>
+    <script type="text/javascript" src="/jsc/gen_dashboard.js"></script>
+  </head>
+
+  <body onload="initialize()" id="dashboard">
+
+    <div id="header">
+
+      <!-- Navigation -->
+      <div id="nav" class="color_orange">
+        <div class="nav_link selected">Map</div>
+        <div class="nav_link" onclick="sbox(event)">
+          G+ Community
+        </div>
+
+        <!-- G+ Community Box -->
+        <div id="commun_box" class="nav_box" ontouchstart="stop(event)" onclick="stop(event)" class="color_orange">
+          <a href="https://google.com/+ingress" target="_blank">
+            <span class="color_orange">Ingress Page</span>
+          </a><br />
+          <a href="https://plus.google.com/communities/103803967875500436831/stream/b93201bc-011b-417f-af17-8c663909e6dd" target="_blank">
+            <span class="ENLIGHTENED">Enlightened Community</span>
+          </a><br />
+          <a href="https://plus.google.com/communities/103803967875500436831/stream/89d1dccb-7362-4af1-a143-8c2ca9324d2d" target="_blank">
+            <span class="RESISTANCE">Resistance Community</span>
+          </a><br />
+          <a href="https://plus.google.com/+NianticProject/posts" target="_blank">
+            <span class="color_orange">Niantic Project</span>
+          </a><br />
+          <a href="https://plus.google.com/u/1/s/Ingress/communities" target="_blank">
+            <span class="color_orange">Other Ingress Communities</span>
+          </a><br />
+        </div>
+      </div>
+
+      <div id="play_button" class="button unselectable">
+        <div id="video_banner"><div>Ingress Report</div></div>
+      </div>
+
+      <!-- Header: Invite -->
+      <div id="header_invites" onclick="sbox(event)" class="header_icon_container">
+        <div class="SPRITE_invite header_icon"></div>
+        <div class="SPRITE_invite_down header_icon"></div>
+        <div class="header_icon_text">Recruit</div>
+      </div>
+
+      <!-- Header: Map link -->
+      <div id="header_maplink" onclick="sbox(event);getmaplink()" class="header_icon_container">
+        <div class="SPRITE_maplink header_icon"></div>
+        <div class="SPRITE_maplink_down header_icon"></div>
+        <div class="header_icon_text">Link</div>
+      </div>
+
+      <div id="header_maplink_box" class="header_box" ontouchstart="stop(event)" onclick="stop(event)">
+        Map link
+        <form onSubmit="return false;" id="maplink_form">
+          <input type="text" id="maplink" value="" onClick="this.select()">
+        </form>
+      </div>
+
+      <!-- Header: Login Info -->
+      <div id="header_login_info" onclick="sbox(event)">
+        <span class="pointer" id="header_email">helljump@gmail.com</span>&nbsp;
+        <div id="header_pointy" class="pointer"></div>
+      </div>
+
+      <div id="header_login_info_box" class="header_box" ontouchstart="stop(event)" onclick="stop(event)">
+        <a href="http://www.ingress.com/_ah/logout?continue=https://www.google.com/accounts/Logout%3Fcontinue%3Dhttps://appengine.google.com/_ah/logout%253Fcontinue%253Dhttp://www.ingress.com/intel%25253Fll%25253D52.610912,39.591563%252526z%25253D13%26service%3Dah">
+          <span class="color_orange">sign out</span>
+        </a><br />
+        <a href="http://www.google.com/intl/en/policies/privacy/" target="_blank">
+          <span class="color_orange">privacy</span>
+        </a><br />
+        <a href="http://support.google.com/ingress" target="_blank">
+          <span class="color_orange">help</span>
+        </a><br />
+      </div>
+
+      <!-- Header: Separator -->
+      <div class="separator">
+        <div class="separator_left_arm"></div>
+        <div class="separator_center"></div>
+        <div class="separator_right_arm"></div>
+      </div>
+    </div>
+
+    <!-- Dashboard Container -->
+    <div id="dashboard_container">
+
+      <!-- Google Maps -->
+      <div id="map_canvas"></div>
+
+      <!-- Player Stats -->
+      <div id="player_stats"></div>
+
+      <!-- Game Stats -->
+      <div id="game_stats"></div>
+
+      <!-- Geo Location Tools -->
+      <div id="geotools">
+        <form onSubmit="doGeocode(); return false;" name="geocode_name" id="geocode">
+          <div style='display:none'><input type='hidden' name='csrfmiddlewaretoken' value='37TbBF80twC21SzbiLlZxMuLLbxMGFEa' /></div>
+          <input type="text" id="address" placeholder="enter location" />
+          <input type="submit" value="Search" />
+        </form>
+      </div>
+
+      <!-- COMMs Panel -->
+      <div id="comm"></div>
+
+      <!--Stack used to position the loading message when filters are shown/hidden -->
+      <div id="bottom_right_stack">
+
+        <!--Map loading message -->
+        <div id="loading_msg">
+          <div id="loading_msg_text">Loading Data...</div>
+          <div id="loading_percent">
+            <div id="percent_text"></div>
+            <div id="loading_data_circle" class="rotate0"></div>
+          </div>
+        </div>
+        <!--Spacer to push the loading indicator up above the map edge when filters are hidden -->
+        <div id="loading_spacer" style="display: none;"></div>
+
+        <!--Portal filter-->
+        <div id="filters_container" onselectstart="return false;">
+          <div id="level_filter_container">
+            <div class="filter_row">
+              <div class="filter_title" id="filter_title_level">Level</div>
+            </div>
+            <div id="level_pulldown_container">
+              <div id="level_low_filter" class="level_filter_selectors">
+                <div id="level_low_filter_notches">
+                  <span class="level_notch"
+                      onclick="processLevelSelectorEvent(event);"
+                      ontouch="processLevelSelectorEvent(event);"
+                      id="level_low8" value="8">L8</span>
+                  <span class="level_notch"
+                      onclick="processLevelSelectorEvent(event);"
+                      ontouch="processLevelSelectorEvent(event);"
+                      id="level_low7" value="7">L7</span>
+                  <span class="level_notch"
+                      onclick="processLevelSelectorEvent(event);"
+                      ontouch="processLevelSelectorEvent(event);"
+                      id="level_low6" value="6">L6</span>
+                  <span class="level_notch"
+                      onclick="processLevelSelectorEvent(event);"
+                      ontouch="processLevelSelectorEvent(event);"
+                      id="level_low5" value="5">L5</span>
+                  <span class="level_notch"
+                      onclick="processLevelSelectorEvent(event);"
+                      ontouch="processLevelSelectorEvent(event);"
+                      id="level_low4" value="4">L4</span>
+                  <span class="level_notch"
+                      onclick="processLevelSelectorEvent(event);"
+                      ontouch="processLevelSelectorEvent(event);"
+                      id="level_low3" value="3">L3</span>
+                  <span class="level_notch"
+                      onclick="processLevelSelectorEvent(event);"
+                      ontouch="processLevelSelectorEvent(event);"
+                      id="level_low2" value="2">L2</span>
+                  <span class="level_notch"
+                      onclick="processLevelSelectorEvent(event);"
+                      ontouch="processLevelSelectorEvent(event);"
+                      id="level_low1" value="1">L1</span>
+                  <span class="level_notch"
+                      onclick="processLevelSelectorEvent(event);"
+                      ontouch="processLevelSelectorEvent(event);"
+                      id="level_low0" value="0">L0</span>
+                </div>
+              </div>
+              <div class="between_text"> to </div>
+              <div id="level_high_filter" class="level_filter_selectors">
+                <div id="level_high_filter_notches">
+                  <span class="level_notch"
+                      onclick="processLevelSelectorEvent(event);"
+                      ontouch="processLevelSelectorEvent(event);"
+                      id="level_high8" value="8">L8</span>
+                  <span class="level_notch"
+                      onclick="processLevelSelectorEvent(event);"
+                      ontouch="processLevelSelectorEvent(event);"
+                      id="level_high7" value="7">L7</span>
+                  <span class="level_notch"
+                      onclick="processLevelSelectorEvent(event);"
+                      ontouch="processLevelSelectorEvent(event);"
+                      id="level_high6" value="6">L6</span>
+                  <span class="level_notch"
+                      onclick="processLevelSelectorEvent(event);"
+                      ontouch="processLevelSelectorEvent(event);"
+                      id="level_high5" value="5">L5</span>
+                  <span class="level_notch"
+                      onclick="processLevelSelectorEvent(event);"
+                      ontouch="processLevelSelectorEvent(event);"
+                      id="level_high4" value="4">L4</span>
+                  <span class="level_notch"
+                      onclick="processLevelSelectorEvent(event);"
+                      ontouch="processLevelSelectorEvent(event);"
+                      id="level_high3" value="3">L3</span>
+                  <span class="level_notch"
+                      onclick="processLevelSelectorEvent(event);"
+                      ontouch="processLevelSelectorEvent(event);"
+                      id="level_high2" value="2">L2</span>
+                  <span class="level_notch"
+                      onclick="processLevelSelectorEvent(event);"
+                      ontouch="processLevelSelectorEvent(event);"
+                      id="level_high1" value="1">L1</span>
+                  <span class="level_notch"
+                      onclick="processLevelSelectorEvent(event);"
+                      ontouch="processLevelSelectorEvent(event);"
+                      id="level_high0" value="0">L0</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div id="health_filter_container">
+            <div class="filter_row">
+              <div class="filter_title" id="filter_title_health">Health</div>
+            </div>
+            <div id="health_slider_container">
+              <span class="health_notch selected lend"
+                  onclick="processHealthSelectorEvent(event);"
+                  ontouch="processHealthSelectorEvent(event);"
+                  id="health0" value="0">
+                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                  </span>
+              <span class="health_notch selected lneighboron"
+                  onclick="processHealthSelectorEvent(event);"
+                  ontouch="processHealthSelectorEvent(event);"
+                  id="health1" value="1">
+                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                  </span>
+              <span class="health_notch selected lneighboron"
+                  onclick="processHealthSelectorEvent(event);"
+                  ontouch="processHealthSelectorEvent(event);"
+                  id="health2" value="2">
+                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                  </span>
+              <span class="health_notch rend selected lneighboron"
+                  onclick="processHealthSelectorEvent(event);"
+                  ontouch="processHealthSelectorEvent(event);"
+                  id="health3" value="3">
+                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                  </span>
+              <br />
+              <span class="health_notch_text selected" id="healthtext0">25%</span>
+              <span class="health_notch_text selected" id="healthtext1">50%</span>
+              <span class="health_notch_text selected" id="healthtext2">75%</span>
+              <span class="health_notch_text selected" id="healthtext3">100%</span>
+            </div>
+          </div>
+        </div><!-- /filters_container -->
+      </div><!-- /bottom_right_stack -->
+
+      <div id="portal_filter_header">Filters</div>
+
+      <!-- Dashboard stale data message -->
+      <div id="butterbar" style="display: none;" class="box_drop_shadow">
+      </div>
+
+      <!-- Portal Level Indicator -->
+      <div id="zoom_level_data"></div>
+
+      
+
+      <!-- Footer: Separator -->
+      <div id="footer">
+        <div class="separator">
+          <div class="separator_left_arm"></div>
+          <div class="separator_center"></div>
+          <div class="separator_right_arm"></div>
+        </div>
+      </div>
+
+    </div>
+  </body>
+</html>

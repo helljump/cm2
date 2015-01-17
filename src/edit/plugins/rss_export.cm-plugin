@@ -1,0 +1,3 @@
+[Core]
+Name = Экспорт RSS ленты
+Module = rss_export

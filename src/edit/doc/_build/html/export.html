@@ -1,0 +1,436 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>Экспорт &mdash; Документация CM2 TreeEdit 1.3.9</title>
+    
+    <link rel="stylesheet" href="_static/nature.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    './',
+        VERSION:     '1.3.9',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <script type="text/javascript" src="_static/translations.js"></script>
+    <link rel="top" title="Документация CM2 TreeEdit 1.3.9" href="index.html" />
+    <link rel="next" title="Поиск" href="mysearch.html" />
+    <link rel="prev" title="Импорт" href="import.html" /> 
+  </head>
+  <body>
+    <div class="related">
+      <h3>Просмотр</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="Алфавитный указатель"
+             accesskey="I">указатель</a></li>
+        <li class="right" >
+          <a href="mysearch.html" title="Поиск"
+             accesskey="N">следующий</a> |</li>
+        <li class="right" >
+          <a href="import.html" title="Импорт"
+             accesskey="P">предыдущий</a> |</li>
+        <li><a href="index.html">Документация CM2 TreeEdit 1.3.9</a> &raquo;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body">
+            
+  <div class="section" id="id1">
+<h1>Экспорт<a class="headerlink" href="#id1" title="Ссылка на этот заголовок">¶</a></h1>
+<div class="section" id="cms-simple">
+<h2>CMS Simple<a class="headerlink" href="#cms-simple" title="Ссылка на этот заголовок">¶</a></h2>
+<p>Сохраняет HTML файл в формате CMS Simple с форматированием H1-8.</p>
+<p>Экспортируемые поля:</p>
+<ul class="simple">
+<li>Заголовок</li>
+<li>Текст</li>
+</ul>
+</div>
+<div class="section" id="wordpress-xml">
+<h2>WordPress XML<a class="headerlink" href="#wordpress-xml" title="Ссылка на этот заголовок">¶</a></h2>
+<p>Выгружает XML в формате Wordpress Import.</p>
+<p>Экспортируемые поля:</p>
+<ul class="simple">
+<li>Категории</li>
+<li>Теги</li>
+<li>Заголовок</li>
+<li>Дата публикации</li>
+<li>Текст</li>
+<li>Вступление(Excerpt)</li>
+</ul>
+<div class="admonition note">
+<p class="first admonition-title">Примечание</p>
+<p class="last">Для импорта в WordPress версии 3.* установите плагин <a class="reference external" href="http://wordpress.org/extend/plugins/wordpress-importer/">wordpress-importer</a></p>
+</div>
+</div>
+<div class="section" id="wordpress-xml-rpc-wp-metaweblog">
+<h2>WordPress XML-RPC(WP/metaWeblog)<a class="headerlink" href="#wordpress-xml-rpc-wp-metaweblog" title="Ссылка на этот заголовок">¶</a></h2>
+<p>Экспортирует категории/статьи по XML-PRC.</p>
+<img alt="_images/export_wprpc.png" src="_images/export_wprpc.png" />
+<p>Поля для категорий:</p>
+<ul class="simple">
+<li>Заголовок</li>
+<li>Описание</li>
+</ul>
+<p>Поля для статей:</p>
+<ul class="simple">
+<li>Заголовок</li>
+<li>Текст</li>
+<li>Дата публикации</li>
+<li>Теги</li>
+</ul>
+<div class="admonition note">
+<p class="first admonition-title">Примечание</p>
+<p class="last">Протестировать подключение вы можете кнопкой Apply.</p>
+</div>
+</div>
+<div class="section" id="joomla-1-5">
+<h2>Joomla 1.5<a class="headerlink" href="#joomla-1-5" title="Ссылка на этот заголовок">¶</a></h2>
+<p>Выгрузка SQL файла в формате CMS Joomla 1.5</p>
+<img alt="_images/export_joomla.png" src="_images/export_joomla.png" />
+<p>Создается секция &#8220;Статьи&#8221;. Далее в ней создаются категории.</p>
+<p>Поля для категорий:</p>
+<ul class="simple">
+<li>Заголовок</li>
+<li>Описание</li>
+</ul>
+<p>Поля для статей:</p>
+<ul class="simple">
+<li>Имя автора</li>
+<li>Заголовок</li>
+<li>Вступительный текст</li>
+<li>Текст</li>
+<li>Дата публикации</li>
+<li>Теги</li>
+</ul>
+<p>При необходимости генерируется код очистки секций/категорий/статей.</p>
+<div class="admonition warning">
+<p class="first admonition-title">Предупреждение</p>
+<p class="last">Это может повлечь за собой удаление всех существующих материалов сайта.</p>
+</div>
+</div>
+<div class="section" id="datalife-engine-8">
+<h2>Datalife Engine 8<a class="headerlink" href="#datalife-engine-8" title="Ссылка на этот заголовок">¶</a></h2>
+<p>Выгрузка в SQL файла в форматах DLE 8.0/8.5.</p>
+<img alt="_images/export_dle.png" src="_images/export_dle.png" />
+<p>Создается структура категории/статьи.</p>
+<p>Поля для категорий:</p>
+<ul class="simple">
+<li>Заголовок</li>
+</ul>
+<p>Поля для статей:</p>
+<ul class="simple">
+<li>Имя автора</li>
+<li>Дата публикации</li>
+<li>Заголовок</li>
+<li>Вступительный текст</li>
+<li>Текст</li>
+<li>Теги</li>
+</ul>
+<p>При необходимости генерируется код очистки секций/категорий/статей.</p>
+<div class="admonition warning">
+<p class="first admonition-title">Предупреждение</p>
+<p class="last">Это может повлечь за собой удаление всех существующих материалов сайта.</p>
+</div>
+</div>
+<div class="section" id="zebrum-lite">
+<h2>Zebrum Lite<a class="headerlink" href="#zebrum-lite" title="Ссылка на этот заголовок">¶</a></h2>
+<p>Выгрузка в формате parser.php Zebrum Lite 2.0.3</p>
+<img alt="_images/export_zebrumlite.png" src="_images/export_zebrumlite.png" />
+<p>Поля для категорий:</p>
+<ul class="simple">
+<li>Заголовок</li>
+<li>Дата публикации</li>
+</ul>
+<p>Поля для статей:</p>
+<ul class="simple">
+<li>Заголовок</li>
+<li>Дата публикации</li>
+<li>Вступительный текст</li>
+<li>Текст</li>
+<li>Теги</li>
+</ul>
+</div>
+<div class="section" id="id2">
+<h2>Статичный сайт<a class="headerlink" href="#id2" title="Ссылка на этот заголовок">¶</a></h2>
+<p>Генерация статичного сайта. Подходит для размещения на хостингах без поддержки php(narod.ru).</p>
+<img alt="_images/export_static.png" src="_images/export_static.png" />
+<p>Создается структура каталогов содержащих HTML файлы по заданному шаблону. Поддерживаются метки:</p>
+<ul class="simple">
+<li>Заголовок</li>
+<li>Меню</li>
+<li>Содержимое</li>
+<li>Случайные статьи</li>
+</ul>
+<div class="admonition note">
+<p class="first admonition-title">Примечание</p>
+<p class="last">Если вы получаете ошибку о невозможности создания файла на локальном диске, сократите вложенность каталогов, так как файловая система OS имеет ограничение на длину пути в 255 символов.</p>
+</div>
+</div>
+<div class="section" id="livejournal-com">
+<h2>Livejournal.com<a class="headerlink" href="#livejournal-com" title="Ссылка на этот заголовок">¶</a></h2>
+<p>Выгрузка статей на сервис livejournal.com.</p>
+<img alt="_images/export_livejournal.png" src="_images/export_livejournal.png" />
+<p>Экспортируемые поля:</p>
+<ul class="simple">
+<li>Заголовок</li>
+<li>Текст</li>
+<li>Дата публикации</li>
+<li>Теги</li>
+</ul>
+<div class="admonition warning">
+<p class="first admonition-title">Предупреждение</p>
+<p class="last">При небольшом времени задержки между публикациями возможны санкции со стороны сервиса(блокирование доступа).</p>
+</div>
+<div class="admonition note">
+<p class="first admonition-title">Примечание</p>
+<p class="last">Протестировать подключение вы можете кнопкой Apply.</p>
+</div>
+</div>
+<div class="section" id="blogger-com">
+<h2>Blogger.com<a class="headerlink" href="#blogger-com" title="Ссылка на этот заголовок">¶</a></h2>
+<p>Выгрузка статей на сервис blogspot.com</p>
+<img alt="_images/export_blogger.png" src="_images/export_blogger.png" />
+<p>Экспортируемые поля:</p>
+<ul class="simple">
+<li>Заголовок</li>
+<li>Текст</li>
+<li>Дата публикации</li>
+<li>Теги</li>
+</ul>
+<div class="admonition warning">
+<p class="first admonition-title">Предупреждение</p>
+<p class="last">При небольшом времени задержки между публикациями возможны санкции со стороны сервиса(блокирование доступа).</p>
+</div>
+<div class="admonition note">
+<p class="first admonition-title">Примечание</p>
+<p class="last">Протестировать подключение вы можете кнопкой Apply.</p>
+</div>
+</div>
+<div class="section" id="content-monster-2-xml-prc">
+<h2>Content Monster 2 XML-PRC<a class="headerlink" href="#content-monster-2-xml-prc" title="Ссылка на этот заголовок">¶</a></h2>
+<p>Выгрузка статей по XML-RPC.</p>
+<img alt="_images/export_cm2xmlrpc.png" src="_images/export_cm2xmlrpc.png" />
+<p>Вызываемые функции:</p>
+<table border="1" class="docutils">
+<colgroup>
+<col width="23%" />
+<col width="28%" />
+<col width="49%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Функция</th>
+<th class="head">Действие</th>
+<th class="head">Параметры</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td>check_connection</td>
+<td>Проверка подключения</td>
+<td><p class="first">Входные:</p>
+<ul class="simple">
+<li>нет</li>
+</ul>
+<p>Выходные:</p>
+<ul class="last simple">
+<li>result(boolean) - результат</li>
+</ul>
+</td>
+</tr>
+<tr class="row-odd"><td>new_article</td>
+<td>Добавление статьи</td>
+<td><p class="first">Входные:</p>
+<ul class="simple">
+<li>parent(str) - заголовок категории</li>
+<li>title(str) - заголовок статьи</li>
+<li>text(str) - текст статьи</li>
+<li>tags(array) - список тегов</li>
+<li>date(date) - дата публикации</li>
+</ul>
+<p>Выходные:</p>
+<ul class="last simple">
+<li>result(boolean) - результат</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+<p>Пример сервера.</p>
+<div class="highlight-python"><div class="highlight"><pre><span class="c">#!/usr/bin/env python</span>
+<span class="c"># -*- coding: UTF-8 -*-</span>
+
+<span class="n">__author__</span> <span class="o">=</span> <span class="s">&quot;snoa&quot;</span>
+
+<span class="kn">from</span> <span class="nn">SimpleXMLRPCServer</span> <span class="kn">import</span> <span class="n">SimpleXMLRPCServer</span>
+<span class="kn">import</span> <span class="nn">xmlrpclib</span>
+<span class="kn">import</span> <span class="nn">logging</span>
+
+<span class="n">log</span> <span class="o">=</span> <span class="n">logging</span><span class="o">.</span><span class="n">getLogger</span><span class="p">(</span><span class="n">__name__</span><span class="p">)</span>
+
+<span class="k">def</span> <span class="nf">new_article</span><span class="p">(</span><span class="n">parent</span><span class="p">,</span> <span class="n">title</span><span class="p">,</span> <span class="n">text</span><span class="p">,</span> <span class="n">tags</span><span class="p">,</span> <span class="n">pubdate</span><span class="p">):</span>
+    <span class="n">log</span><span class="o">.</span><span class="n">debug</span><span class="p">(</span><span class="s">&quot;&quot;&quot;NEW ARTICLE</span>
+<span class="s">    title:   </span><span class="si">%s</span><span class="s"></span>
+<span class="s">    parent:  </span><span class="si">%s</span><span class="s"></span>
+<span class="s">    textlen: </span><span class="si">%i</span><span class="s"></span>
+<span class="s">    tags:    </span><span class="si">%i</span><span class="s"></span>
+<span class="s">    pubdate: </span><span class="si">%s</span><span class="s"></span>
+<span class="s">    &quot;&quot;&quot;</span><span class="p">,</span> <span class="n">title</span><span class="p">,</span> <span class="n">parent</span><span class="p">,</span> <span class="nb">len</span><span class="p">(</span><span class="n">text</span><span class="p">),</span> <span class="nb">len</span><span class="p">(</span><span class="n">tags</span><span class="p">),</span> <span class="n">pubdate</span><span class="p">)</span>
+    <span class="k">return</span> <span class="bp">True</span>
+
+<span class="k">def</span> <span class="nf">check_connection</span><span class="p">():</span>
+    <span class="k">return</span> <span class="bp">True</span>
+
+<span class="n">server</span> <span class="o">=</span> <span class="n">SimpleXMLRPCServer</span><span class="p">((</span><span class="s">&quot;localhost&quot;</span><span class="p">,</span> <span class="mi">8000</span><span class="p">))</span>
+<span class="n">log</span><span class="o">.</span><span class="n">debug</span><span class="p">(</span><span class="s">&quot;Listening on port 8000...&quot;</span><span class="p">)</span>
+<span class="n">server</span><span class="o">.</span><span class="n">register_function</span><span class="p">(</span><span class="n">check_connection</span><span class="p">)</span>
+<span class="n">server</span><span class="o">.</span><span class="n">register_function</span><span class="p">(</span><span class="n">new_article</span><span class="p">)</span>
+<span class="n">server</span><span class="o">.</span><span class="n">serve_forever</span><span class="p">()</span>
+</pre></div>
+</div>
+<div class="admonition note">
+<p class="first admonition-title">Примечание</p>
+<p class="last">Протестировать подключение вы можете кнопкой Apply.</p>
+</div>
+</div>
+<div class="section" id="id3">
+<h2>Экспорт текстовых файлов<a class="headerlink" href="#id3" title="Ссылка на этот заголовок">¶</a></h2>
+<p>Выгрузка статей в указанный каталог</p>
+</div>
+<div class="section" id="ucoz">
+<h2>Публикация материалов в UCOZ<a class="headerlink" href="#ucoz" title="Ссылка на этот заголовок">¶</a></h2>
+<p>Выгрузка статей в указанную категорию новостей</p>
+<img alt="_images/export_ucoz.png" src="_images/export_ucoz.png" />
+<p>Для побликации в другие компоненты смотрите исходный код.</p>
+<img alt="_images/export_ucoz2.png" src="_images/export_ucoz2.png" />
+<div class="admonition warning">
+<p class="first admonition-title">Предупреждение</p>
+<p class="last">При публикации большого количества материалов возможны санкции.</p>
+</div>
+<div class="admonition note">
+<p class="first admonition-title">Примечание</p>
+<ul class="last simple">
+<li>На сайте должен активирован модуль &#8220;новости сайта&#8221; и туда добавлена категория.(thx Dendroid)</li>
+<li>На сайте после авторизации долна быть доступна страница &#8220;/news/0-0-0-0-1&#8221;</li>
+</ul>
+</div>
+</div>
+<div class="section" id="maxsite-cms">
+<h2>Экспорт в MaxSite CMS<a class="headerlink" href="#maxsite-cms" title="Ссылка на этот заголовок">¶</a></h2>
+<p>Выгрузка в формат демонстрационных данных: demo.sql</p>
+</div>
+<div class="section" id="rss-feed">
+<h2>Экспорт в RSS Feed<a class="headerlink" href="#rss-feed" title="Ссылка на этот заголовок">¶</a></h2>
+<p>Выгрузка в формат RSS Feed</p>
+<p>Экспортируемые поля:</p>
+<ul class="simple">
+<li>Заголовок</li>
+<li>Текст</li>
+<li>Дата публикации</li>
+</ul>
+</div>
+<div class="section" id="datalife-engine-9-0">
+<h2>Экспорт в Datalife Engine 9.0<a class="headerlink" href="#datalife-engine-9-0" title="Ссылка на этот заголовок">¶</a></h2>
+<p>Выгрузка в DLE 9.0 SQL</p>
+<div class="admonition note">
+<p class="first admonition-title">Примечание</p>
+<p class="last">Если вы используете базу в cp1251, то для импорта sql-файла используйте mysql с параметром &#8211;default-character-set utf8. Вот примерно так: <em>mysql &#8211;default-character-set utf8 -b dle9 &lt;dle90.sql</em></p>
+</div>
+<dl class="glossary docutils">
+<dt id="term-">Экспорт</dt>
+<dd>Выгрузка статей в различны форматы и CMS</dd>
+</dl>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="index.html">Оглавление</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Экспорт</a><ul>
+<li><a class="reference internal" href="#cms-simple">CMS Simple</a></li>
+<li><a class="reference internal" href="#wordpress-xml">WordPress XML</a></li>
+<li><a class="reference internal" href="#wordpress-xml-rpc-wp-metaweblog">WordPress XML-RPC(WP/metaWeblog)</a></li>
+<li><a class="reference internal" href="#joomla-1-5">Joomla 1.5</a></li>
+<li><a class="reference internal" href="#datalife-engine-8">Datalife Engine 8</a></li>
+<li><a class="reference internal" href="#zebrum-lite">Zebrum Lite</a></li>
+<li><a class="reference internal" href="#id2">Статичный сайт</a></li>
+<li><a class="reference internal" href="#livejournal-com">Livejournal.com</a></li>
+<li><a class="reference internal" href="#blogger-com">Blogger.com</a></li>
+<li><a class="reference internal" href="#content-monster-2-xml-prc">Content Monster 2 XML-PRC</a></li>
+<li><a class="reference internal" href="#id3">Экспорт текстовых файлов</a></li>
+<li><a class="reference internal" href="#ucoz">Публикация материалов в UCOZ</a></li>
+<li><a class="reference internal" href="#maxsite-cms">Экспорт в MaxSite CMS</a></li>
+<li><a class="reference internal" href="#rss-feed">Экспорт в RSS Feed</a></li>
+<li><a class="reference internal" href="#datalife-engine-9-0">Экспорт в Datalife Engine 9.0</a></li>
+</ul>
+</li>
+</ul>
+
+  <h4>Предыдущий раздел</h4>
+  <p class="topless"><a href="import.html"
+                        title="предыдущая глава">Импорт</a></p>
+  <h4>Следующий раздел</h4>
+  <p class="topless"><a href="mysearch.html"
+                        title="следующая глава">Поиск</a></p>
+  <h3>На этой странице</h3>
+  <ul class="this-page-menu">
+    <li><a href="_sources/export.txt"
+           rel="nofollow">Исходный текст</a></li>
+  </ul>
+<div id="searchbox" style="display: none">
+  <h3>Быстрый поиск</h3>
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Искать" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Введите слова для поиска или имя модуля, класса или функции.
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related">
+      <h3>Просмотр</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="Алфавитный указатель"
+             >указатель</a></li>
+        <li class="right" >
+          <a href="mysearch.html" title="Поиск"
+             >следующий</a> |</li>
+        <li class="right" >
+          <a href="import.html" title="Импорт"
+             >предыдущий</a> |</li>
+        <li><a href="index.html">Документация CM2 TreeEdit 1.3.9</a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer">
+        &copy; Copyright 2010, DrMax &amp; sNOa.
+      Создано с помощью <a href="http://sphinx-doc.org/">Sphinx</a> 1.2.1.
+    </div>
+  </body>
+</html>

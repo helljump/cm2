@@ -1,0 +1,3 @@
+[Core]
+Name = Импорт CSV файла
+Module = csv_import

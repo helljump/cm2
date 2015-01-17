@@ -1,0 +1,1 @@
+c:\xampplite\mysql\bin\mysqldump.exe --user=root wordpress >wordpress.sql

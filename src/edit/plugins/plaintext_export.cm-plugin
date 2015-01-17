@@ -1,0 +1,3 @@
+[Core]
+Name = Экспорт текстовых файлов
+Module = plaintext_export

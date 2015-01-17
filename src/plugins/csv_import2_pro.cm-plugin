@@ -1,0 +1,6 @@
+[Core]
+Name = Генератор магазинов 2(CSV импорт)
+Module = csv_import2_pro
+
+[Documentation]
+Description = Alt+G

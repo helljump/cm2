@@ -1,0 +1,3 @@
+[Core]
+Name = Экспорт в Rumba XML 2.8
+Module = rumbaxml_export

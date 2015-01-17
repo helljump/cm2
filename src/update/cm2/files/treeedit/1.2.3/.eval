@@ -1,0 +1,2 @@
+rc = QtGui.QMessageBox.question(parent, u"Обновление", u"Доступна новая версия.\nОткрыть сайт программы?", u"Да", u"Нет")
+if rc==0: QtGui.QDesktopServices.openUrl(QtCore.QUrl("http://content-monster.com/klientam"))

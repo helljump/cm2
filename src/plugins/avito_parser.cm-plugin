@@ -1,0 +1,6 @@
+[Core]
+Name = Парсер Avito.ru
+Module = avito_parser
+
+[Documentation]
+Version = 1.0

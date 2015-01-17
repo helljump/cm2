@@ -1,0 +1,3 @@
+[Core]
+Name = Очистка статьи
+Module = clear_article

@@ -1,0 +1,3 @@
+[Core]
+Name = Текст из тегов H1 в заголовок
+Module = h1_to_title

@@ -1,0 +1,3 @@
+[Core]
+Name = Генератор читабельных паролей
+Module = nicepassgui

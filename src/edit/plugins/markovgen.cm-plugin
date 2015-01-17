@@ -1,0 +1,3 @@
+[Core]
+Name = Генератор текста "цепями Маркова"
+Module = markovgen

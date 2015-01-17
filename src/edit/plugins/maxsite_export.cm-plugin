@@ -1,0 +1,3 @@
+[Core]
+Name = Экспорт демо файла MaxSite CMS
+Module = maxsite_export

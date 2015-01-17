@@ -1,0 +1,3 @@
+[Core]
+Name = Экспорт сериализованного php объекта
+Module = phppickle_export

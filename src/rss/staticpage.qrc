@@ -1,0 +1,9 @@
+<RCC>
+  <qresource prefix="banner" >  
+    <file>wpt.png</file>
+    <file>yasynpro.png</file>
+    <file>tohtamysh.png</file>
+    <file>banner.gif</file>
+    <file>static.html</file>
+  </qresource>
+</RCC>

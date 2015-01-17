@@ -1,0 +1,393 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="http://zipta.ru/wordpress/wp-content/plugins/google-sitemap-generator/sitemap.xsl"?><!-- generator="wordpress/2.9.2" -->
+<!-- sitemap-generator-url="http://www.arnebrachhold.de" sitemap-generator-version="3.2.3" -->
+<!-- generated-on="13 June 2010 13:50" -->
+<!-- Debug: Total comment count: 18 -->
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">	<url>
+		<loc>http://zipta.ru/</loc>
+		<lastmod>2010-06-13T13:49:42+00:00</lastmod>
+		<changefreq>daily</changefreq>
+		<priority>1.0</priority>
+	</url>
+<!-- Debug: Start Postings -->
+<!-- Debug: Priority report of postID 332: Comments: 0 of 18 = 0 points -->
+	<url>
+		<loc>http://zipta.ru/2010/06/krasivaya-mecha/</loc>
+		<lastmod>2010-06-13T13:49:42+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 329: Comments: 0 of 18 = 0 points -->
+	<url>
+		<loc>http://zipta.ru/2010/06/zadonskij-rajon/</loc>
+		<lastmod>2010-06-01T06:24:10+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 324: Comments: 0 of 18 = 0 points -->
+	<url>
+		<loc>http://zipta.ru/2010/05/vyshla-ahero-1-0/</loc>
+		<lastmod>2010-05-21T07:38:30+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 308: Comments: 0 of 18 = 0 points -->
+	<url>
+		<loc>http://zipta.ru/2010/05/bugor/</loc>
+		<lastmod>2010-05-19T19:46:22+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 319: Comments: 0 of 18 = 0 points -->
+	<url>
+		<loc>http://zipta.ru/2010/05/proshivki-2-1-eclair-dlya-hero/</loc>
+		<lastmod>2010-05-18T09:09:24+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 315: Comments: 0 of 18 = 0 points -->
+	<url>
+		<loc>http://zipta.ru/2010/05/chaplygin/</loc>
+		<lastmod>2010-05-17T09:27:19+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 303: Comments: 0 of 18 = 0 points -->
+	<url>
+		<loc>http://zipta.ru/2010/04/vsex-izlechit-iscelit/</loc>
+		<lastmod>2010-04-27T22:21:19+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 296: Comments: 0 of 18 = 0 points -->
+	<url>
+		<loc>http://zipta.ru/2010/04/26-aprelya/</loc>
+		<lastmod>2010-04-25T23:22:45+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 292: Comments: 0 of 18 = 0 points -->
+	<url>
+		<loc>http://zipta.ru/2010/04/htc-hero-uzh-polnoch-blizitsya-a-2-1-vse-net/</loc>
+		<lastmod>2010-04-23T00:23:11+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+	<url>
+		<loc>http://zipta.ru/about/</loc>
+		<lastmod>2010-04-22T06:46:59+00:00</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+	</url>
+<!-- Debug: Priority report of postID 283: Comments: 0 of 18 = 0 points -->
+	<url>
+		<loc>http://zipta.ru/2010/04/svezhij-math-metal/</loc>
+		<lastmod>2010-04-20T10:43:33+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 273: Comments: 0 of 18 = 0 points -->
+	<url>
+		<loc>http://zipta.ru/2010/04/obzor-muzykalnyx-novinok-za-18-aprelya-2010/</loc>
+		<lastmod>2010-04-18T12:34:41+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 269: Comments: 0 of 18 = 0 points -->
+	<url>
+		<loc>http://zipta.ru/2010/04/strashnaya-mest-apple/</loc>
+		<lastmod>2010-04-17T19:06:29+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 259: Comments: 0 of 18 = 0 points -->
+	<url>
+		<loc>http://zipta.ru/2010/04/htc-hero-normalnye-geroi-vsegda-idut-lesom/</loc>
+		<lastmod>2010-04-15T19:57:15+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 253: Comments: 0 of 18 = 0 points -->
+	<url>
+		<loc>http://zipta.ru/2010/04/optimistichnoe/</loc>
+		<lastmod>2010-04-15T15:24:13+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 247: Comments: 0 of 18 = 0 points -->
+	<url>
+		<loc>http://zipta.ru/2010/04/prishelcy-poseshhali-zemlyu/</loc>
+		<lastmod>2010-04-14T11:09:01+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 241: Comments: 0 of 18 = 0 points -->
+	<url>
+		<loc>http://zipta.ru/2010/04/den-kosmonavtiki/</loc>
+		<lastmod>2010-04-12T13:59:52+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 236: Comments: 0 of 18 = 0 points -->
+	<url>
+		<loc>http://zipta.ru/2010/04/katrina-krimsky-trevor-watts-stella-malu/</loc>
+		<lastmod>2010-04-08T20:55:18+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 232: Comments: 0 of 18 = 0 points -->
+	<url>
+		<loc>http://zipta.ru/2010/04/chicken-on-the-rocks/</loc>
+		<lastmod>2010-04-08T08:56:03+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 227: Comments: 0 of 18 = 0 points -->
+	<url>
+		<loc>http://zipta.ru/2010/04/red-sparowes-the-fear-is-excruciating-but-therein-lies-the-answer/</loc>
+		<lastmod>2010-04-07T18:55:42+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 224: Comments: 0 of 18 = 0 points -->
+	<url>
+		<loc>http://zipta.ru/2010/04/buckethead-ne-slomit/</loc>
+		<lastmod>2010-04-02T21:49:44+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 206: Comments: 0 of 18 = 0 points -->
+	<url>
+		<loc>http://zipta.ru/2010/04/sadist-season-in-silence/</loc>
+		<lastmod>2010-04-02T11:43:12+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 209: Comments: 0 of 18 = 0 points -->
+	<url>
+		<loc>http://zipta.ru/2010/02/antigate-balans/</loc>
+		<lastmod>2010-04-02T11:24:26+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 212: Comments: 0 of 18 = 0 points -->
+	<url>
+		<loc>http://zipta.ru/2010/04/proxy-checker/</loc>
+		<lastmod>2010-04-02T11:09:46+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 199: Comments: 0 of 18 = 0 points -->
+	<url>
+		<loc>http://zipta.ru/2010/03/yajca-prishelcev/</loc>
+		<lastmod>2010-03-31T15:48:17+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 196: Comments: 0 of 18 = 0 points -->
+	<url>
+		<loc>http://zipta.ru/2010/03/dyadenka-offlajn/</loc>
+		<lastmod>2010-03-29T08:05:11+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 186: Comments: 0 of 18 = 0 points -->
+	<url>
+		<loc>http://zipta.ru/2010/03/the-hirsch-effekt-holon-hiberno/</loc>
+		<lastmod>2010-03-25T12:54:12+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 165: Comments: 0 of 18 = 0 points -->
+	<url>
+		<loc>http://zipta.ru/2010/03/obratnyj-otschet/</loc>
+		<lastmod>2010-03-25T09:12:28+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 170: Comments: 0 of 18 = 0 points -->
+	<url>
+		<loc>http://zipta.ru/2010/03/poezdka-v-kazan/</loc>
+		<lastmod>2010-03-22T19:04:57+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 155: Comments: 0 of 18 = 0 points -->
+	<url>
+		<loc>http://zipta.ru/2010/03/zhizn-bez-narkotikov-i-alkogolya/</loc>
+		<lastmod>2010-03-13T10:46:19+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 145: Comments: 0 of 18 = 0 points -->
+	<url>
+		<loc>http://zipta.ru/2010/03/radioaktivnye-oboi/</loc>
+		<lastmod>2010-03-06T10:16:12+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 136: Comments: 0 of 18 = 0 points -->
+	<url>
+		<loc>http://zipta.ru/2010/02/svezhaya-kinoprodukciya/</loc>
+		<lastmod>2010-02-26T22:58:47+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+	<url>
+		<loc>http://zipta.ru/obratnaya-svyaz/</loc>
+		<lastmod>2010-02-22T23:07:36+00:00</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+	</url>
+<!-- Debug: Priority report of postID 106: Comments: 0 of 18 = 0 points -->
+	<url>
+		<loc>http://zipta.ru/2010/02/pokupka-softa-dlya-android-cherez-andappstore/</loc>
+		<lastmod>2010-02-18T12:22:55+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 92: Comments: 0 of 18 = 0 points -->
+	<url>
+		<loc>http://zipta.ru/2010/02/oboi-dlya-htc-hero/</loc>
+		<lastmod>2010-02-17T15:31:52+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 78: Comments: 0 of 18 = 0 points -->
+	<url>
+		<loc>http://zipta.ru/2010/02/softa-dlya-androida/</loc>
+		<lastmod>2010-02-16T22:00:58+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 74: Comments: 0 of 18 = 0 points -->
+	<url>
+		<loc>http://zipta.ru/2010/02/rossiya-otmenyaet-obyazatelnuyu-sertifikaciyu-produktov-i-kosmetiki/</loc>
+		<lastmod>2010-02-15T18:01:18+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 69: Comments: 0 of 18 = 0 points -->
+	<url>
+		<loc>http://zipta.ru/2010/02/muzlo-na-den-svyatogo-valentina/</loc>
+		<lastmod>2010-02-13T20:12:33+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 60: Comments: 1 of 18 = 0.1 points -->
+	<url>
+		<loc>http://zipta.ru/2010/02/pamyatka-po-multiprocessing/</loc>
+		<lastmod>2010-02-11T18:17:26+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 55: Comments: 0 of 18 = 0 points -->
+	<url>
+		<loc>http://zipta.ru/2010/02/chelovek-baklazhka-sushhestvuet/</loc>
+		<lastmod>2010-02-10T17:12:16+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 52: Comments: 0 of 18 = 0 points -->
+	<url>
+		<loc>http://zipta.ru/2010/02/neploxoe-radio/</loc>
+		<lastmod>2010-02-10T13:49:15+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 51: Comments: 0 of 18 = 0 points -->
+	<url>
+		<loc>http://zipta.ru/2010/01/opaslivoe/</loc>
+		<lastmod>2010-01-14T09:16:35+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 48: Comments: 0 of 18 = 0 points -->
+	<url>
+		<loc>http://zipta.ru/2010/01/sverxgod-lyagvy/</loc>
+		<lastmod>2010-01-03T13:07:47+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 47: Comments: 0 of 18 = 0 points -->
+	<url>
+		<loc>http://zipta.ru/2009/12/tunnel-nabroski-2/</loc>
+		<lastmod>2009-12-16T20:21:02+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 43: Comments: 1 of 18 = 0.1 points -->
+	<url>
+		<loc>http://zipta.ru/2009/12/pakt-daffnisa-ribbentropa/</loc>
+		<lastmod>2009-12-15T17:19:54+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 41: Comments: 1 of 18 = 0.1 points -->
+	<url>
+		<loc>http://zipta.ru/2009/11/41/</loc>
+		<lastmod>2009-11-15T15:02:03+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 31: Comments: 0 of 18 = 0 points -->
+	<url>
+		<loc>http://zipta.ru/2009/11/31/</loc>
+		<lastmod>2009-11-15T10:21:30+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 36: Comments: 0 of 18 = 0 points -->
+	<url>
+		<loc>http://zipta.ru/2009/11/iz-mira-prekrasnogo/</loc>
+		<lastmod>2009-11-15T07:30:14+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 33: Comments: 1 of 18 = 0.1 points -->
+	<url>
+		<loc>http://zipta.ru/2009/11/nu-i-konechno-zhe/</loc>
+		<lastmod>2009-11-15T07:17:41+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 32: Comments: 1 of 18 = 0.1 points -->
+	<url>
+		<loc>http://zipta.ru/2009/11/stishok-dlya-dorogix-gostej/</loc>
+		<lastmod>2009-11-15T06:58:29+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 30: Comments: 10 of 18 = 0.6 points -->
+	<url>
+		<loc>http://zipta.ru/2009/11/30/</loc>
+		<lastmod>2009-11-09T16:08:24+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.6</priority>
+	</url>
+<!-- Debug: Priority report of postID 23: Comments: 2 of 18 = 0.1 points -->
+	<url>
+		<loc>http://zipta.ru/2009/11/portret-kupriyana-x-m/</loc>
+		<lastmod>2009-11-04T22:28:00+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 12: Comments: 1 of 18 = 0.1 points -->
+	<url>
+		<loc>http://zipta.ru/2009/11/kupriyan/</loc>
+		<lastmod>2009-11-04T19:41:35+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 6: Comments: 0 of 18 = 0 points -->
+	<url>
+		<loc>http://zipta.ru/2009/11/shel-sneg/</loc>
+		<lastmod>2009-11-01T13:40:03+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: End Postings -->
+<!-- Debug: Start Custom Pages -->
+<!-- Debug: End Custom Pages -->
+<!-- Debug: Start additional URLs -->
+<!-- Debug: End additional URLs -->
+</urlset>

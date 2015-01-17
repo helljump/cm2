@@ -1,0 +1,275 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>Импорт &mdash; Документация CM2 TreeEdit 1.3.9</title>
+    
+    <link rel="stylesheet" href="_static/nature.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    './',
+        VERSION:     '1.3.9',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <script type="text/javascript" src="_static/translations.js"></script>
+    <link rel="top" title="Документация CM2 TreeEdit 1.3.9" href="index.html" />
+    <link rel="next" title="Экспорт" href="export.html" />
+    <link rel="prev" title="Ссылки" href="links.html" /> 
+  </head>
+  <body>
+    <div class="related">
+      <h3>Просмотр</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="Алфавитный указатель"
+             accesskey="I">указатель</a></li>
+        <li class="right" >
+          <a href="export.html" title="Экспорт"
+             accesskey="N">следующий</a> |</li>
+        <li class="right" >
+          <a href="links.html" title="Ссылки"
+             accesskey="P">предыдущий</a> |</li>
+        <li><a href="index.html">Документация CM2 TreeEdit 1.3.9</a> &raquo;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body">
+            
+  <div class="section" id="id1">
+<h1>Импорт<a class="headerlink" href="#id1" title="Ссылка на этот заголовок">¶</a></h1>
+<div class="section" id="csv">
+<h2>CSV генератор<a class="headerlink" href="#csv" title="Ссылка на этот заголовок">¶</a></h2>
+<img alt="_images/import_csv.png" src="_images/import_csv.png" />
+<p>Пример файла импорта. Строки содержащие один элемент могут распозноваться как категории(см. настройки плагина).</p>
+<div class="highlight-html"><div class="highlight"><pre>&quot;Сирень&quot;
+&quot;сирень1&quot;,&quot;большая&quot;,&quot;красивая&quot;
+&quot;сирень2&quot;,&quot;мелкая&quot;,&quot;неочень&quot;
+&quot;сирень3&quot;,&quot;средняя&quot;,&quot;странная&quot;
+&quot;Бузина&quot;,&quot;&quot;,&quot;&quot;
+&quot;бузина1&quot;,&quot;зелёная&quot;,&quot;весёлая&quot;
+&quot;бузина2&quot;,&quot;красная&quot;,&quot;грустная&quot;
+&quot;бузина3&quot;,&quot;желтая&quot;,&quot;беглая&quot;
+</pre></div>
+</div>
+<p>Пример шаблона</p>
+<div class="highlight-html"><div class="highlight"><pre>Параметр:{$2}<span class="nt">&lt;br/&gt;</span>
+<span class="nt">&lt;img</span> <span class="na">src=</span><span class="s">&quot;{$3}&quot;</span> <span class="na">alt=</span><span class="s">&quot;{$1}&quot;</span><span class="nt">&gt;</span>
+</pre></div>
+</div>
+<p>Результат</p>
+<img alt="_images/import_csv1.png" src="_images/import_csv1.png" />
+</div>
+<div class="section" id="id2">
+<h2>Универсальный парсер<a class="headerlink" href="#id2" title="Ссылка на этот заголовок">¶</a></h2>
+<p>Универсальный <img alt="spider" src="d:\icons\fatcow-hosting-icons\16x16\spider_web.png" /> парсер служит для импорта текстового контента с сетевых ресурсов, анализируя их структуру в автоматическом режиме и выделяя важную информация(заголовок, текст).</p>
+<p><strong>Первый шаг - импорт содержимого пауком.</strong></p>
+<img alt="_images/import_uparser1.png" src="_images/import_uparser1.png" />
+<dl class="docutils">
+<dt><em>Начальный адрес</em></dt>
+<dd>Адрес, с которого начинается обход сайта пауком. Игнорируются все адреса которые не начинаются с этого значения.</dd>
+<dt><em>Глубина</em></dt>
+<dd>Количество рекурсивно запрашиваемых страниц.</dd>
+<dt><em>Игнорировать</em></dt>
+<dd>Регулярное выражения которое используется при обходе для удаления адресов из очереди. По умолчанию это изображения, медиафайлы, архивы.</dd>
+<dt><em>USER_AGENT</em></dt>
+<dd>То, как паук будет представляться сайту.</dd>
+</dl>
+<p><strong>Шаг два - построение в автоматическом режиме шаблонов страниц, Вам необходимо задать лишь порог чуствительности.</strong></p>
+<img alt="_images/import_uparser2.png" src="_images/import_uparser2.png" />
+<dl class="docutils">
+<dt><em>Порог кластеризации</em></dt>
+<dd>Порог различия фрагментов страниц содержащих значимый для импорта текст. При низком пороге возможен захват мусорного текста(меню, баннеры).</dd>
+<dt><em>Порог заголовка</em></dt>
+<dd>Порог различия фрагментов страниц содержащих заголовок.</dd>
+<dt><em>Анализировать не более</em></dt>
+<dd>Количество страниц для анализа. Чем больше, тем точнее будет сгенерирован шаблон. Однако анализ большого количества страниц занимает продолжительное время. 100 страниц - около 5 минут. 1000 страниц, более 3 часов.</dd>
+<dt><em>Количество дополнительных фрагментов</em></dt>
+<dd>Если значимый материал разбит на вложенные фрагменты(например блоками(div), таблицами) то повышения значения позволяет сгенерировать шаблон учитывающий это.</dd>
+</dl>
+<p><strong>Третий шаг - импорт текста в Content Monster 2 в качестве статей.</strong></p>
+<img alt="_images/import_uparser3.png" src="_images/import_uparser3.png" />
+<dl class="docutils">
+<dt><em>Порог соответствия шаблону</em></dt>
+<dd>Минимальное значение при котором найденный в статье текст будет считаться значимым.</dd>
+<dt><em>Порог отличия</em></dt>
+<dd>Максимальное значение, при котором найденный в статье текст будет считаться значимым.</dd>
+<dt><em>Минимальный размер статьи</em></dt>
+<dd>Позволяет избавится в выдаче от пустых, либо неверно экстрагированных статей.</dd>
+</dl>
+</div>
+<div class="section" id="cms-simple">
+<h2>CMS Simple<a class="headerlink" href="#cms-simple" title="Ссылка на этот заголовок">¶</a></h2>
+<p>Читает HTML файл в формате CMS Simple с форматированием H1-8.</p>
+<p>Импортируемые поля</p>
+<ul class="simple">
+<li>Заголовок</li>
+<li>Текст</li>
+</ul>
+</div>
+<div class="section" id="wordpress-xml">
+<h2>Wordpress XML<a class="headerlink" href="#wordpress-xml" title="Ссылка на этот заголовок">¶</a></h2>
+<p>Читает XML файл выгружаемый Wordpress версии 2.7 и выше.</p>
+<p>Импортируемые поля:</p>
+<ul class="simple">
+<li>Заголовок</li>
+<li>Excerpt</li>
+<li>Текст</li>
+<li>Дата публикации</li>
+<li>Теги</li>
+<li>Категория</li>
+</ul>
+</div>
+<div class="section" id="articlesbase-rusarticle">
+<h2>Парсер статей articlesbase/rusarticle<a class="headerlink" href="#articlesbase-rusarticle" title="Ссылка на этот заголовок">¶</a></h2>
+<p>Плагин от Mihey для парсинга статей с известных статейных баз.</p>
+<p>Импортируемые поля:</p>
+<ul class="simple">
+<li>Заголовок</li>
+<li>Текст</li>
+</ul>
+<div class="admonition note">
+<p class="first admonition-title">Примечание</p>
+<p class="last">Сервис имеет ограничение в 150 статей на один запрос.</p>
+</div>
+</div>
+<div class="section" id="txt-html">
+<h2>Каталог TXT и HTML файлов(плагин)<a class="headerlink" href="#txt-html" title="Ссылка на этот заголовок">¶</a></h2>
+<p>Рекурсивно читает указанную директорию и формирует дерево статей по принципу: название каталога и файла - это заголовки, содержимое файлов - текст.
+Расширения: TXT, HTML, HTM, XHTML.
+Кодировка определяется по charset&#8217;у HTML либо автоматом по первым 2-м килобайтам текста.</p>
+<p>Импортируемые поля:</p>
+<ul class="simple">
+<li>Заголовок</li>
+<li>Текст</li>
+</ul>
+</div>
+<div class="section" id="rss-feed">
+<h2>RSS Feed<a class="headerlink" href="#rss-feed" title="Ссылка на этот заголовок">¶</a></h2>
+<p>Импорт данных из лент новостей. Чтение из файла либо по адресу ленты. Поддержка форматов RSS, Atom, CDF.</p>
+<img alt="_images/import_rss.png" src="_images/import_rss.png" />
+<p>Поля для статей:</p>
+<ul class="simple">
+<li>Заголовок</li>
+<li>Текст</li>
+</ul>
+</div>
+<div class="section" id="id3">
+<h2>Генератор текста &#8220;цепями Маркова&#8221;<a class="headerlink" href="#id3" title="Ссылка на этот заголовок">¶</a></h2>
+<img alt="_images/import_markovgen.png" src="_images/import_markovgen.png" />
+<p>Генератор текста построенные на базе цепей Маркова.</p>
+<img alt="_images/import_markovgen2.png" src="_images/import_markovgen2.png" />
+<p>Исключительно как пример плагина.</p>
+</div>
+<div class="section" id="advego-xml">
+<h2>Advego XML<a class="headerlink" href="#advego-xml" title="Ссылка на этот заголовок">¶</a></h2>
+<p>Импорт данных из лент Advego.</p>
+<img alt="_images/import_advego.png" src="_images/import_advego.png" />
+<p>Поля для статей:</p>
+<ul class="simple">
+<li>Заголовок</li>
+<li>Текст</li>
+<li>Дата публикации</li>
+</ul>
+</div>
+<div class="section" id="rss-atom">
+<h2>Импорт страниц сайтов по ссылкам из RSS/Atom<a class="headerlink" href="#rss-atom" title="Ссылка на этот заголовок">¶</a></h2>
+<p>Импорт страниц по ссылкам в RSS/Atom. Возможен импорт по адресу ленты либо имени файла.</p>
+</div>
+<div class="section" id="php">
+<h2>Импорт на PHP<a class="headerlink" href="#php" title="Ссылка на этот заголовок">¶</a></h2>
+<p>Пример плагин импорта на PHP (см. plugins/phpimportsample)</p>
+<dl class="glossary docutils">
+<dt id="term-">Импорт</dt>
+<dd>Чтение статей из различных форматов файлов</dd>
+</dl>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="index.html">Оглавление</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Импорт</a><ul>
+<li><a class="reference internal" href="#csv">CSV генератор</a></li>
+<li><a class="reference internal" href="#id2">Универсальный парсер</a></li>
+<li><a class="reference internal" href="#cms-simple">CMS Simple</a></li>
+<li><a class="reference internal" href="#wordpress-xml">Wordpress XML</a></li>
+<li><a class="reference internal" href="#articlesbase-rusarticle">Парсер статей articlesbase/rusarticle</a></li>
+<li><a class="reference internal" href="#txt-html">Каталог TXT и HTML файлов(плагин)</a></li>
+<li><a class="reference internal" href="#rss-feed">RSS Feed</a></li>
+<li><a class="reference internal" href="#id3">Генератор текста &#8220;цепями Маркова&#8221;</a></li>
+<li><a class="reference internal" href="#advego-xml">Advego XML</a></li>
+<li><a class="reference internal" href="#rss-atom">Импорт страниц сайтов по ссылкам из RSS/Atom</a></li>
+<li><a class="reference internal" href="#php">Импорт на PHP</a></li>
+</ul>
+</li>
+</ul>
+
+  <h4>Предыдущий раздел</h4>
+  <p class="topless"><a href="links.html"
+                        title="предыдущая глава">Ссылки</a></p>
+  <h4>Следующий раздел</h4>
+  <p class="topless"><a href="export.html"
+                        title="следующая глава">Экспорт</a></p>
+  <h3>На этой странице</h3>
+  <ul class="this-page-menu">
+    <li><a href="_sources/import.txt"
+           rel="nofollow">Исходный текст</a></li>
+  </ul>
+<div id="searchbox" style="display: none">
+  <h3>Быстрый поиск</h3>
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Искать" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Введите слова для поиска или имя модуля, класса или функции.
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related">
+      <h3>Просмотр</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="Алфавитный указатель"
+             >указатель</a></li>
+        <li class="right" >
+          <a href="export.html" title="Экспорт"
+             >следующий</a> |</li>
+        <li class="right" >
+          <a href="links.html" title="Ссылки"
+             >предыдущий</a> |</li>
+        <li><a href="index.html">Документация CM2 TreeEdit 1.3.9</a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer">
+        &copy; Copyright 2010, DrMax &amp; sNOa.
+      Создано с помощью <a href="http://sphinx-doc.org/">Sphinx</a> 1.2.1.
+    </div>
+  </body>
+</html>

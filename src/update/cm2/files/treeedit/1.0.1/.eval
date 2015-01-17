@@ -1,0 +1,4 @@
+rc = QtGui.QMessageBox.information(parent, 
+    u"Обновление", 
+    u"Обновление установлено. Для того что-бы изменения вступили в силу,\nперезапустите программу.", 
+    QtGui.QMessageBox.Ok)

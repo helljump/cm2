@@ -1,0 +1,3 @@
+[Core]
+Name = Удаление вложенных и непарных тэгов (PHP)
+Module = phptag_process

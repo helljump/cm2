@@ -1,0 +1,53 @@
+Добрый день.
+
+--- Content Monster 2 ---
+Для начала работы
+
+1. Зайдите в клиентскую зону CM-II TreeEdit
+Адрес страницы http://content-monster.com/klientam
+Пароль для входа: cm2cli8ts
+
+2. Скачайте последнюю версию CM-II TreeEdit
+
+3. Установите (с правами администратора) вашу копию CM-II TreeEdit
+
+4. Запустите CM-II TreeEdit
+
+5. Пройдите в главном меню программы в раздел Помощь - Регистрация и введите ключ
+
+------ Начинать копировать после этой строки ----------------
+gAJ9cQEoVQh1c2VybmFtZXECWA0AAABSMzk5ODQwMzQwMTc4cQNVBGRhdGVxBFUaMjAxNC0wMi0x
+MyAxMDozNTozMy4yNTUwMDBxBVUHcHJvZHVjdHEGVRpjb250ZW50LW1vbnN0ZXItMi10cmVlZWRp
+dHEHVQd2ZXJzaW9ucQhVAzEuMHEJVQNrZXlxClU4MNihpCZjqghF5ZidHjtjteMZvp+swAczQrdq
+8mtuiUcLkoe1nMAUyGE72iMSiXTS+Y/ZzZNlGrVxC3Uu
+------ Эту строчку - не копировать --------------------------
+
+Будьте внимательными при копировании ключа!
+Ключ является уникальным для вашей копии CM-II TreeEdit
+и предназначен для использования на 2 машинах
+
+6. Ваша копия готова к работе!
+
+По всем вопросам пишите на форуме поддержки
+http://blap.ru/forum/index.php?board=75.0
+
+--- Генератор магазинов PRO 2 ---
+
+Документация: http://yadi.sk/d/zAFNIdy4Gjgrf
+Ссылка: http://yadi.sk/d/yXClDks5HoWBV
+
+По всем вопросам пишите на форуме поддержки
+http://blap.ru/forum/index.php?topic=1015.0
+
+Бонус - платные базы!
+    DVD: http://yadi.sk/d/6bkE4mYNHoX5p
+    Обогреватели: http://yadi.sk/d/eyC5Dt6mHoX8K
+    Шины: http://yadi.sk/d/7fTRFvqfHoX9g
+Примеры настроек лежат в архивах баз в template.txt
+По умолчанию каталог базы расположен в каталоге плагина\base
+
+--- Гобо базы ---
+
+Строительство: http://yadi.sk/d/BIiu9BnzHoVrR
+Маркетинг-финансы: http://yadi.sk/d/Z7EJeyPRHJrqz
+

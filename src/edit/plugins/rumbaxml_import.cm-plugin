@@ -1,0 +1,6 @@
+[Core]
+Name = Импорт RumbaXML
+Module = rumbaxml_import
+
+[Documentation]
+Version = 1.1

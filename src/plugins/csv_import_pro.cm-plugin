@@ -1,0 +1,3 @@
+[Core]
+Name = Генератор магазинов(CSV импорт)
+Module = csv_import_pro

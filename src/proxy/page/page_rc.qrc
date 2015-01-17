@@ -1,0 +1,5 @@
+<RCC>
+  <qresource prefix="proxy_page_tester" >
+    <file>defaultproxyurl.txt</file>
+  </qresource>
+</RCC>

@@ -1,0 +1,3 @@
+[Core]
+Name = Парсер Articlesbase/Rusarticles
+Module = articlesbase_parser_disabled

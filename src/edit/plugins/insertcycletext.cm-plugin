@@ -1,0 +1,3 @@
+[Core]
+Name = Цикличная вставка текста в статьи
+Module = insertcycletext

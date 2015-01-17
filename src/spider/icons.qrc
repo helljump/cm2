@@ -1,0 +1,9 @@
+<RCC>
+  <qresource prefix="ico">
+    <file>spider_web.png</file>
+    <file>delete.png</file>
+    <file>android.png</file>
+    <file>filter.png</file>
+    <file>moneybox.png</file>
+  </qresource>
+</RCC>

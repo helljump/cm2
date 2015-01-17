@@ -1,0 +1,6 @@
+[Core]
+Name = Парсер Proxy серверов
+Module = proxyparser
+
+[Documentation]
+Version = 1.0

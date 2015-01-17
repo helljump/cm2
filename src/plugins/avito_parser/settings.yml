@@ -1,0 +1,5 @@
+attempts: 3
+path: !!python/unicode 'D:/work/cm2/test/avito/auto.csv'
+timeout: 40
+url: !!python/unicode 'http://www.avito.ru/lipetsk/avtomobili_s_probegom'
+use_proxy: false

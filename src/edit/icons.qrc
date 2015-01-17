@@ -1,0 +1,48 @@
+<RCC>
+  <qresource prefix="ico32">
+    <file>img/elka.png</file>
+    <file>img/chart_line.png</file>
+    <file>img/disk.png</file>
+    <file>img/page_white.png</file>
+    <file>img/folder.png</file>
+    <file>img/arrow_redo.png</file>
+    <file>img/arrow_undo.png</file>
+    <file>img/cm2.png</file>
+    <file>img/hammer.png</file>
+    <file>img/connect.png</file>
+  </qresource>
+  <qresource prefix="ico">
+    <file>img/cm2splash.png</file>
+    <file>img/sort_ascending.png</file>
+    <file>img/cog_go.png</file>
+    <file>img/accept.png</file>
+    <file>img/tag_blue_edit.png</file>
+    <file>img/page.png</file>
+    <file>img/book.png</file>
+    <file>img/page_add.png</file>
+    <file>img/page_delete.png</file>
+    <file>img/delete_all.png</file>
+    <file>img/arrow_in.png</file>
+    <file>img/arrow_out.png</file>
+    <file>img/note_go.png</file>
+    <file>img/text_align_left.png</file>
+    <file>img/tag_blue_add.png</file>
+    <file>img/note_add.png</file>
+    <file>img/note_delete.png</file>
+    <file>img/layout_content.png</file>
+    <file>img/arrow_divide.png</file>
+    <file>img/application_split.png</file>
+    <file>img/page_white_get.png</file>
+    <file>img/tag.png</file>
+    <file>img/spellcheck.png</file>
+    <file>img/draw_calligraphic.png</file>
+    <file>img/table_go.png</file>
+    <file>img/asterisk_orange.png</file>
+    <file>img/zoom.png</file>
+    <file>img/add1.png</file>
+    <file>img/delete1.png</file>
+    <file>img/document_import.png</file>
+    <file>img/arrow_rotate_clockwise.png</file>
+    <file>img/google_web_elements.png</file>
+  </qresource>
+</RCC>

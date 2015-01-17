@@ -1,0 +1,50 @@
+!!python/object/new:feedparser.FeedParserDict
+dictitems:
+  content:
+  - !!python/object/new:feedparser.FeedParserDict
+    dictitems: {base: !!python/unicode '', language: null, type: !!python/unicode 'text/html',
+      value: !!python/unicode '<a href="http://gallery.amazingtwinks.com/30/index.html?id=shheff"
+        target="_blank" title="Two lustful lads will do their best in order to satisfy
+        each other and to let you feel pleasure and excitement they feel now. Horny
+        gays don''t waste even a second of their time, because they definitely know
+        which way to act."><img alt="Two lustful lads will do their best in order
+        to satisfy each other and to let you feel pleasure and excitement they feel
+        now. Horny gays don''t waste even a second of their time, because they definitely
+        know which way to act." border="0" src="http://gallery.amazingtwinks.com/30/thumbnails/t11.jpg"
+        /></a>
+
+        <p>Two lustful lads will do their best in order to satisfy each other and
+        to let you feel pleasure and excitement they feel now. Horny gays don''t waste
+        even a second of their time, because they definitely know which way to act.</p>'}
+  guidislink: false
+  id: !!python/unicode 'http://gallery.amazingtwinks.com/30/index.html?id=shheff'
+  link: !!python/unicode 'http://gallery.amazingtwinks.com/30/index.html?id=shheff'
+  links:
+  - !!python/object/new:feedparser.FeedParserDict
+    dictitems: {href: !!python/unicode 'http://gallery.amazingtwinks.com/30/index.html?id=shheff',
+      rel: !!python/unicode 'alternate', type: !!python/unicode 'text/html'}
+  published: !!python/unicode 'Tue, 24 Feb 2009 10:03:43 GMT'
+  published_parsed: !!python/object/apply:time.struct_time
+  - !!python/tuple [2009, 2, 24, 10, 3, 43, 1, 55, 0]
+  - {}
+  summary: !!python/unicode 'Two lustful lads will do their best in order to satisfy
+    each other and to let you feel pleasure and excitement they feel now. Horny gays
+    don''t waste even a second of their time, because they definitely know which way
+    to act.'
+  summary_detail: !!python/object/new:feedparser.FeedParserDict
+    dictitems: {base: !!python/unicode '', language: null, type: !!python/unicode 'text/html',
+      value: !!python/unicode 'Two lustful lads will do their best in order to satisfy
+        each other and to let you feel pleasure and excitement they feel now. Horny
+        gays don''t waste even a second of their time, because they definitely know
+        which way to act.'}
+  tags:
+  - !!python/object/new:feedparser.FeedParserDict
+    dictitems: {label: null, scheme: null, term: !!python/unicode 'Pics'}
+  title: !!python/unicode 'Young and very inexperienced boys having their very first
+    sexual anal acts witch will make them lose their anal virginity once and forever.
+    Watch those virgin creatures doing bad things.'
+  title_detail: !!python/object/new:feedparser.FeedParserDict
+    dictitems: {base: !!python/unicode '', language: null, type: !!python/unicode 'text/plain',
+      value: !!python/unicode 'Young and very inexperienced boys having their very
+        first sexual anal acts witch will make them lose their anal virginity once
+        and forever. Watch those virgin creatures doing bad things.'}

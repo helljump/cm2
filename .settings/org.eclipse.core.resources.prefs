@@ -1,0 +1,19 @@
+#Mon Nov 15 17:08:26 MSK 2010
+eclipse.preferences.version=1
+encoding//dist/dist_treeedit.nsi=windows-1251
+encoding//src/edit/_bin.py=UTF-8
+encoding//src/edit/commands.py=UTF-8
+encoding//src/edit/doc/conf.py=utf-8
+encoding//src/edit/export/dle8.py=UTF-8
+encoding//src/edit/export/static.py=UTF-8
+encoding//src/edit/export/textdir.py=UTF-8
+encoding//src/edit/gui.py=UTF-8
+encoding//src/edit/insertlinks.py=UTF-8
+encoding//src/edit/spelldialog.py=UTF-8
+encoding//src/edit/updater.py=UTF-8
+encoding//src/engine/constants.py=UTF-8
+encoding//src/update/cm2/update.py=UTF-8
+encoding//src/utils/formlayout.py=utf-8
+encoding//src/utils/misc.py=UTF-8
+encoding//src/utils/tidy.py=UTF-8
+encoding/<project>=UTF-8

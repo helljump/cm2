@@ -1,0 +1,6 @@
+[Core]
+Name = Ссылки на видео YouTube
+Module = youtubelinks_utilite
+
+[Documentation]
+Version = 1.2

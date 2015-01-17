@@ -1,0 +1,1452 @@
+[
+    {
+        "category": [
+            {
+                "term": "http://gdata.youtube.com/schemas/2007#comment", 
+                "scheme": "http://schemas.google.com/g/2005#kind"
+            }
+        ], 
+        "updated": {
+            "$t": "2013-01-05T02:09:36.000Z"
+        }, 
+        "author": [
+            {
+                "name": {
+                    "$t": "ChannelNegative"
+                }, 
+                "yt$userId": {
+                    "$t": "-KAEb3QlBE-24_Cy1oNrXA"
+                }, 
+                "uri": {
+                    "$t": "https://gdata.youtube.com/feeds/api/users/ChannelNegative"
+                }
+            }
+        ], 
+        "title": {
+            "$t": "Отличный урок, ..."
+        }, 
+        "gd$etag": "W/\"C0ADR347eCp7I2A9WhNUE0g.\"", 
+        "content": {
+            "$t": "Отличный урок, автору﻿ огромное спасибо!"
+        }, 
+        "yt$videoid": {
+            "$t": "suZecar2hn4"
+        }, 
+        "link": [
+            {
+                "href": "https://gdata.youtube.com/feeds/api/videos/suZecar2hn4?v=2", 
+                "type": "application/atom+xml", 
+                "rel": "related"
+            }, 
+            {
+                "href": "https://www.youtube.com/watch?v=suZecar2hn4", 
+                "type": "text/html", 
+                "rel": "alternate"
+            }, 
+            {
+                "href": "https://gdata.youtube.com/feeds/api/videos/suZecar2hn4/comments/ZDUkyeq03r6G_qZ0-IvRxkgwZSVdne7mQAr2pLRa91k?v=2", 
+                "type": "application/atom+xml", 
+                "rel": "self"
+            }
+        ], 
+        "published": {
+            "$t": "2013-01-05T02:09:36.000Z"
+        }, 
+        "id": {
+            "$t": "tag:youtube.com,2008:video:suZecar2hn4:comment:ZDUkyeq03r6G_qZ0-IvRxkgwZSVdne7mQAr2pLRa91k"
+        }
+    }, 
+    {
+        "category": [
+            {
+                "term": "http://gdata.youtube.com/schemas/2007#comment", 
+                "scheme": "http://schemas.google.com/g/2005#kind"
+            }
+        ], 
+        "updated": {
+            "$t": "2012-12-26T09:20:03.000Z"
+        }, 
+        "author": [
+            {
+                "name": {
+                    "$t": "NIKxuryrg"
+                }, 
+                "yt$userId": {
+                    "$t": "1Jgvved5Hto0rynMO7DBlA"
+                }, 
+                "uri": {
+                    "$t": "https://gdata.youtube.com/feeds/api/users/NIKxuryrg"
+                }
+            }
+        ], 
+        "title": {
+            "$t": "Странно. Когда﻿ ..."
+        }, 
+        "gd$etag": "W/\"CUEEQn47eCp7I2A9WhNVFUw.\"", 
+        "content": {
+            "$t": "Странно. Когда﻿ пытаюсь ладоней о струны бить(заглушка) то у меня нету звука и поэотму не получается"
+        }, 
+        "yt$videoid": {
+            "$t": "suZecar2hn4"
+        }, 
+        "link": [
+            {
+                "href": "https://gdata.youtube.com/feeds/api/videos/suZecar2hn4?v=2", 
+                "type": "application/atom+xml", 
+                "rel": "related"
+            }, 
+            {
+                "href": "https://www.youtube.com/watch?v=suZecar2hn4", 
+                "type": "text/html", 
+                "rel": "alternate"
+            }, 
+            {
+                "href": "https://gdata.youtube.com/feeds/api/videos/suZecar2hn4/comments/ZDUkyeq03r6vbLceNomcVjDSpfDNFxH0A0IUfIKQz7Q?v=2", 
+                "type": "application/atom+xml", 
+                "rel": "self"
+            }
+        ], 
+        "published": {
+            "$t": "2012-12-26T09:20:03.000Z"
+        }, 
+        "id": {
+            "$t": "tag:youtube.com,2008:video:suZecar2hn4:comment:ZDUkyeq03r6vbLceNomcVjDSpfDNFxH0A0IUfIKQz7Q"
+        }
+    }, 
+    {
+        "category": [
+            {
+                "term": "http://gdata.youtube.com/schemas/2007#comment", 
+                "scheme": "http://schemas.google.com/g/2005#kind"
+            }
+        ], 
+        "updated": {
+            "$t": "2012-12-24T11:24:00.000Z"
+        }, 
+        "author": [
+            {
+                "name": {
+                    "$t": "Unliveua"
+                }, 
+                "yt$userId": {
+                    "$t": "yw7D776jdJKewTyxKNo0FQ"
+                }, 
+                "uri": {
+                    "$t": "https://gdata.youtube.com/feeds/api/users/Unliveua"
+                }
+            }
+        ], 
+        "title": {
+            "$t": "Полностью ..."
+        }, 
+        "gd$etag": "W/\"AkUAQX47eCp7I2A9WhNVE0k.\"", 
+        "content": {
+            "$t": "Полностью поддерживаю, Николай из-за вас у меня﻿ снова появилось желание учиться играть на гитаре для себя, вы все очень доходчиво показываете и объясняете."
+        }, 
+        "yt$videoid": {
+            "$t": "suZecar2hn4"
+        }, 
+        "link": [
+            {
+                "href": "https://gdata.youtube.com/feeds/api/videos/suZecar2hn4?v=2", 
+                "type": "application/atom+xml", 
+                "rel": "related"
+            }, 
+            {
+                "href": "https://www.youtube.com/watch?v=suZecar2hn4", 
+                "type": "text/html", 
+                "rel": "alternate"
+            }, 
+            {
+                "href": "https://gdata.youtube.com/feeds/api/videos/suZecar2hn4/comments/ZDUkyeq03r78YMhKIDk9AefF5TUxPUNM2xkJ998hdAA?v=2", 
+                "type": "application/atom+xml", 
+                "rel": "http://gdata.youtube.com/schemas/2007#in-reply-to"
+            }, 
+            {
+                "href": "https://gdata.youtube.com/feeds/api/videos/suZecar2hn4/comments/ZDUkyeq03r6RD-SQt9urkFKK0vmrjBYGQMhIFGwBUgE?v=2", 
+                "type": "application/atom+xml", 
+                "rel": "self"
+            }
+        ], 
+        "published": {
+            "$t": "2012-12-24T11:24:00.000Z"
+        }, 
+        "id": {
+            "$t": "tag:youtube.com,2008:video:suZecar2hn4:comment:ZDUkyeq03r6RD-SQt9urkFKK0vmrjBYGQMhIFGwBUgE"
+        }
+    }, 
+    {
+        "category": [
+            {
+                "term": "http://gdata.youtube.com/schemas/2007#comment", 
+                "scheme": "http://schemas.google.com/g/2005#kind"
+            }
+        ], 
+        "updated": {
+            "$t": "2012-12-22T18:11:03.000Z"
+        }, 
+        "author": [
+            {
+                "name": {
+                    "$t": "Anna Garda"
+                }, 
+                "yt$userId": {
+                    "$t": "RaJ_T_tcGhqb5GcEJekxXA"
+                }, 
+                "uri": {
+                    "$t": "https://gdata.youtube.com/feeds/api/users/RaJ_T_tcGhqb5GcEJekxXA"
+                }
+            }
+        ], 
+        "title": {
+            "$t": "здорово :3 Давно ..."
+        }, 
+        "gd$etag": "W/\"A08CQn47eCp7I2A9WhNVEUQ.\"", 
+        "content": {
+            "$t": "здорово :3 Давно искала похожий урок на различные бои, но все были слишком сложные. А тут всё просто и понятно, даже для такого дилетанта-самоучки как я. Спасибо!﻿"
+        }, 
+        "yt$videoid": {
+            "$t": "suZecar2hn4"
+        }, 
+        "link": [
+            {
+                "href": "https://gdata.youtube.com/feeds/api/videos/suZecar2hn4?v=2", 
+                "type": "application/atom+xml", 
+                "rel": "related"
+            }, 
+            {
+                "href": "https://www.youtube.com/watch?v=suZecar2hn4", 
+                "type": "text/html", 
+                "rel": "alternate"
+            }, 
+            {
+                "href": "https://gdata.youtube.com/feeds/api/videos/suZecar2hn4/comments/ZDUkyeq03r5DLhgFm12YxNy8Y3eaY-gDfOhC5FHuSMI?v=2", 
+                "type": "application/atom+xml", 
+                "rel": "self"
+            }
+        ], 
+        "published": {
+            "$t": "2012-12-22T18:11:03.000Z"
+        }, 
+        "id": {
+            "$t": "tag:youtube.com,2008:video:suZecar2hn4:comment:ZDUkyeq03r5DLhgFm12YxNy8Y3eaY-gDfOhC5FHuSMI"
+        }
+    }, 
+    {
+        "category": [
+            {
+                "term": "http://gdata.youtube.com/schemas/2007#comment", 
+                "scheme": "http://schemas.google.com/g/2005#kind"
+            }
+        ], 
+        "updated": {
+            "$t": "2012-12-22T13:14:05.000Z"
+        }, 
+        "author": [
+            {
+                "name": {
+                    "$t": "uJI36"
+                }, 
+                "yt$userId": {
+                    "$t": "Ax_JbZyoliQdBGPP3ydHiA"
+                }, 
+                "uri": {
+                    "$t": "https://gdata.youtube.com/feeds/api/users/uJI36"
+                }
+            }
+        ], 
+        "title": {
+            "$t": "АЙ КАРРАМБА!!!\n ..."
+        }, 
+        "gd$etag": "W/\"CEcARH47eCp7I2A9WhNVEUU.\"", 
+        "content": {
+            "$t": "АЙ КАРРАМБА!!!\nКруто, буду учиться)﻿"
+        }, 
+        "yt$videoid": {
+            "$t": "suZecar2hn4"
+        }, 
+        "link": [
+            {
+                "href": "https://gdata.youtube.com/feeds/api/videos/suZecar2hn4?v=2", 
+                "type": "application/atom+xml", 
+                "rel": "related"
+            }, 
+            {
+                "href": "https://www.youtube.com/watch?v=suZecar2hn4", 
+                "type": "text/html", 
+                "rel": "alternate"
+            }, 
+            {
+                "href": "https://gdata.youtube.com/feeds/api/videos/suZecar2hn4/comments/ZDUkyeq03r5DBZPI7GCBY5VgTCqisj1DeZ2YAToS4PU?v=2", 
+                "type": "application/atom+xml", 
+                "rel": "self"
+            }
+        ], 
+        "published": {
+            "$t": "2012-12-22T13:14:05.000Z"
+        }, 
+        "id": {
+            "$t": "tag:youtube.com,2008:video:suZecar2hn4:comment:ZDUkyeq03r5DBZPI7GCBY5VgTCqisj1DeZ2YAToS4PU"
+        }
+    }, 
+    {
+        "category": [
+            {
+                "term": "http://gdata.youtube.com/schemas/2007#comment", 
+                "scheme": "http://schemas.google.com/g/2005#kind"
+            }
+        ], 
+        "updated": {
+            "$t": "2012-12-17T22:39:00.000Z"
+        }, 
+        "author": [
+            {
+                "name": {
+                    "$t": "Саня Смирнов"
+                }, 
+                "yt$userId": {
+                    "$t": "1SRHDs_Adpqh3yooDs8gfA"
+                }, 
+                "uri": {
+                    "$t": "https://gdata.youtube.com/feeds/api/users/1SRHDs_Adpqh3yooDs8gfA"
+                }
+            }
+        ], 
+        "title": {
+            "$t": "ОХУЕННО И ПОНЯТНО, ..."
+        }, 
+        "gd$etag": "W/\"CU4AQX47eCp7I2A9WhNWF0U.\"", 
+        "content": {
+            "$t": "ОХУЕННО И ПОНЯТНО,НО Я ТАКОЙ НУБАС﻿ И ЛЕНТЯЙ,ЧТО ЗА 10 ЛЕТ НЕ НАУЧУСЬ"
+        }, 
+        "yt$videoid": {
+            "$t": "suZecar2hn4"
+        }, 
+        "link": [
+            {
+                "href": "https://gdata.youtube.com/feeds/api/videos/suZecar2hn4?v=2", 
+                "type": "application/atom+xml", 
+                "rel": "related"
+            }, 
+            {
+                "href": "https://www.youtube.com/watch?v=suZecar2hn4", 
+                "type": "text/html", 
+                "rel": "alternate"
+            }, 
+            {
+                "href": "https://gdata.youtube.com/feeds/api/videos/suZecar2hn4/comments/ZDUkyeq03r4M4qrQyocCHlX0hfM6NOE0dYOv-kSqQCE?v=2", 
+                "type": "application/atom+xml", 
+                "rel": "self"
+            }
+        ], 
+        "published": {
+            "$t": "2012-12-17T22:39:00.000Z"
+        }, 
+        "id": {
+            "$t": "tag:youtube.com,2008:video:suZecar2hn4:comment:ZDUkyeq03r4M4qrQyocCHlX0hfM6NOE0dYOv-kSqQCE"
+        }
+    }, 
+    {
+        "category": [
+            {
+                "term": "http://gdata.youtube.com/schemas/2007#comment", 
+                "scheme": "http://schemas.google.com/g/2005#kind"
+            }
+        ], 
+        "updated": {
+            "$t": "2012-12-16T18:14:06.000Z"
+        }, 
+        "author": [
+            {
+                "name": {
+                    "$t": "maxpokutnev"
+                }, 
+                "yt$userId": {
+                    "$t": "LIhIW8Ayucv3VoD_5JvFCw"
+                }, 
+                "uri": {
+                    "$t": "https://gdata.youtube.com/feeds/api/users/maxpokutnev"
+                }
+            }
+        ], 
+        "title": {
+            "$t": "Класные уроки! ..."
+        }, 
+        "gd$etag": "W/\"C0EAR347eCp7I2A9WhNWFkU.\"", 
+        "content": {
+            "$t": "Класные уроки!продолжай в том же духе\"!!﻿"
+        }, 
+        "yt$videoid": {
+            "$t": "suZecar2hn4"
+        }, 
+        "link": [
+            {
+                "href": "https://gdata.youtube.com/feeds/api/videos/suZecar2hn4?v=2", 
+                "type": "application/atom+xml", 
+                "rel": "related"
+            }, 
+            {
+                "href": "https://www.youtube.com/watch?v=suZecar2hn4", 
+                "type": "text/html", 
+                "rel": "alternate"
+            }, 
+            {
+                "href": "https://gdata.youtube.com/feeds/api/videos/suZecar2hn4/comments/ZDUkyeq03r7NkhdFvT1FHa8MA-kFOx1ZuArzufYAwfo?v=2", 
+                "type": "application/atom+xml", 
+                "rel": "self"
+            }
+        ], 
+        "published": {
+            "$t": "2012-12-16T18:14:06.000Z"
+        }, 
+        "id": {
+            "$t": "tag:youtube.com,2008:video:suZecar2hn4:comment:ZDUkyeq03r7NkhdFvT1FHa8MA-kFOx1ZuArzufYAwfo"
+        }
+    }, 
+    {
+        "category": [
+            {
+                "term": "http://gdata.youtube.com/schemas/2007#comment", 
+                "scheme": "http://schemas.google.com/g/2005#kind"
+            }
+        ], 
+        "updated": {
+            "$t": "2012-12-14T14:57:39.000Z"
+        }, 
+        "author": [
+            {
+                "name": {
+                    "$t": "MoyshaPsychoPunk"
+                }, 
+                "yt$userId": {
+                    "$t": "U6-6CQCN4y0xKmv2xuJhLw"
+                }, 
+                "uri": {
+                    "$t": "https://gdata.youtube.com/feeds/api/users/MoyshaPsychoPunk"
+                }
+            }
+        ], 
+        "title": {
+            "$t": "Это классическая ..."
+        }, 
+        "gd$etag": "W/\"DUcBSH47eCp7I2A9WhNWFEQ.\"", 
+        "content": {
+            "$t": "Это классическая гитара?﻿ Так ли важно каким пальцем бить? я только в восьмёрке и в расгеадо запариваюсь, а простой бой играю чем удобно, иногда медиатором."
+        }, 
+        "yt$videoid": {
+            "$t": "suZecar2hn4"
+        }, 
+        "link": [
+            {
+                "href": "https://gdata.youtube.com/feeds/api/videos/suZecar2hn4?v=2", 
+                "type": "application/atom+xml", 
+                "rel": "related"
+            }, 
+            {
+                "href": "https://www.youtube.com/watch?v=suZecar2hn4", 
+                "type": "text/html", 
+                "rel": "alternate"
+            }, 
+            {
+                "href": "https://gdata.youtube.com/feeds/api/videos/suZecar2hn4/comments/ZDUkyeq03r49HDJw53l9UxnUYsRCWYmcYR-OiDz0ygA?v=2", 
+                "type": "application/atom+xml", 
+                "rel": "self"
+            }
+        ], 
+        "published": {
+            "$t": "2012-12-14T14:57:39.000Z"
+        }, 
+        "id": {
+            "$t": "tag:youtube.com,2008:video:suZecar2hn4:comment:ZDUkyeq03r49HDJw53l9UxnUYsRCWYmcYR-OiDz0ygA"
+        }
+    }, 
+    {
+        "category": [
+            {
+                "term": "http://gdata.youtube.com/schemas/2007#comment", 
+                "scheme": "http://schemas.google.com/g/2005#kind"
+            }
+        ], 
+        "updated": {
+            "$t": "2012-12-14T14:52:37.000Z"
+        }, 
+        "author": [
+            {
+                "name": {
+                    "$t": "MoyshaPsychoPunk"
+                }, 
+                "yt$userId": {
+                    "$t": "U6-6CQCN4y0xKmv2xuJhLw"
+                }, 
+                "uri": {
+                    "$t": "https://gdata.youtube.com/feeds/api/users/MoyshaPsychoPunk"
+                }
+            }
+        ], 
+        "title": {
+            "$t": "Под﻿ первый бой ..."
+        }, 
+        "gd$etag": "W/\"DEABRn47eCp7I2A9WhNWFEQ.\"", 
+        "content": {
+            "$t": "Под﻿ первый бой почти любую, восьмёркой я играю Высоцкого \"лучше гор могут быть только горы\""
+        }, 
+        "yt$videoid": {
+            "$t": "suZecar2hn4"
+        }, 
+        "link": [
+            {
+                "href": "https://gdata.youtube.com/feeds/api/videos/suZecar2hn4?v=2", 
+                "type": "application/atom+xml", 
+                "rel": "related"
+            }, 
+            {
+                "href": "https://www.youtube.com/watch?v=suZecar2hn4", 
+                "type": "text/html", 
+                "rel": "alternate"
+            }, 
+            {
+                "href": "https://gdata.youtube.com/feeds/api/videos/suZecar2hn4/comments/ZDUkyeq03r5aIGkWC8pGqIP9mtQ0SFIUp1aWtSRxcMg?v=2", 
+                "type": "application/atom+xml", 
+                "rel": "http://gdata.youtube.com/schemas/2007#in-reply-to"
+            }, 
+            {
+                "href": "https://gdata.youtube.com/feeds/api/videos/suZecar2hn4/comments/ZDUkyeq03r6rLDEqsg_GiQ4a75IHBWAbFVjaS2Hkbjc?v=2", 
+                "type": "application/atom+xml", 
+                "rel": "self"
+            }
+        ], 
+        "published": {
+            "$t": "2012-12-14T14:52:37.000Z"
+        }, 
+        "id": {
+            "$t": "tag:youtube.com,2008:video:suZecar2hn4:comment:ZDUkyeq03r6rLDEqsg_GiQ4a75IHBWAbFVjaS2Hkbjc"
+        }
+    }, 
+    {
+        "category": [
+            {
+                "term": "http://gdata.youtube.com/schemas/2007#comment", 
+                "scheme": "http://schemas.google.com/g/2005#kind"
+            }
+        ], 
+        "updated": {
+            "$t": "2012-12-14T14:49:05.000Z"
+        }, 
+        "author": [
+            {
+                "name": {
+                    "$t": "MoyshaPsychoPunk"
+                }, 
+                "yt$userId": {
+                    "$t": "U6-6CQCN4y0xKmv2xuJhLw"
+                }, 
+                "uri": {
+                    "$t": "https://gdata.youtube.com/feeds/api/users/MoyshaPsychoPunk"
+                }
+            }
+        ], 
+        "title": {
+            "$t": "А что﻿ значит для ..."
+        }, 
+        "gd$etag": "W/\"DEIARH47eCp7I2A9WhNWFEQ.\"", 
+        "content": {
+            "$t": "А что﻿ значит для себя, а для кого ещё?"
+        }, 
+        "yt$videoid": {
+            "$t": "suZecar2hn4"
+        }, 
+        "link": [
+            {
+                "href": "https://gdata.youtube.com/feeds/api/videos/suZecar2hn4?v=2", 
+                "type": "application/atom+xml", 
+                "rel": "related"
+            }, 
+            {
+                "href": "https://www.youtube.com/watch?v=suZecar2hn4", 
+                "type": "text/html", 
+                "rel": "alternate"
+            }, 
+            {
+                "href": "https://gdata.youtube.com/feeds/api/videos/suZecar2hn4/comments/ZDUkyeq03r7J709GxwloL2o5Dl5HZliatYCDmOrvoN0?v=2", 
+                "type": "application/atom+xml", 
+                "rel": "http://gdata.youtube.com/schemas/2007#in-reply-to"
+            }, 
+            {
+                "href": "https://gdata.youtube.com/feeds/api/videos/suZecar2hn4/comments/ZDUkyeq03r76HuVNl42MNi6lFG07LgOyMw1vJmIwQ40?v=2", 
+                "type": "application/atom+xml", 
+                "rel": "self"
+            }
+        ], 
+        "published": {
+            "$t": "2012-12-14T14:49:05.000Z"
+        }, 
+        "id": {
+            "$t": "tag:youtube.com,2008:video:suZecar2hn4:comment:ZDUkyeq03r76HuVNl42MNi6lFG07LgOyMw1vJmIwQ40"
+        }
+    }, 
+    {
+        "category": [
+            {
+                "term": "http://gdata.youtube.com/schemas/2007#comment", 
+                "scheme": "http://schemas.google.com/g/2005#kind"
+            }
+        ], 
+        "updated": {
+            "$t": "2012-12-13T18:49:45.000Z"
+        }, 
+        "author": [
+            {
+                "name": {
+                    "$t": "Олег Астанин"
+                }, 
+                "yt$userId": {
+                    "$t": "ZxJ3YHbXwhnIdk22Iu1rFQ"
+                }, 
+                "uri": {
+                    "$t": "https://gdata.youtube.com/feeds/api/users/webmasteroleg"
+                }
+            }
+        ], 
+        "title": {
+            "$t": "А где еще есть ..."
+        }, 
+        "gd$etag": "W/\"DkIMRH47eCp7I2A9WhNWFE8.\"", 
+        "content": {
+            "$t": "А где еще есть ваши﻿ уроки?"
+        }, 
+        "yt$videoid": {
+            "$t": "suZecar2hn4"
+        }, 
+        "link": [
+            {
+                "href": "https://gdata.youtube.com/feeds/api/videos/suZecar2hn4?v=2", 
+                "type": "application/atom+xml", 
+                "rel": "related"
+            }, 
+            {
+                "href": "https://www.youtube.com/watch?v=suZecar2hn4", 
+                "type": "text/html", 
+                "rel": "alternate"
+            }, 
+            {
+                "href": "https://gdata.youtube.com/feeds/api/videos/suZecar2hn4/comments/ZDUkyeq03r4g6RNgypH2xlimepUcKdM-zzwizOuZmuo?v=2", 
+                "type": "application/atom+xml", 
+                "rel": "self"
+            }
+        ], 
+        "published": {
+            "$t": "2012-12-13T18:49:45.000Z"
+        }, 
+        "id": {
+            "$t": "tag:youtube.com,2008:video:suZecar2hn4:comment:ZDUkyeq03r4g6RNgypH2xlimepUcKdM-zzwizOuZmuo"
+        }
+    }, 
+    {
+        "category": [
+            {
+                "term": "http://gdata.youtube.com/schemas/2007#comment", 
+                "scheme": "http://schemas.google.com/g/2005#kind"
+            }
+        ], 
+        "updated": {
+            "$t": "2012-12-01T06:49:37.000Z"
+        }, 
+        "author": [
+            {
+                "name": {
+                    "$t": "applescreamfire"
+                }, 
+                "yt$userId": {
+                    "$t": "_h39-RKX9LC461GfUikxoQ"
+                }, 
+                "uri": {
+                    "$t": "https://gdata.youtube.com/feeds/api/users/applescreamfire"
+                }
+            }
+        ], 
+        "title": {
+            "$t": "Ребят, я  уже ..."
+        }, 
+        "gd$etag": "W/\"DkIDRn47eCp7I2A9WhNXE0k.\"", 
+        "content": {
+            "$t": "Ребят, я  уже столько раз настраивал свои струны ходь﻿ и не умею играть,их постоянно надо настравиать,когда настраиваю и сажусь учиться нияига не получается хоть и звуки теже."
+        }, 
+        "yt$videoid": {
+            "$t": "suZecar2hn4"
+        }, 
+        "link": [
+            {
+                "href": "https://gdata.youtube.com/feeds/api/videos/suZecar2hn4?v=2", 
+                "type": "application/atom+xml", 
+                "rel": "related"
+            }, 
+            {
+                "href": "https://www.youtube.com/watch?v=suZecar2hn4", 
+                "type": "text/html", 
+                "rel": "alternate"
+            }, 
+            {
+                "href": "https://gdata.youtube.com/feeds/api/videos/suZecar2hn4/comments/ZDUkyeq03r63HpmDmzEZsycgq3oVb-zGEkm6ahNo3wM?v=2", 
+                "type": "application/atom+xml", 
+                "rel": "self"
+            }
+        ], 
+        "published": {
+            "$t": "2012-12-01T06:49:37.000Z"
+        }, 
+        "id": {
+            "$t": "tag:youtube.com,2008:video:suZecar2hn4:comment:ZDUkyeq03r63HpmDmzEZsycgq3oVb-zGEkm6ahNo3wM"
+        }
+    }, 
+    {
+        "category": [
+            {
+                "term": "http://gdata.youtube.com/schemas/2007#comment", 
+                "scheme": "http://schemas.google.com/g/2005#kind"
+            }
+        ], 
+        "updated": {
+            "$t": "2012-11-16T20:48:35.000Z"
+        }, 
+        "author": [
+            {
+                "name": {
+                    "$t": "Елизавета Градова"
+                }, 
+                "yt$userId": {
+                    "$t": "VHG9jO49NfBSwMosbjcu5Q"
+                }, 
+                "uri": {
+                    "$t": "https://gdata.youtube.com/feeds/api/users/VHG9jO49NfBSwMosbjcu5Q"
+                }
+            }
+        ], 
+        "title": {
+            "$t": "спасибо автору﻿ ..."
+        }, 
+        "gd$etag": "W/\"Ak4FRH47eCp7I2A9WhNQEEQ.\"", 
+        "content": {
+            "$t": "спасибо автору﻿ легко и доступно именно то что нужно"
+        }, 
+        "yt$videoid": {
+            "$t": "suZecar2hn4"
+        }, 
+        "link": [
+            {
+                "href": "https://gdata.youtube.com/feeds/api/videos/suZecar2hn4?v=2", 
+                "type": "application/atom+xml", 
+                "rel": "related"
+            }, 
+            {
+                "href": "https://www.youtube.com/watch?v=suZecar2hn4", 
+                "type": "text/html", 
+                "rel": "alternate"
+            }, 
+            {
+                "href": "https://gdata.youtube.com/feeds/api/videos/suZecar2hn4/comments/ZDUkyeq03r7-8fDmbtjSZO1EkgvU1yRbqvvdj16ekWk?v=2", 
+                "type": "application/atom+xml", 
+                "rel": "self"
+            }
+        ], 
+        "published": {
+            "$t": "2012-11-16T20:48:35.000Z"
+        }, 
+        "id": {
+            "$t": "tag:youtube.com,2008:video:suZecar2hn4:comment:ZDUkyeq03r7-8fDmbtjSZO1EkgvU1yRbqvvdj16ekWk"
+        }
+    }, 
+    {
+        "category": [
+            {
+                "term": "http://gdata.youtube.com/schemas/2007#comment", 
+                "scheme": "http://schemas.google.com/g/2005#kind"
+            }
+        ], 
+        "updated": {
+            "$t": "2012-11-14T16:02:23.000Z"
+        }, 
+        "author": [
+            {
+                "name": {
+                    "$t": "Kate Al-Jackson"
+                }, 
+                "yt$userId": {
+                    "$t": "IqgnF8s0NrT9AK1gzRauNA"
+                }, 
+                "uri": {
+                    "$t": "https://gdata.youtube.com/feeds/api/users/KateAlikbarova"
+                }
+            }
+        ], 
+        "title": {
+            "$t": "Аха уж я аказца не ..."
+        }, 
+        "gd$etag": "W/\"Ak4AQn47eCp7I2A9WhNRGU0.\"", 
+        "content": {
+            "$t": "Аха уж я аказца не одна такая﻿ купила гитару нашла учитиля молодого правда хорошую гитару купила а он ушел и теперь ношусь с ней как собака с пятой ногой нашла только Вас где мне все предельно понятно и Дмитрий Мишин все.........................СПАСИБО ВАМ!"
+        }, 
+        "yt$videoid": {
+            "$t": "suZecar2hn4"
+        }, 
+        "link": [
+            {
+                "href": "https://gdata.youtube.com/feeds/api/videos/suZecar2hn4?v=2", 
+                "type": "application/atom+xml", 
+                "rel": "related"
+            }, 
+            {
+                "href": "https://www.youtube.com/watch?v=suZecar2hn4", 
+                "type": "text/html", 
+                "rel": "alternate"
+            }, 
+            {
+                "href": "https://gdata.youtube.com/feeds/api/videos/suZecar2hn4/comments/ZDUkyeq03r4qEzmB5tGH5E4YFwoG0LX4EAs4vjuKRuI?v=2", 
+                "type": "application/atom+xml", 
+                "rel": "self"
+            }
+        ], 
+        "published": {
+            "$t": "2012-11-14T16:02:23.000Z"
+        }, 
+        "id": {
+            "$t": "tag:youtube.com,2008:video:suZecar2hn4:comment:ZDUkyeq03r4qEzmB5tGH5E4YFwoG0LX4EAs4vjuKRuI"
+        }
+    }, 
+    {
+        "category": [
+            {
+                "term": "http://gdata.youtube.com/schemas/2007#comment", 
+                "scheme": "http://schemas.google.com/g/2005#kind"
+            }
+        ], 
+        "updated": {
+            "$t": "2012-11-13T20:25:32.000Z"
+        }, 
+        "author": [
+            {
+                "name": {
+                    "$t": "NikELektrik"
+                }, 
+                "yt$userId": {
+                    "$t": "TE4gCJPIqJi4prkxh2zPQA"
+                }, 
+                "uri": {
+                    "$t": "https://gdata.youtube.com/feeds/api/users/NikELektrik"
+                }
+            }
+        ], 
+        "title": {
+            "$t": "Какую﻿ песню можно ..."
+        }, 
+        "gd$etag": "W/\"AkQHQ347eCp7I2A9WhNRGE4.\"", 
+        "content": {
+            "$t": "Какую﻿ песню можно играть под этот бой?"
+        }, 
+        "yt$videoid": {
+            "$t": "suZecar2hn4"
+        }, 
+        "link": [
+            {
+                "href": "https://gdata.youtube.com/feeds/api/videos/suZecar2hn4?v=2", 
+                "type": "application/atom+xml", 
+                "rel": "related"
+            }, 
+            {
+                "href": "https://www.youtube.com/watch?v=suZecar2hn4", 
+                "type": "text/html", 
+                "rel": "alternate"
+            }, 
+            {
+                "href": "https://gdata.youtube.com/feeds/api/videos/suZecar2hn4/comments/ZDUkyeq03r5aIGkWC8pGqIP9mtQ0SFIUp1aWtSRxcMg?v=2", 
+                "type": "application/atom+xml", 
+                "rel": "self"
+            }
+        ], 
+        "published": {
+            "$t": "2012-11-13T20:25:32.000Z"
+        }, 
+        "id": {
+            "$t": "tag:youtube.com,2008:video:suZecar2hn4:comment:ZDUkyeq03r5aIGkWC8pGqIP9mtQ0SFIUp1aWtSRxcMg"
+        }
+    }, 
+    {
+        "category": [
+            {
+                "term": "http://gdata.youtube.com/schemas/2007#comment", 
+                "scheme": "http://schemas.google.com/g/2005#kind"
+            }
+        ], 
+        "updated": {
+            "$t": "2012-11-09T19:44:18.000Z"
+        }, 
+        "author": [
+            {
+                "name": {
+                    "$t": "AQWdimonzub"
+                }, 
+                "yt$userId": {
+                    "$t": "wM7Q8D78P3EoPyMCyiX9SQ"
+                }, 
+                "uri": {
+                    "$t": "https://gdata.youtube.com/feeds/api/users/AQWdimonzub"
+                }
+            }
+        ], 
+        "title": {
+            "$t": "И чю-чють в темпе!! ..."
+        }, 
+        "gd$etag": "W/\"CkUBSX47eCp7I2A9WhNRFEQ.\"", 
+        "content": {
+            "$t": "И чю-чють в темпе!!! XD....зацепило...﻿"
+        }, 
+        "yt$videoid": {
+            "$t": "suZecar2hn4"
+        }, 
+        "link": [
+            {
+                "href": "https://gdata.youtube.com/feeds/api/videos/suZecar2hn4?v=2", 
+                "type": "application/atom+xml", 
+                "rel": "related"
+            }, 
+            {
+                "href": "https://www.youtube.com/watch?v=suZecar2hn4", 
+                "type": "text/html", 
+                "rel": "alternate"
+            }, 
+            {
+                "href": "https://gdata.youtube.com/feeds/api/videos/suZecar2hn4/comments/ZDUkyeq03r7ZNzBKMxlrNQvOVMl4In4E97kJH5gGLZw?v=2", 
+                "type": "application/atom+xml", 
+                "rel": "self"
+            }
+        ], 
+        "published": {
+            "$t": "2012-11-09T19:44:18.000Z"
+        }, 
+        "id": {
+            "$t": "tag:youtube.com,2008:video:suZecar2hn4:comment:ZDUkyeq03r7ZNzBKMxlrNQvOVMl4In4E97kJH5gGLZw"
+        }
+    }, 
+    {
+        "category": [
+            {
+                "term": "http://gdata.youtube.com/schemas/2007#comment", 
+                "scheme": "http://schemas.google.com/g/2005#kind"
+            }
+        ], 
+        "updated": {
+            "$t": "2012-11-02T14:23:12.000Z"
+        }, 
+        "author": [
+            {
+                "name": {
+                    "$t": "nyankapusta4ever"
+                }, 
+                "yt$userId": {
+                    "$t": "DV05P_Z0lff6_F7KRWzTaA"
+                }, 
+                "uri": {
+                    "$t": "https://gdata.youtube.com/feeds/api/users/nyankapusta4ever"
+                }
+            }
+        ], 
+        "title": {
+            "$t": "Какой-то ..."
+        }, 
+        "gd$etag": "W/\"DEYNQ347eCp7I2A9WhNSGEs.\"", 
+        "content": {
+            "$t": "Какой-то высокомерный﻿"
+        }, 
+        "yt$videoid": {
+            "$t": "suZecar2hn4"
+        }, 
+        "link": [
+            {
+                "href": "https://gdata.youtube.com/feeds/api/videos/suZecar2hn4?v=2", 
+                "type": "application/atom+xml", 
+                "rel": "related"
+            }, 
+            {
+                "href": "https://www.youtube.com/watch?v=suZecar2hn4", 
+                "type": "text/html", 
+                "rel": "alternate"
+            }, 
+            {
+                "href": "https://gdata.youtube.com/feeds/api/videos/suZecar2hn4/comments/ZDUkyeq03r44AuaUDjeqgpI7Vc5WvjbwIrd8hateyAk?v=2", 
+                "type": "application/atom+xml", 
+                "rel": "self"
+            }
+        ], 
+        "published": {
+            "$t": "2012-11-02T14:23:12.000Z"
+        }, 
+        "id": {
+            "$t": "tag:youtube.com,2008:video:suZecar2hn4:comment:ZDUkyeq03r44AuaUDjeqgpI7Vc5WvjbwIrd8hateyAk"
+        }
+    }, 
+    {
+        "category": [
+            {
+                "term": "http://gdata.youtube.com/schemas/2007#comment", 
+                "scheme": "http://schemas.google.com/g/2005#kind"
+            }
+        ], 
+        "updated": {
+            "$t": "2012-10-30T18:09:57.000Z"
+        }, 
+        "author": [
+            {
+                "name": {
+                    "$t": "Ilya Petunin"
+                }, 
+                "yt$userId": {
+                    "$t": "TLdZlBOPTSzR8AcRLHCYoA"
+                }, 
+                "uri": {
+                    "$t": "https://gdata.youtube.com/feeds/api/users/TLdZlBOPTSzR8AcRLHCYoA"
+                }
+            }
+        ], 
+        "title": {
+            "$t": "ну нормально ну так ..."
+        }, 
+        "gd$etag": "W/\"CkINRn47eCp7I2A9WhNSFk8.\"", 
+        "content": {
+            "$t": "ну нормально ну так объясняет как будто считает то что новички﻿ дибилы и не поймут чуть по сложнее"
+        }, 
+        "yt$videoid": {
+            "$t": "suZecar2hn4"
+        }, 
+        "link": [
+            {
+                "href": "https://gdata.youtube.com/feeds/api/videos/suZecar2hn4?v=2", 
+                "type": "application/atom+xml", 
+                "rel": "related"
+            }, 
+            {
+                "href": "https://www.youtube.com/watch?v=suZecar2hn4", 
+                "type": "text/html", 
+                "rel": "alternate"
+            }, 
+            {
+                "href": "https://gdata.youtube.com/feeds/api/videos/suZecar2hn4/comments/ZDUkyeq03r5X8gDYaYWQVcnor0_3wAp9T34mWHCl-3Y?v=2", 
+                "type": "application/atom+xml", 
+                "rel": "self"
+            }
+        ], 
+        "published": {
+            "$t": "2012-10-30T18:09:57.000Z"
+        }, 
+        "id": {
+            "$t": "tag:youtube.com,2008:video:suZecar2hn4:comment:ZDUkyeq03r5X8gDYaYWQVcnor0_3wAp9T34mWHCl-3Y"
+        }
+    }, 
+    {
+        "category": [
+            {
+                "term": "http://gdata.youtube.com/schemas/2007#comment", 
+                "scheme": "http://schemas.google.com/g/2005#kind"
+            }
+        ], 
+        "updated": {
+            "$t": "2012-10-26T03:24:14.000Z"
+        }, 
+        "author": [
+            {
+                "name": {
+                    "$t": "Syperangel"
+                }, 
+                "yt$userId": {
+                    "$t": "q91kTqe86kbyDBywlee3aQ"
+                }, 
+                "uri": {
+                    "$t": "https://gdata.youtube.com/feeds/api/users/Syperangel"
+                }
+            }
+        ], 
+        "title": {
+            "$t": "зачем читать?? то ..."
+        }, 
+        "gd$etag": "W/\"C08BRX47eCp7I2A9WhNSEk8.\"", 
+        "content": {
+            "$t": "зачем читать?? то что написано в книгах для новичка не очень пойдет потому что там написано то, чему в школах учат) ноты и﻿ все такое, лучше этим голову не забивать.а кто уже умеет, может взять там только постановку пальцев, лучше всего видео"
+        }, 
+        "yt$videoid": {
+            "$t": "suZecar2hn4"
+        }, 
+        "link": [
+            {
+                "href": "https://gdata.youtube.com/feeds/api/videos/suZecar2hn4?v=2", 
+                "type": "application/atom+xml", 
+                "rel": "related"
+            }, 
+            {
+                "href": "https://www.youtube.com/watch?v=suZecar2hn4", 
+                "type": "text/html", 
+                "rel": "alternate"
+            }, 
+            {
+                "href": "https://gdata.youtube.com/feeds/api/videos/suZecar2hn4/comments/ZDUkyeq03r74bxDuGcI2UBYvI9OmGxJ4ASIyFzGq_SQ?v=2", 
+                "type": "application/atom+xml", 
+                "rel": "http://gdata.youtube.com/schemas/2007#in-reply-to"
+            }, 
+            {
+                "href": "https://gdata.youtube.com/feeds/api/videos/suZecar2hn4/comments/ZDUkyeq03r4MgssrmsOKLqSlmbjr1mZDbeYle2EjDIY?v=2", 
+                "type": "application/atom+xml", 
+                "rel": "self"
+            }
+        ], 
+        "published": {
+            "$t": "2012-10-26T03:24:14.000Z"
+        }, 
+        "id": {
+            "$t": "tag:youtube.com,2008:video:suZecar2hn4:comment:ZDUkyeq03r4MgssrmsOKLqSlmbjr1mZDbeYle2EjDIY"
+        }
+    }, 
+    {
+        "category": [
+            {
+                "term": "http://gdata.youtube.com/schemas/2007#comment", 
+                "scheme": "http://schemas.google.com/g/2005#kind"
+            }
+        ], 
+        "updated": {
+            "$t": "2012-10-24T13:17:11.000Z"
+        }, 
+        "author": [
+            {
+                "name": {
+                    "$t": "Alexe7438"
+                }, 
+                "yt$userId": {
+                    "$t": "fEt2SG4XmYYJ5E9-w1StMg"
+                }, 
+                "uri": {
+                    "$t": "https://gdata.youtube.com/feeds/api/users/Alexe7438"
+                }
+            }
+        ], 
+        "title": {
+            "$t": "А на гитаре реально ..."
+        }, 
+        "gd$etag": "W/\"DkEHQH47eCp7I2A9WhNSEEU.\"", 
+        "content": {
+            "$t": "А на гитаре реально вообще чо не будь заработать﻿ если нормально научиться? у меня три специапльности по которым я могу зарабатывать а на гитаре не представляю даже как. хотя она мне нравиться больше чем эти три специальности и играть уже более менее получаеться."
+        }, 
+        "yt$videoid": {
+            "$t": "suZecar2hn4"
+        }, 
+        "link": [
+            {
+                "href": "https://gdata.youtube.com/feeds/api/videos/suZecar2hn4?v=2", 
+                "type": "application/atom+xml", 
+                "rel": "related"
+            }, 
+            {
+                "href": "https://www.youtube.com/watch?v=suZecar2hn4", 
+                "type": "text/html", 
+                "rel": "alternate"
+            }, 
+            {
+                "href": "https://gdata.youtube.com/feeds/api/videos/suZecar2hn4/comments/ZDUkyeq03r5WBUUIEDLEI-tZSiOv6ngT0pzd7yOUzMw?v=2", 
+                "type": "application/atom+xml", 
+                "rel": "self"
+            }
+        ], 
+        "published": {
+            "$t": "2012-10-24T13:17:11.000Z"
+        }, 
+        "id": {
+            "$t": "tag:youtube.com,2008:video:suZecar2hn4:comment:ZDUkyeq03r5WBUUIEDLEI-tZSiOv6ngT0pzd7yOUzMw"
+        }
+    }, 
+    {
+        "category": [
+            {
+                "term": "http://gdata.youtube.com/schemas/2007#comment", 
+                "scheme": "http://schemas.google.com/g/2005#kind"
+            }
+        ], 
+        "updated": {
+            "$t": "2012-10-22T11:35:00.000Z"
+        }, 
+        "author": [
+            {
+                "name": {
+                    "$t": "Jabakoshka"
+                }, 
+                "yt$userId": {
+                    "$t": "wuzQOQQqQPFqyBula_yWmQ"
+                }, 
+                "uri": {
+                    "$t": "https://gdata.youtube.com/feeds/api/users/Jabakoshka"
+                }
+            }
+        ], 
+        "title": {
+            "$t": "после обучения на ..."
+        }, 
+        "gd$etag": "W/\"D0AEQX47eCp7I2A9WhNTGU0.\"", 
+        "content": {
+            "$t": "после обучения на фо-но, начать играть боем для меня почему-то стало﻿ целой проблемой (зато перебор почти любой :D) а тут очень доступно и ритмический рисунок и движение рук) Спасибо большое)"
+        }, 
+        "yt$videoid": {
+            "$t": "suZecar2hn4"
+        }, 
+        "link": [
+            {
+                "href": "https://gdata.youtube.com/feeds/api/videos/suZecar2hn4?v=2", 
+                "type": "application/atom+xml", 
+                "rel": "related"
+            }, 
+            {
+                "href": "https://www.youtube.com/watch?v=suZecar2hn4", 
+                "type": "text/html", 
+                "rel": "alternate"
+            }, 
+            {
+                "href": "https://gdata.youtube.com/feeds/api/videos/suZecar2hn4/comments/ZDUkyeq03r4XYY-f5ng3r5NJ4qgnG5uPLuVWRe6WtJc?v=2", 
+                "type": "application/atom+xml", 
+                "rel": "self"
+            }
+        ], 
+        "published": {
+            "$t": "2012-10-22T11:35:00.000Z"
+        }, 
+        "id": {
+            "$t": "tag:youtube.com,2008:video:suZecar2hn4:comment:ZDUkyeq03r4XYY-f5ng3r5NJ4qgnG5uPLuVWRe6WtJc"
+        }
+    }, 
+    {
+        "category": [
+            {
+                "term": "http://gdata.youtube.com/schemas/2007#comment", 
+                "scheme": "http://schemas.google.com/g/2005#kind"
+            }
+        ], 
+        "updated": {
+            "$t": "2012-10-20T08:22:17.000Z"
+        }, 
+        "author": [
+            {
+                "name": {
+                    "$t": "FudziDi"
+                }, 
+                "yt$userId": {
+                    "$t": "du7nkbKDdln6kySkz-0rgw"
+                }, 
+                "uri": {
+                    "$t": "https://gdata.youtube.com/feeds/api/users/FudziDi"
+                }
+            }
+        ], 
+        "title": {
+            "$t": "Купил гитару ..."
+        }, 
+        "gd$etag": "W/\"C0QHRn47eCp7I2A9WhNTF08.\"", 
+        "content": {
+            "$t": "Купил гитару перечитал﻿ до черта самоучителей))и небельмеса))посмотрев видеоурок начал делать первые шаги спасибише большушее)))"
+        }, 
+        "yt$videoid": {
+            "$t": "suZecar2hn4"
+        }, 
+        "link": [
+            {
+                "href": "https://gdata.youtube.com/feeds/api/videos/suZecar2hn4?v=2", 
+                "type": "application/atom+xml", 
+                "rel": "related"
+            }, 
+            {
+                "href": "https://www.youtube.com/watch?v=suZecar2hn4", 
+                "type": "text/html", 
+                "rel": "alternate"
+            }, 
+            {
+                "href": "https://gdata.youtube.com/feeds/api/videos/suZecar2hn4/comments/ZDUkyeq03r74bxDuGcI2UBYvI9OmGxJ4ASIyFzGq_SQ?v=2", 
+                "type": "application/atom+xml", 
+                "rel": "self"
+            }
+        ], 
+        "published": {
+            "$t": "2012-10-20T08:22:17.000Z"
+        }, 
+        "id": {
+            "$t": "tag:youtube.com,2008:video:suZecar2hn4:comment:ZDUkyeq03r74bxDuGcI2UBYvI9OmGxJ4ASIyFzGq_SQ"
+        }
+    }, 
+    {
+        "category": [
+            {
+                "term": "http://gdata.youtube.com/schemas/2007#comment", 
+                "scheme": "http://schemas.google.com/g/2005#kind"
+            }
+        ], 
+        "updated": {
+            "$t": "2012-10-19T09:27:57.000Z"
+        }, 
+        "author": [
+            {
+                "name": {
+                    "$t": "Наталья Брызгунова"
+                }, 
+                "yt$userId": {
+                    "$t": "Hc9Nn1l4y6I-3vTFB95NNg"
+                }, 
+                "uri": {
+                    "$t": "https://gdata.youtube.com/feeds/api/users/brnatena"
+                }
+            }
+        ], 
+        "title": {
+            "$t": "а что сейчас﻿ можно ..."
+        }, 
+        "gd$etag": "W/\"Ak8DRn47eCp7I2A9WhNTFk4.\"", 
+        "content": {
+            "$t": "а что сейчас﻿ можно называть себя по-русски? пойду, переименуюсь!\nа мальчик очень симпатишный. завораживающе играешь. косит под латино. обожаю этот ритм! \nиду учить новые бои"
+        }, 
+        "yt$videoid": {
+            "$t": "suZecar2hn4"
+        }, 
+        "link": [
+            {
+                "href": "https://gdata.youtube.com/feeds/api/videos/suZecar2hn4?v=2", 
+                "type": "application/atom+xml", 
+                "rel": "related"
+            }, 
+            {
+                "href": "https://www.youtube.com/watch?v=suZecar2hn4", 
+                "type": "text/html", 
+                "rel": "alternate"
+            }, 
+            {
+                "href": "https://gdata.youtube.com/feeds/api/videos/suZecar2hn4/comments/ZDUkyeq03r52tOfb7HFzt1AX4ACCxiJaeRUAFZoJtFM?v=2", 
+                "type": "application/atom+xml", 
+                "rel": "self"
+            }
+        ], 
+        "published": {
+            "$t": "2012-10-19T09:27:57.000Z"
+        }, 
+        "id": {
+            "$t": "tag:youtube.com,2008:video:suZecar2hn4:comment:ZDUkyeq03r52tOfb7HFzt1AX4ACCxiJaeRUAFZoJtFM"
+        }
+    }, 
+    {
+        "category": [
+            {
+                "term": "http://gdata.youtube.com/schemas/2007#comment", 
+                "scheme": "http://schemas.google.com/g/2005#kind"
+            }
+        ], 
+        "updated": {
+            "$t": "2012-10-13T16:31:58.000Z"
+        }, 
+        "author": [
+            {
+                "name": {
+                    "$t": "Jerry Xaos"
+                }, 
+                "yt$userId": {
+                    "$t": "J1wuVsHSXuNe9EHSo8tTcQ"
+                }, 
+                "uri": {
+                    "$t": "https://gdata.youtube.com/feeds/api/users/JerryXaosru"
+                }
+            }
+        ], 
+        "title": {
+            "$t": "Чувак! Спасибо!﻿ ..."
+        }, 
+        "gd$etag": "W/\"D04FSX47eCp7I2A9WhNTEUk.\"", 
+        "content": {
+            "$t": "Чувак! Спасибо!﻿ Воще круто)))"
+        }, 
+        "yt$videoid": {
+            "$t": "suZecar2hn4"
+        }, 
+        "link": [
+            {
+                "href": "https://gdata.youtube.com/feeds/api/videos/suZecar2hn4?v=2", 
+                "type": "application/atom+xml", 
+                "rel": "related"
+            }, 
+            {
+                "href": "https://www.youtube.com/watch?v=suZecar2hn4", 
+                "type": "text/html", 
+                "rel": "alternate"
+            }, 
+            {
+                "href": "https://gdata.youtube.com/feeds/api/videos/suZecar2hn4/comments/ZDUkyeq03r7li8ptEgcXYHv8O4Jj19hPra3MosbpBOQ?v=2", 
+                "type": "application/atom+xml", 
+                "rel": "self"
+            }
+        ], 
+        "published": {
+            "$t": "2012-10-13T16:31:58.000Z"
+        }, 
+        "id": {
+            "$t": "tag:youtube.com,2008:video:suZecar2hn4:comment:ZDUkyeq03r7li8ptEgcXYHv8O4Jj19hPra3MosbpBOQ"
+        }
+    }, 
+    {
+        "category": [
+            {
+                "term": "http://gdata.youtube.com/schemas/2007#comment", 
+                "scheme": "http://schemas.google.com/g/2005#kind"
+            }
+        ], 
+        "updated": {
+            "$t": "2012-10-10T19:12:45.000Z"
+        }, 
+        "author": [
+            {
+                "name": {
+                    "$t": "Николай Соколов"
+                }, 
+                "yt$userId": {
+                    "$t": "EE0t9M1_kDhBJscM-UGBuw"
+                }, 
+                "uri": {
+                    "$t": "https://gdata.youtube.com/feeds/api/users/NikolaySokolovGuitar"
+                }
+            }
+        ], 
+        "title": {
+            "$t": "Странно, почему ??? ..."
+        }, 
+        "gd$etag": "W/\"DEQCRH47eCp7I2A9WhJaGEQ.\"", 
+        "content": {
+            "$t": "Странно, почему ???\nУ меня﻿ есть ученики, которые занимаются просто так, для себя.... и ничего в этом такого нет.."
+        }, 
+        "yt$videoid": {
+            "$t": "suZecar2hn4"
+        }, 
+        "link": [
+            {
+                "href": "https://gdata.youtube.com/feeds/api/videos/suZecar2hn4?v=2", 
+                "type": "application/atom+xml", 
+                "rel": "related"
+            }, 
+            {
+                "href": "https://www.youtube.com/watch?v=suZecar2hn4", 
+                "type": "text/html", 
+                "rel": "alternate"
+            }, 
+            {
+                "href": "https://gdata.youtube.com/feeds/api/videos/suZecar2hn4/comments/ZDUkyeq03r7J709GxwloL2o5Dl5HZliatYCDmOrvoN0?v=2", 
+                "type": "application/atom+xml", 
+                "rel": "http://gdata.youtube.com/schemas/2007#in-reply-to"
+            }, 
+            {
+                "href": "https://gdata.youtube.com/feeds/api/videos/suZecar2hn4/comments/ZDUkyeq03r6c7_GpnwcDc7QPb7VeKFpouhokOGpkMqI?v=2", 
+                "type": "application/atom+xml", 
+                "rel": "self"
+            }
+        ], 
+        "published": {
+            "$t": "2012-10-10T19:12:45.000Z"
+        }, 
+        "id": {
+            "$t": "tag:youtube.com,2008:video:suZecar2hn4:comment:ZDUkyeq03r6c7_GpnwcDc7QPb7VeKFpouhokOGpkMqI"
+        }
+    }
+]

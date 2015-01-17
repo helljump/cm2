@@ -1,0 +1,1248 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>Документация CM2 TreeEdit 1.3.9</title>
+    
+    <link rel="stylesheet" href="_static/nature.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    './',
+        VERSION:     '1.3.9',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <script type="text/javascript" src="_static/translations.js"></script>
+    <link rel="top" title="None" href="index.html#document-index" /> 
+  </head>
+  <body>
+    <div class="related">
+      <h3>Просмотр</h3>
+      <ul>
+        <li><a href="index.html#document-index">Документация CM2 TreeEdit 1.3.9</a> &raquo;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body">
+            
+  <div class="section" id="cm2-treeedit-s">
+<h1>Документация CM2 TreeEdit&#8217;s!<a class="headerlink" href="#cm2-treeedit-s" title="Ссылка на этот заголовок">¶</a></h1>
+<img alt="_images/main_window.png" src="_images/main_window.png" />
+<div class="section" id="id1">
+<h2>Добро пожаловать<a class="headerlink" href="#id1" title="Ссылка на этот заголовок">¶</a></h2>
+<div class="toctree-wrapper compound">
+<span id="document-changes"></span><div class="section" id="id1">
+<h3>Список изменений<a class="headerlink" href="#id1" title="Ссылка на этот заголовок">¶</a></h3>
+<div class="section" id="id2">
+<h4>1.2.2<a class="headerlink" href="#id2" title="Ссылка на этот заголовок">¶</a></h4>
+<ul class="simple">
+<li>Добавлен плагин удаления статей в категориях</li>
+<li>Добавлены в меню ссылки на форум и сайт</li>
+<li>Исправлена ошибка в плагине Гобонизации</li>
+</ul>
+</div>
+<div class="section" id="id3">
+<h4>1.2.1<a class="headerlink" href="#id3" title="Ссылка на этот заголовок">¶</a></h4>
+<ul class="simple">
+<li>Правка сохранения резервного файла</li>
+<li>Добавлена возможность сортировки списка статей</li>
+<li>Улучшен экспорт в Wordpress</li>
+<li>Дабалена возможность загрузки указанного файла из командной строки</li>
+<li>Исправлена ошибка в генерации вступительного текста</li>
+</ul>
+</div>
+<div class="section" id="id4">
+<h4>1.2.0<a class="headerlink" href="#id4" title="Ссылка на этот заголовок">¶</a></h4>
+<ul class="simple">
+<li>Сохранение путей в плагине экспорта в CMS Кадавр</li>
+<li>Добавлен компонент &#8220;Вставка ссылок по анкорам&#8221;</li>
+<li>Исправлен баг со стопсловами</li>
+<li>Поправлены иконки в редакторе стопслов</li>
+<li>Добавлен плагин импорта RumbaXML</li>
+<li>Новый метод переноса статей по категориям</li>
+<li>Возможность скрытия окна операций</li>
+<li>Обновление QT</li>
+</ul>
+</div>
+<div class="section" id="id5">
+<h4>1.1.9<a class="headerlink" href="#id5" title="Ссылка на этот заголовок">¶</a></h4>
+<ul class="simple">
+<li>Исправление ошибки в Универсальном парсере, когда не отрабатывал Анализ.</li>
+<li>Добавлены shortcut&#8217;ы Заменить/Пропустить в рерайтер</li>
+<li>Исправления выбора файла в импорте CSV</li>
+<li>Исправления в плагине импорта Кадавра</li>
+<li>Улучшения в работе генератора вступительного текста</li>
+<li>Обновлена QT до крайней версии</li>
+</ul>
+</div>
+<div class="section" id="id6">
+<h4>1.1.8<a class="headerlink" href="#id6" title="Ссылка на этот заголовок">¶</a></h4>
+<ul class="simple">
+<li>Плагин переименовая/проверки наличия файлов изображений</li>
+<li>Обновление модуля морфологии</li>
+<li>Улучшения в работе синонимизатора с unicode</li>
+<li>Улучшение работы генератора дат публикации</li>
+</ul>
+</div>
+<div class="section" id="id7">
+<h4>1.1.7<a class="headerlink" href="#id7" title="Ссылка на этот заголовок">¶</a></h4>
+<ul class="simple">
+<li>Поддержка Кадавр 1.4</li>
+<li>Свежая версия QT</li>
+<li>Обновление импорта RSS</li>
+<li>Оптимизация модуля морфологии</li>
+<li>Поддерка шаблонов jinja2</li>
+</ul>
+</div>
+<div class="section" id="id8">
+<h4>1.1.6<a class="headerlink" href="#id8" title="Ссылка на этот заголовок">¶</a></h4>
+<ul class="simple">
+<li>Исправлен импорт/экспорт wordpress(на базе importer 0.4)</li>
+<li>Исправлен импорт некорректных wpxml файлов сгенерированных программой ContentDownload</li>
+<li>Исправлена ошибка в плагине экспорта сериализованного PHP объекта</li>
+<li>Мелкие исправления в плагине Гобонизатора</li>
+<li>Свежая версия QT</li>
+<li>Правка лексера html на падения при редактировании тегов изображений</li>
+<li>Изменилось поведение вступительного текста при экспорте в Кадавр</li>
+<li>Добавлен плагин для импорта kad(Cadaver) файла</li>
+<li>Добавлен плагин экспорта в Rumba XML 2.8</li>
+<li>Вставка изображений во вступительный текст</li>
+<li>Экранирование сущностей в плагине экспорта в Cadaver</li>
+<li>Небольшие улучшения модуля морфологии</li>
+</ul>
+</div>
+<div class="section" id="id9">
+<h4>1.1.5<a class="headerlink" href="#id9" title="Ссылка на этот заголовок">¶</a></h4>
+<ul class="simple">
+<li>Ускорена морфология</li>
+<li>Обновлен PHP до 5.3.6</li>
+<li>Добавлен плагин импорта CSV</li>
+<li>Добавлены настройки при генерации &#8220;случайных дат&#8221;</li>
+<li>Добавлена обработка меток keywords, description при генерации статичного сайта</li>
+<li>Исправлен экспорт в текстовые файлы</li>
+<li>Исправлено неверное смещение слова при рерайте/проверке орфографии</li>
+<li>Исправлена автонарезка</li>
+<li>Исправлена выгрузка статей &#8220;без обработки&#8221; в универсальном парсере</li>
+<li>Исправлено падение синонимайзера при обработке отсутствующего вступительного текста</li>
+</ul>
+</div>
+<div class="section" id="id10">
+<h4>1.1.4<a class="headerlink" href="#id10" title="Ссылка на этот заголовок">¶</a></h4>
+<ul class="simple">
+<li>Пакетное удаление в диалоге проверки уникальности материала</li>
+<li>Добавлена функция экспорта без обработки из универсального парсера</li>
+<li>Правка модуля экспорта статичного сайта под narod.ru</li>
+<li>Правка экспорта в wp xml(адаптация под WP3.1+Importer0.4)</li>
+<li>Улучшение плагина выгрузки в текстовые файлы(несколько опций)</li>
+<li>Правка обнуления времени публикации(дата сохранялась)</li>
+<li>Плагин &#8220;Текст из тегов H1 в заголовок&#8221;</li>
+<li>Добавлен HTML редактор в конструктор интерфейсов</li>
+</ul>
+</div>
+<div class="section" id="id11">
+<h4>1.1.3<a class="headerlink" href="#id11" title="Ссылка на этот заголовок">¶</a></h4>
+<ul class="simple">
+<li>Обновление парсера</li>
+<li>Свежая версия QT</li>
+</ul>
+</div>
+<div class="section" id="id12">
+<h4>1.1.2<a class="headerlink" href="#id12" title="Ссылка на этот заголовок">¶</a></h4>
+<ul class="simple">
+<li>Исправлено: ошибка открытия сессии в парсере</li>
+</ul>
+</div>
+<div class="section" id="id13">
+<h4>1.1.1<a class="headerlink" href="#id13" title="Ссылка на этот заголовок">¶</a></h4>
+<p><strong>Добавлено</strong></p>
+<ul class="simple">
+<li>Плагин экспорта в Datalife Engine 9.0</li>
+</ul>
+<p><strong>Улучшено</strong></p>
+<ul>
+<li><dl class="first docutils">
+<dt>Парсер:</dt>
+<dd><ul class="first last simple">
+<li>реализовано сохранение страниц между сессиями</li>
+<li>фильтрация экспорта по размеру статьи</li>
+<li>правлены настройки</li>
+</ul>
+</dd>
+</dl>
+</li>
+</ul>
+</div>
+<div class="section" id="id14">
+<h4>1.1.0<a class="headerlink" href="#id14" title="Ссылка на этот заголовок">¶</a></h4>
+<ul class="simple">
+<li>Универсальный парсер</li>
+<li>Сделано, о чудо, сохранение путей :)</li>
+<li>Плагин экспорта в RSS Feed</li>
+</ul>
+</div>
+<div class="section" id="id15">
+<h4>1.0.13<a class="headerlink" href="#id15" title="Ссылка на этот заголовок">¶</a></h4>
+<ul class="simple">
+<li>Правка вылета при импорте cmsimple</li>
+<li>Вывод количества выбраных статей</li>
+</ul>
+</div>
+<div class="section" id="id16">
+<h4>1.0.12<a class="headerlink" href="#id16" title="Ссылка на этот заголовок">¶</a></h4>
+<ul class="simple">
+<li>Плагин: Импорт страниц сайтов по ссылкам из RSS/Atom</li>
+<li>Плагин: Экспорт в MaxSite CMS</li>
+<li>Плагин: Импорт на PHP(plugins/phpimportsample)</li>
+<li>Обновление графической библиотеки</li>
+<li>Добавлен словарь meta для работы с дополнительными полями(работает с wpxml экспортом. см plugins/reverse_process.py)</li>
+<li>Функция вызова из PHP диалога задания имени файла для открытия/сохранения</li>
+<li>PHP Функция добавления статьи</li>
+<li>Правка youtube граббера ссылок</li>
+</ul>
+</div>
+<div class="section" id="id17">
+<h4>1.0.11<a class="headerlink" href="#id17" title="Ссылка на этот заголовок">¶</a></h4>
+<p><strong>Улучшения/исправления</strong></p>
+<ul class="simple">
+<li>улучшена стабильность</li>
+<li>небольшие улучшения плагинов</li>
+</ul>
+</div>
+<div class="section" id="id18">
+<h4>1.0.10<a class="headerlink" href="#id18" title="Ссылка на этот заголовок">¶</a></h4>
+<p><strong>Улучшения/исправления</strong></p>
+<ul class="simple">
+<li>автометки переделаны с использованием морфологии</li>
+<li>&#8220;случайная дата&#8221; по умолчанию в диапазоне от текущей даты(-365 дней,+ 90 дней)</li>
+<li>в &#8220;очистку страниц&#8221; добавлена функция очистки заголовков</li>
+</ul>
+</div>
+<div class="section" id="id19">
+<h4>1.0.9 &#8221;.РФ домены - мегаразвод&#8221;<a class="headerlink" href="#id19" title="Ссылка на этот заголовок">¶</a></h4>
+<p><strong>Новые функции</strong></p>
+<ul class="simple">
+<li>диалог проверки уникальности статей</li>
+<li>поддержка Gobo Tooltip</li>
+<li>импорт ленты Advego</li>
+</ul>
+<p><strong>Улучшения/исправления</strong></p>
+<ul class="simple">
+<li>обновлен плагин Articlebase</li>
+<li>небольшое увеличение скорости работы полуавтоматического рерайтера</li>
+</ul>
+</div>
+<div class="section" id="id20">
+<h4>1.0.8<a class="headerlink" href="#id20" title="Ссылка на этот заголовок">¶</a></h4>
+<ul class="simple">
+<li>правка разделения статьи на две</li>
+<li>добавлена кнопка &#8220;Выделить всё&#8221;!</li>
+<li>в плагинах импорта/экспорта текста добавлена возможность указания кодировки текста</li>
+<li>исправлена ошибка при недотаточности результатов в плагине парсера articlebase</li>
+<li>обновление до свежей версий библиотеки QT</li>
+<li>добавлена задержка в плагин публикации в UCOZ</li>
+<li>экспериментальная поддержа плагинов на PHP 5.3.3</li>
+<li>добавлен php плагин &#8220;Зачистка контента&#8221;</li>
+<li>добавлен php плагин &#8220;Удаление вложенных и непарных тэгов&#8221;</li>
+<li>добавлена утилита получения ссылок на YouTube видео</li>
+<li>поправлен импорт wpxml</li>
+</ul>
+</div>
+<div class="section" id="id21">
+<h4>1.0.7<a class="headerlink" href="#id21" title="Ссылка на этот заголовок">¶</a></h4>
+<ul class="simple">
+<li>публикация в UCOZ</li>
+<li>циклическая вставка строк в статьи</li>
+<li>опять исправлено автоопределение кодировки :)</li>
+</ul>
+</div>
+<div class="section" id="id22">
+<h4>1.0.6<a class="headerlink" href="#id22" title="Ссылка на этот заголовок">¶</a></h4>
+<p><strong>Добавлено</strong></p>
+<ul class="simple">
+<li>бесплатный плагин - парсер rusarticles/articlesbase от Mihey</li>
+</ul>
+<p><strong>Улучшения/исправления</strong></p>
+<ul class="simple">
+<li>исправлено автоопределение кодировки</li>
+<li>правка потери фокуса при автосохранении</li>
+</ul>
+</div>
+<div class="section" id="id23">
+<h4>1.0.5<a class="headerlink" href="#id23" title="Ссылка на этот заголовок">¶</a></h4>
+<p><strong>Добавлено</strong></p>
+<ul class="simple">
+<li>система плагинов. Примеры в каталоге plugins</li>
+</ul>
+<p><strong>Улучшения/исправления</strong></p>
+<ul>
+<li><dl class="first docutils">
+<dt>сохранение состояния дерева в файл проекта</dt>
+<dd><ul class="first last simple">
+<li>текущий элемент</li>
+<li>развернутые категории</li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><p class="first">правка ошибок в полуавтоматическом рерайтере</p>
+</li>
+<li><p class="first">импорт сразу нескольких cmsimple html файлов</p>
+</li>
+<li><p class="first">импорт каталога текстов сделан плагином с открытым исходным кодом</p>
+</li>
+</ul>
+</div>
+<div class="section" id="id24">
+<h4>1.0.4<a class="headerlink" href="#id24" title="Ссылка на этот заголовок">¶</a></h4>
+<p><strong>Добавлено</strong></p>
+<ul class="simple">
+<li>рерайтер</li>
+<li>генератор заголовков</li>
+</ul>
+<p><strong>Улучшения/исправления</strong></p>
+<ul class="simple">
+<li>вывод количества статей в категории</li>
+<li>импорт txt файлов: улучшено автоопределение кодировки</li>
+<li>загрузчик: улучшена стабильность</li>
+<li>вставка hmtl тегов: улучшена работа с буфером обмена</li>
+<li>проверка орфографии: пропуск неизвестных слов</li>
+<li>обновление до свежих версий библиотек: lxml, QT</li>
+<li>закрытие открытых тегов при пакетной генерации вступительного текста</li>
+<li>различные оптимизации</li>
+</ul>
+</div>
+<div class="section" id="id25">
+<h4>1.0.3<a class="headerlink" href="#id25" title="Ссылка на этот заголовок">¶</a></h4>
+<ul class="simple">
+<li>проверка орфографии (ru/en/de)</li>
+<li>сохранение настроек очистки страниц</li>
+<li>выбор кодировки при статической генерации, тег <em>{encoding}</em></li>
+<li>правка генерации вступительного текста</li>
+<li>правка загрузки проектов</li>
+<li>мелкие исправления редактора</li>
+</ul>
+</div>
+<div class="section" id="id26">
+<h4>1.0.2<a class="headerlink" href="#id26" title="Ссылка на этот заголовок">¶</a></h4>
+<p><strong>Добавлено</strong></p>
+<ul class="simple">
+<li>небольшие изменения интерфейса</li>
+<li>вставка тегов в редакторе</li>
+<li>откат загрузки документа</li>
+<li>выгрузка статика: настройка title для главной страницы</li>
+<li>сохранение настроек быстрых тегов</li>
+</ul>
+<p><strong>Улучшения/исправления</strong></p>
+<ul class="simple">
+<li>исправлена очистка списка опраций при отказе от создания нового документа</li>
+<li>исправлен глюк при сохранении PRT</li>
+<li>исправлен глюк с сохранением вступительного текста</li>
+<li>исправлено сохранение тегов</li>
+</ul>
+</div>
+<div class="section" id="id27">
+<h4>1.0.1<a class="headerlink" href="#id27" title="Ссылка на этот заголовок">¶</a></h4>
+<p><strong>Добавлено</strong></p>
+<ul class="simple">
+<li>экспорт через xml-rpc и пример сервера</li>
+<li>импорт RSS Feed</li>
+<li>расширенный формат prt файла, возможность хранения дополнительных настроек</li>
+<li>обновление до свежей версии интерфейсной библиотеки</li>
+<li>автоматическая проверка обновлений</li>
+</ul>
+<p><strong>Улучшения/исправления</strong></p>
+<ul class="simple">
+<li>правка работы с русским буквами в имени пользователя системы</li>
+<li>исправления в процедуре вставки ссылок</li>
+</ul>
+</div>
+<div class="section" id="id28">
+<h4>1.0.0<a class="headerlink" href="#id28" title="Ссылка на этот заголовок">¶</a></h4>
+<ul class="simple">
+<li>Первый публичный релиз</li>
+</ul>
+</div>
+</div>
+<span id="document-roadmap"></span><div class="section" id="id1">
+<h3>Дальнейшее развитие<a class="headerlink" href="#id1" title="Ссылка на этот заголовок">¶</a></h3>
+<p>Список планируемых улучшений и дополнений</p>
+<ul class="simple">
+<li>поиск дублей статей</li>
+<li>внутренняя перелинковка</li>
+<li>универсальный импорт</li>
+<li>универсальный парсер текстов</li>
+<li>универсальный парсер изображений</li>
+<li>комментарии</li>
+<li>поддержка баз Ganymede, Grumbridge</li>
+<li>визуальный редактор HTML</li>
+</ul>
+</div>
+<span id="document-faq"></span><div class="section" id="id1">
+<h3>Часто задаваемые вопросы<a class="headerlink" href="#id1" title="Ссылка на этот заголовок">¶</a></h3>
+<div class="section" id="id2">
+<h4>Установленная программа не запускается<a class="headerlink" href="#id2" title="Ссылка на этот заголовок">¶</a></h4>
+<p>При возникновении такого сообщения</p>
+<img alt="_images/noruntime.png" src="_images/noruntime.png" />
+<p>Необходимо установить Microsoft Visual C++ 2008 Redistributable Package который можно скачать по <a class="reference external" href="http://www.microsoft.com/downloads/details.aspx?FamilyID=9b2da534-3e03-4391-8a4d-074b9f2bc1bf&amp;displaylang=ru">ссылке</a>.</p>
+</div>
+<div class="section" id="id4">
+<h4>Веделение всех материалов<a class="headerlink" href="#id4" title="Ссылка на этот заголовок">¶</a></h4>
+<p>Для того что-бы выбрать все материалы, статьи или весь текст используйте комбинацию Ctrl+A</p>
+</div>
+<div class="section" id="id5">
+<h4>Размещение файла отчета<a class="headerlink" href="#id5" title="Ссылка на этот заголовок">¶</a></h4>
+<p>На Windows 7 файл отчет распологается c:\Users\имя пользователя\AppData\Local\treeedit\cm2te.log</p>
+</div>
+</div>
+<span id="document-links"></span><div class="section" id="id1">
+<h3>Ссылки<a class="headerlink" href="#id1" title="Ссылка на этот заголовок">¶</a></h3>
+<p>Различные полезные ссылки</p>
+<ul class="simple">
+<li><a class="reference external" href="http://blap.ru/">Сайт Wordpress Translator</a></li>
+<li><a class="reference external" href="http://lipf.ru/">СЕО Механик</a></li>
+</ul>
+</div>
+</div>
+</div>
+<div class="section" id="id2">
+<h2>Основные функции<a class="headerlink" href="#id2" title="Ссылка на этот заголовок">¶</a></h2>
+<ul class="simple">
+<li>подсветка html синтаксиса</li>
+<li>drag&#8217;n&#8217;drop</li>
+<li>откат изменений</li>
+<li>импорт и экспорт различных форматов</li>
+<li>встроенный синонимайзер</li>
+</ul>
+</div>
+<div class="section" id="id3">
+<h2>Описание возможностей<a class="headerlink" href="#id3" title="Ссылка на этот заголовок">¶</a></h2>
+<div class="toctree-wrapper compound">
+<span id="document-import"></span><div class="section" id="id1">
+<h3>Импорт<a class="headerlink" href="#id1" title="Ссылка на этот заголовок">¶</a></h3>
+<div class="section" id="csv">
+<h4>CSV генератор<a class="headerlink" href="#csv" title="Ссылка на этот заголовок">¶</a></h4>
+<img alt="_images/import_csv.png" src="_images/import_csv.png" />
+<p>Пример файла импорта. Строки содержащие один элемент могут распозноваться как категории(см. настройки плагина).</p>
+<div class="highlight-html"><div class="highlight"><pre>&quot;Сирень&quot;
+&quot;сирень1&quot;,&quot;большая&quot;,&quot;красивая&quot;
+&quot;сирень2&quot;,&quot;мелкая&quot;,&quot;неочень&quot;
+&quot;сирень3&quot;,&quot;средняя&quot;,&quot;странная&quot;
+&quot;Бузина&quot;,&quot;&quot;,&quot;&quot;
+&quot;бузина1&quot;,&quot;зелёная&quot;,&quot;весёлая&quot;
+&quot;бузина2&quot;,&quot;красная&quot;,&quot;грустная&quot;
+&quot;бузина3&quot;,&quot;желтая&quot;,&quot;беглая&quot;
+</pre></div>
+</div>
+<p>Пример шаблона</p>
+<div class="highlight-html"><div class="highlight"><pre>Параметр:{$2}<span class="nt">&lt;br/&gt;</span>
+<span class="nt">&lt;img</span> <span class="na">src=</span><span class="s">&quot;{$3}&quot;</span> <span class="na">alt=</span><span class="s">&quot;{$1}&quot;</span><span class="nt">&gt;</span>
+</pre></div>
+</div>
+<p>Результат</p>
+<img alt="_images/import_csv1.png" src="_images/import_csv1.png" />
+</div>
+<div class="section" id="id2">
+<h4>Универсальный парсер<a class="headerlink" href="#id2" title="Ссылка на этот заголовок">¶</a></h4>
+<p>Универсальный <img alt="spider" src="d:\icons\fatcow-hosting-icons\16x16\spider_web.png" /> парсер служит для импорта текстового контента с сетевых ресурсов, анализируя их структуру в автоматическом режиме и выделяя важную информация(заголовок, текст).</p>
+<p><strong>Первый шаг - импорт содержимого пауком.</strong></p>
+<img alt="_images/import_uparser1.png" src="_images/import_uparser1.png" />
+<dl class="docutils">
+<dt><em>Начальный адрес</em></dt>
+<dd>Адрес, с которого начинается обход сайта пауком. Игнорируются все адреса которые не начинаются с этого значения.</dd>
+<dt><em>Глубина</em></dt>
+<dd>Количество рекурсивно запрашиваемых страниц.</dd>
+<dt><em>Игнорировать</em></dt>
+<dd>Регулярное выражения которое используется при обходе для удаления адресов из очереди. По умолчанию это изображения, медиафайлы, архивы.</dd>
+<dt><em>USER_AGENT</em></dt>
+<dd>То, как паук будет представляться сайту.</dd>
+</dl>
+<p><strong>Шаг два - построение в автоматическом режиме шаблонов страниц, Вам необходимо задать лишь порог чуствительности.</strong></p>
+<img alt="_images/import_uparser2.png" src="_images/import_uparser2.png" />
+<dl class="docutils">
+<dt><em>Порог кластеризации</em></dt>
+<dd>Порог различия фрагментов страниц содержащих значимый для импорта текст. При низком пороге возможен захват мусорного текста(меню, баннеры).</dd>
+<dt><em>Порог заголовка</em></dt>
+<dd>Порог различия фрагментов страниц содержащих заголовок.</dd>
+<dt><em>Анализировать не более</em></dt>
+<dd>Количество страниц для анализа. Чем больше, тем точнее будет сгенерирован шаблон. Однако анализ большого количества страниц занимает продолжительное время. 100 страниц - около 5 минут. 1000 страниц, более 3 часов.</dd>
+<dt><em>Количество дополнительных фрагментов</em></dt>
+<dd>Если значимый материал разбит на вложенные фрагменты(например блоками(div), таблицами) то повышения значения позволяет сгенерировать шаблон учитывающий это.</dd>
+</dl>
+<p><strong>Третий шаг - импорт текста в Content Monster 2 в качестве статей.</strong></p>
+<img alt="_images/import_uparser3.png" src="_images/import_uparser3.png" />
+<dl class="docutils">
+<dt><em>Порог соответствия шаблону</em></dt>
+<dd>Минимальное значение при котором найденный в статье текст будет считаться значимым.</dd>
+<dt><em>Порог отличия</em></dt>
+<dd>Максимальное значение, при котором найденный в статье текст будет считаться значимым.</dd>
+<dt><em>Минимальный размер статьи</em></dt>
+<dd>Позволяет избавится в выдаче от пустых, либо неверно экстрагированных статей.</dd>
+</dl>
+</div>
+<div class="section" id="cms-simple">
+<h4>CMS Simple<a class="headerlink" href="#cms-simple" title="Ссылка на этот заголовок">¶</a></h4>
+<p>Читает HTML файл в формате CMS Simple с форматированием H1-8.</p>
+<p>Импортируемые поля</p>
+<ul class="simple">
+<li>Заголовок</li>
+<li>Текст</li>
+</ul>
+</div>
+<div class="section" id="wordpress-xml">
+<h4>Wordpress XML<a class="headerlink" href="#wordpress-xml" title="Ссылка на этот заголовок">¶</a></h4>
+<p>Читает XML файл выгружаемый Wordpress версии 2.7 и выше.</p>
+<p>Импортируемые поля:</p>
+<ul class="simple">
+<li>Заголовок</li>
+<li>Excerpt</li>
+<li>Текст</li>
+<li>Дата публикации</li>
+<li>Теги</li>
+<li>Категория</li>
+</ul>
+</div>
+<div class="section" id="articlesbase-rusarticle">
+<h4>Парсер статей articlesbase/rusarticle<a class="headerlink" href="#articlesbase-rusarticle" title="Ссылка на этот заголовок">¶</a></h4>
+<p>Плагин от Mihey для парсинга статей с известных статейных баз.</p>
+<p>Импортируемые поля:</p>
+<ul class="simple">
+<li>Заголовок</li>
+<li>Текст</li>
+</ul>
+<div class="admonition note">
+<p class="first admonition-title">Примечание</p>
+<p class="last">Сервис имеет ограничение в 150 статей на один запрос.</p>
+</div>
+</div>
+<div class="section" id="txt-html">
+<h4>Каталог TXT и HTML файлов(плагин)<a class="headerlink" href="#txt-html" title="Ссылка на этот заголовок">¶</a></h4>
+<p>Рекурсивно читает указанную директорию и формирует дерево статей по принципу: название каталога и файла - это заголовки, содержимое файлов - текст.
+Расширения: TXT, HTML, HTM, XHTML.
+Кодировка определяется по charset&#8217;у HTML либо автоматом по первым 2-м килобайтам текста.</p>
+<p>Импортируемые поля:</p>
+<ul class="simple">
+<li>Заголовок</li>
+<li>Текст</li>
+</ul>
+</div>
+<div class="section" id="rss-feed">
+<h4>RSS Feed<a class="headerlink" href="#rss-feed" title="Ссылка на этот заголовок">¶</a></h4>
+<p>Импорт данных из лент новостей. Чтение из файла либо по адресу ленты. Поддержка форматов RSS, Atom, CDF.</p>
+<img alt="_images/import_rss.png" src="_images/import_rss.png" />
+<p>Поля для статей:</p>
+<ul class="simple">
+<li>Заголовок</li>
+<li>Текст</li>
+</ul>
+</div>
+<div class="section" id="id3">
+<h4>Генератор текста &#8220;цепями Маркова&#8221;<a class="headerlink" href="#id3" title="Ссылка на этот заголовок">¶</a></h4>
+<img alt="_images/import_markovgen.png" src="_images/import_markovgen.png" />
+<p>Генератор текста построенные на базе цепей Маркова.</p>
+<img alt="_images/import_markovgen2.png" src="_images/import_markovgen2.png" />
+<p>Исключительно как пример плагина.</p>
+</div>
+<div class="section" id="advego-xml">
+<h4>Advego XML<a class="headerlink" href="#advego-xml" title="Ссылка на этот заголовок">¶</a></h4>
+<p>Импорт данных из лент Advego.</p>
+<img alt="_images/import_advego.png" src="_images/import_advego.png" />
+<p>Поля для статей:</p>
+<ul class="simple">
+<li>Заголовок</li>
+<li>Текст</li>
+<li>Дата публикации</li>
+</ul>
+</div>
+<div class="section" id="rss-atom">
+<h4>Импорт страниц сайтов по ссылкам из RSS/Atom<a class="headerlink" href="#rss-atom" title="Ссылка на этот заголовок">¶</a></h4>
+<p>Импорт страниц по ссылкам в RSS/Atom. Возможен импорт по адресу ленты либо имени файла.</p>
+</div>
+<div class="section" id="php">
+<h4>Импорт на PHP<a class="headerlink" href="#php" title="Ссылка на этот заголовок">¶</a></h4>
+<p>Пример плагин импорта на PHP (см. plugins/phpimportsample)</p>
+<dl class="glossary docutils">
+<dt id="term-">Импорт</dt>
+<dd>Чтение статей из различных форматов файлов</dd>
+</dl>
+</div>
+</div>
+<span id="document-export"></span><div class="section" id="id1">
+<h3>Экспорт<a class="headerlink" href="#id1" title="Ссылка на этот заголовок">¶</a></h3>
+<div class="section" id="cms-simple">
+<h4>CMS Simple<a class="headerlink" href="#cms-simple" title="Ссылка на этот заголовок">¶</a></h4>
+<p>Сохраняет HTML файл в формате CMS Simple с форматированием H1-8.</p>
+<p>Экспортируемые поля:</p>
+<ul class="simple">
+<li>Заголовок</li>
+<li>Текст</li>
+</ul>
+</div>
+<div class="section" id="wordpress-xml">
+<h4>WordPress XML<a class="headerlink" href="#wordpress-xml" title="Ссылка на этот заголовок">¶</a></h4>
+<p>Выгружает XML в формате Wordpress Import.</p>
+<p>Экспортируемые поля:</p>
+<ul class="simple">
+<li>Категории</li>
+<li>Теги</li>
+<li>Заголовок</li>
+<li>Дата публикации</li>
+<li>Текст</li>
+<li>Вступление(Excerpt)</li>
+</ul>
+<div class="admonition note">
+<p class="first admonition-title">Примечание</p>
+<p class="last">Для импорта в WordPress версии 3.* установите плагин <a class="reference external" href="http://wordpress.org/extend/plugins/wordpress-importer/">wordpress-importer</a></p>
+</div>
+</div>
+<div class="section" id="wordpress-xml-rpc-wp-metaweblog">
+<h4>WordPress XML-RPC(WP/metaWeblog)<a class="headerlink" href="#wordpress-xml-rpc-wp-metaweblog" title="Ссылка на этот заголовок">¶</a></h4>
+<p>Экспортирует категории/статьи по XML-PRC.</p>
+<img alt="_images/export_wprpc.png" src="_images/export_wprpc.png" />
+<p>Поля для категорий:</p>
+<ul class="simple">
+<li>Заголовок</li>
+<li>Описание</li>
+</ul>
+<p>Поля для статей:</p>
+<ul class="simple">
+<li>Заголовок</li>
+<li>Текст</li>
+<li>Дата публикации</li>
+<li>Теги</li>
+</ul>
+<div class="admonition note">
+<p class="first admonition-title">Примечание</p>
+<p class="last">Протестировать подключение вы можете кнопкой Apply.</p>
+</div>
+</div>
+<div class="section" id="joomla-1-5">
+<h4>Joomla 1.5<a class="headerlink" href="#joomla-1-5" title="Ссылка на этот заголовок">¶</a></h4>
+<p>Выгрузка SQL файла в формате CMS Joomla 1.5</p>
+<img alt="_images/export_joomla.png" src="_images/export_joomla.png" />
+<p>Создается секция &#8220;Статьи&#8221;. Далее в ней создаются категории.</p>
+<p>Поля для категорий:</p>
+<ul class="simple">
+<li>Заголовок</li>
+<li>Описание</li>
+</ul>
+<p>Поля для статей:</p>
+<ul class="simple">
+<li>Имя автора</li>
+<li>Заголовок</li>
+<li>Вступительный текст</li>
+<li>Текст</li>
+<li>Дата публикации</li>
+<li>Теги</li>
+</ul>
+<p>При необходимости генерируется код очистки секций/категорий/статей.</p>
+<div class="admonition warning">
+<p class="first admonition-title">Предупреждение</p>
+<p class="last">Это может повлечь за собой удаление всех существующих материалов сайта.</p>
+</div>
+</div>
+<div class="section" id="datalife-engine-8">
+<h4>Datalife Engine 8<a class="headerlink" href="#datalife-engine-8" title="Ссылка на этот заголовок">¶</a></h4>
+<p>Выгрузка в SQL файла в форматах DLE 8.0/8.5.</p>
+<img alt="_images/export_dle.png" src="_images/export_dle.png" />
+<p>Создается структура категории/статьи.</p>
+<p>Поля для категорий:</p>
+<ul class="simple">
+<li>Заголовок</li>
+</ul>
+<p>Поля для статей:</p>
+<ul class="simple">
+<li>Имя автора</li>
+<li>Дата публикации</li>
+<li>Заголовок</li>
+<li>Вступительный текст</li>
+<li>Текст</li>
+<li>Теги</li>
+</ul>
+<p>При необходимости генерируется код очистки секций/категорий/статей.</p>
+<div class="admonition warning">
+<p class="first admonition-title">Предупреждение</p>
+<p class="last">Это может повлечь за собой удаление всех существующих материалов сайта.</p>
+</div>
+</div>
+<div class="section" id="zebrum-lite">
+<h4>Zebrum Lite<a class="headerlink" href="#zebrum-lite" title="Ссылка на этот заголовок">¶</a></h4>
+<p>Выгрузка в формате parser.php Zebrum Lite 2.0.3</p>
+<img alt="_images/export_zebrumlite.png" src="_images/export_zebrumlite.png" />
+<p>Поля для категорий:</p>
+<ul class="simple">
+<li>Заголовок</li>
+<li>Дата публикации</li>
+</ul>
+<p>Поля для статей:</p>
+<ul class="simple">
+<li>Заголовок</li>
+<li>Дата публикации</li>
+<li>Вступительный текст</li>
+<li>Текст</li>
+<li>Теги</li>
+</ul>
+</div>
+<div class="section" id="id2">
+<h4>Статичный сайт<a class="headerlink" href="#id2" title="Ссылка на этот заголовок">¶</a></h4>
+<p>Генерация статичного сайта. Подходит для размещения на хостингах без поддержки php(narod.ru).</p>
+<img alt="_images/export_static.png" src="_images/export_static.png" />
+<p>Создается структура каталогов содержащих HTML файлы по заданному шаблону. Поддерживаются метки:</p>
+<ul class="simple">
+<li>Заголовок</li>
+<li>Меню</li>
+<li>Содержимое</li>
+<li>Случайные статьи</li>
+</ul>
+<div class="admonition note">
+<p class="first admonition-title">Примечание</p>
+<p class="last">Если вы получаете ошибку о невозможности создания файла на локальном диске, сократите вложенность каталогов, так как файловая система OS имеет ограничение на длину пути в 255 символов.</p>
+</div>
+</div>
+<div class="section" id="livejournal-com">
+<h4>Livejournal.com<a class="headerlink" href="#livejournal-com" title="Ссылка на этот заголовок">¶</a></h4>
+<p>Выгрузка статей на сервис livejournal.com.</p>
+<img alt="_images/export_livejournal.png" src="_images/export_livejournal.png" />
+<p>Экспортируемые поля:</p>
+<ul class="simple">
+<li>Заголовок</li>
+<li>Текст</li>
+<li>Дата публикации</li>
+<li>Теги</li>
+</ul>
+<div class="admonition warning">
+<p class="first admonition-title">Предупреждение</p>
+<p class="last">При небольшом времени задержки между публикациями возможны санкции со стороны сервиса(блокирование доступа).</p>
+</div>
+<div class="admonition note">
+<p class="first admonition-title">Примечание</p>
+<p class="last">Протестировать подключение вы можете кнопкой Apply.</p>
+</div>
+</div>
+<div class="section" id="blogger-com">
+<h4>Blogger.com<a class="headerlink" href="#blogger-com" title="Ссылка на этот заголовок">¶</a></h4>
+<p>Выгрузка статей на сервис blogspot.com</p>
+<img alt="_images/export_blogger.png" src="_images/export_blogger.png" />
+<p>Экспортируемые поля:</p>
+<ul class="simple">
+<li>Заголовок</li>
+<li>Текст</li>
+<li>Дата публикации</li>
+<li>Теги</li>
+</ul>
+<div class="admonition warning">
+<p class="first admonition-title">Предупреждение</p>
+<p class="last">При небольшом времени задержки между публикациями возможны санкции со стороны сервиса(блокирование доступа).</p>
+</div>
+<div class="admonition note">
+<p class="first admonition-title">Примечание</p>
+<p class="last">Протестировать подключение вы можете кнопкой Apply.</p>
+</div>
+</div>
+<div class="section" id="content-monster-2-xml-prc">
+<h4>Content Monster 2 XML-PRC<a class="headerlink" href="#content-monster-2-xml-prc" title="Ссылка на этот заголовок">¶</a></h4>
+<p>Выгрузка статей по XML-RPC.</p>
+<img alt="_images/export_cm2xmlrpc.png" src="_images/export_cm2xmlrpc.png" />
+<p>Вызываемые функции:</p>
+<table border="1" class="docutils">
+<colgroup>
+<col width="23%" />
+<col width="28%" />
+<col width="49%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Функция</th>
+<th class="head">Действие</th>
+<th class="head">Параметры</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td>check_connection</td>
+<td>Проверка подключения</td>
+<td><p class="first">Входные:</p>
+<ul class="simple">
+<li>нет</li>
+</ul>
+<p>Выходные:</p>
+<ul class="last simple">
+<li>result(boolean) - результат</li>
+</ul>
+</td>
+</tr>
+<tr class="row-odd"><td>new_article</td>
+<td>Добавление статьи</td>
+<td><p class="first">Входные:</p>
+<ul class="simple">
+<li>parent(str) - заголовок категории</li>
+<li>title(str) - заголовок статьи</li>
+<li>text(str) - текст статьи</li>
+<li>tags(array) - список тегов</li>
+<li>date(date) - дата публикации</li>
+</ul>
+<p>Выходные:</p>
+<ul class="last simple">
+<li>result(boolean) - результат</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+<p>Пример сервера.</p>
+<div class="highlight-python"><div class="highlight"><pre><span class="c">#!/usr/bin/env python</span>
+<span class="c"># -*- coding: UTF-8 -*-</span>
+
+<span class="n">__author__</span> <span class="o">=</span> <span class="s">&quot;snoa&quot;</span>
+
+<span class="kn">from</span> <span class="nn">SimpleXMLRPCServer</span> <span class="kn">import</span> <span class="n">SimpleXMLRPCServer</span>
+<span class="kn">import</span> <span class="nn">xmlrpclib</span>
+<span class="kn">import</span> <span class="nn">logging</span>
+
+<span class="n">log</span> <span class="o">=</span> <span class="n">logging</span><span class="o">.</span><span class="n">getLogger</span><span class="p">(</span><span class="n">__name__</span><span class="p">)</span>
+
+<span class="k">def</span> <span class="nf">new_article</span><span class="p">(</span><span class="n">parent</span><span class="p">,</span> <span class="n">title</span><span class="p">,</span> <span class="n">text</span><span class="p">,</span> <span class="n">tags</span><span class="p">,</span> <span class="n">pubdate</span><span class="p">):</span>
+    <span class="n">log</span><span class="o">.</span><span class="n">debug</span><span class="p">(</span><span class="s">&quot;&quot;&quot;NEW ARTICLE</span>
+<span class="s">    title:   </span><span class="si">%s</span><span class="s"></span>
+<span class="s">    parent:  </span><span class="si">%s</span><span class="s"></span>
+<span class="s">    textlen: </span><span class="si">%i</span><span class="s"></span>
+<span class="s">    tags:    </span><span class="si">%i</span><span class="s"></span>
+<span class="s">    pubdate: </span><span class="si">%s</span><span class="s"></span>
+<span class="s">    &quot;&quot;&quot;</span><span class="p">,</span> <span class="n">title</span><span class="p">,</span> <span class="n">parent</span><span class="p">,</span> <span class="nb">len</span><span class="p">(</span><span class="n">text</span><span class="p">),</span> <span class="nb">len</span><span class="p">(</span><span class="n">tags</span><span class="p">),</span> <span class="n">pubdate</span><span class="p">)</span>
+    <span class="k">return</span> <span class="bp">True</span>
+
+<span class="k">def</span> <span class="nf">check_connection</span><span class="p">():</span>
+    <span class="k">return</span> <span class="bp">True</span>
+
+<span class="n">server</span> <span class="o">=</span> <span class="n">SimpleXMLRPCServer</span><span class="p">((</span><span class="s">&quot;localhost&quot;</span><span class="p">,</span> <span class="mi">8000</span><span class="p">))</span>
+<span class="n">log</span><span class="o">.</span><span class="n">debug</span><span class="p">(</span><span class="s">&quot;Listening on port 8000...&quot;</span><span class="p">)</span>
+<span class="n">server</span><span class="o">.</span><span class="n">register_function</span><span class="p">(</span><span class="n">check_connection</span><span class="p">)</span>
+<span class="n">server</span><span class="o">.</span><span class="n">register_function</span><span class="p">(</span><span class="n">new_article</span><span class="p">)</span>
+<span class="n">server</span><span class="o">.</span><span class="n">serve_forever</span><span class="p">()</span>
+</pre></div>
+</div>
+<div class="admonition note">
+<p class="first admonition-title">Примечание</p>
+<p class="last">Протестировать подключение вы можете кнопкой Apply.</p>
+</div>
+</div>
+<div class="section" id="id3">
+<h4>Экспорт текстовых файлов<a class="headerlink" href="#id3" title="Ссылка на этот заголовок">¶</a></h4>
+<p>Выгрузка статей в указанный каталог</p>
+</div>
+<div class="section" id="ucoz">
+<h4>Публикация материалов в UCOZ<a class="headerlink" href="#ucoz" title="Ссылка на этот заголовок">¶</a></h4>
+<p>Выгрузка статей в указанную категорию новостей</p>
+<img alt="_images/export_ucoz.png" src="_images/export_ucoz.png" />
+<p>Для побликации в другие компоненты смотрите исходный код.</p>
+<img alt="_images/export_ucoz2.png" src="_images/export_ucoz2.png" />
+<div class="admonition warning">
+<p class="first admonition-title">Предупреждение</p>
+<p class="last">При публикации большого количества материалов возможны санкции.</p>
+</div>
+<div class="admonition note">
+<p class="first admonition-title">Примечание</p>
+<ul class="last simple">
+<li>На сайте должен активирован модуль &#8220;новости сайта&#8221; и туда добавлена категория.(thx Dendroid)</li>
+<li>На сайте после авторизации долна быть доступна страница &#8220;/news/0-0-0-0-1&#8221;</li>
+</ul>
+</div>
+</div>
+<div class="section" id="maxsite-cms">
+<h4>Экспорт в MaxSite CMS<a class="headerlink" href="#maxsite-cms" title="Ссылка на этот заголовок">¶</a></h4>
+<p>Выгрузка в формат демонстрационных данных: demo.sql</p>
+</div>
+<div class="section" id="rss-feed">
+<h4>Экспорт в RSS Feed<a class="headerlink" href="#rss-feed" title="Ссылка на этот заголовок">¶</a></h4>
+<p>Выгрузка в формат RSS Feed</p>
+<p>Экспортируемые поля:</p>
+<ul class="simple">
+<li>Заголовок</li>
+<li>Текст</li>
+<li>Дата публикации</li>
+</ul>
+</div>
+<div class="section" id="datalife-engine-9-0">
+<h4>Экспорт в Datalife Engine 9.0<a class="headerlink" href="#datalife-engine-9-0" title="Ссылка на этот заголовок">¶</a></h4>
+<p>Выгрузка в DLE 9.0 SQL</p>
+<div class="admonition note">
+<p class="first admonition-title">Примечание</p>
+<p class="last">Если вы используете базу в cp1251, то для импорта sql-файла используйте mysql с параметром &#8211;default-character-set utf8. Вот примерно так: <em>mysql &#8211;default-character-set utf8 -b dle9 &lt;dle90.sql</em></p>
+</div>
+<dl class="glossary docutils">
+<dt id="term-">Экспорт</dt>
+<dd>Выгрузка статей в различны форматы и CMS</dd>
+</dl>
+</div>
+</div>
+<span id="document-mysearch"></span><div class="section" id="id1">
+<h3>Поиск<a class="headerlink" href="#id1" title="Ссылка на этот заголовок">¶</a></h3>
+<div class="section" id="id2">
+<h4>Пакетный поиск<a class="headerlink" href="#id2" title="Ссылка на этот заголовок">¶</a></h4>
+<img alt="_images/search_findreplace.png" src="_images/search_findreplace.png" />
+<p>Поиск/замена ведутся по выделенным статьям(заголовок, вступление, текст), возможно использование регулярных выражений. При двойном щелчке на список замен, открывается указанная статья.</p>
+<div class="admonition note">
+<p class="first admonition-title">Примечание</p>
+<p class="last">Пример удаление ссылок из текстов от Susanin:
+Конкретно для чистки урлов, выбираете &#8220;Поиск и замена&#8221;:
+Поиск: (((file|news|nntp|telnet|http|ftp|https|ftps|sftp)://)|(www.))+(([a-zA-Z0-9._-]+.[a-zA-Z]{2,6})|([0-9]{1,3}.[0-9]{1,3}.[0-9]{1,3}.[0-9]{1,3}))(/[a-zA-Z0-9&amp;amp;%_./-~-]*)?
+Поставьте галку &#8220;Регулярное выражение&#8221;</p>
+</div>
+</div>
+<div class="section" id="id3">
+<h4>Найти в текущей статье<a class="headerlink" href="#id3" title="Ссылка на этот заголовок">¶</a></h4>
+<img alt="_images/search_find.png" src="_images/search_find.png" />
+<p>Поиск ведется по текущей статье и вступительному тексту, возможно использование регулярных выражений.</p>
+<dl class="glossary docutils">
+<dt id="term-">Поиск</dt>
+<dd>Поиск и замена фрагментов текста в статьях</dd>
+</dl>
+</div>
+</div>
+<span id="document-articles"></span><div class="section" id="id1">
+<h3>Статья<a class="headerlink" href="#id1" title="Ссылка на этот заголовок">¶</a></h3>
+<p>Обработка одной статьи</p>
+<div class="section" id="id2">
+<h4>Добавить вступление<a class="headerlink" href="#id2" title="Ссылка на этот заголовок">¶</a></h4>
+<p>Добавляет вступление к статье. Если выбран текст, то копирует его в поле вступления.</p>
+</div>
+<div class="section" id="id3">
+<h4>Разделить на две<a class="headerlink" href="#id3" title="Ссылка на этот заголовок">¶</a></h4>
+<p>Разделяет статью на две по позиции курсора. В качестве заголовка второй статьи берется предложение(до точки) от позиции курсора.</p>
+</div>
+<div class="section" id="id4">
+<h4>Автонарезка<a class="headerlink" href="#id4" title="Ссылка на этот заголовок">¶</a></h4>
+<p>Нарезка текущей статьи на категории/статьи.</p>
+<img alt="_images/articles_autosplit.png" src="_images/articles_autosplit.png" />
+<p>Количество статей в категории выбирается случайно из заданного промежутка для каждой категории отдельно. Разбивка, по умолчанию, идет по предложениям(см. регулярное выражение). Название категории - соответствует названию первой статьи.</p>
+</div>
+<div class="section" id="id5">
+<h4>Проверка орфографии<a class="headerlink" href="#id5" title="Ссылка на этот заголовок">¶</a></h4>
+<p>Проводит проверку орфографии в текущем окне редактора.</p>
+<img alt="_images/articles_spell.png" src="_images/articles_spell.png" />
+<p>Доступны следующие языки:</p>
+<ul class="simple">
+<li>Русский</li>
+<li>Английский</li>
+<li>Немецкий</li>
+</ul>
+</div>
+<div class="section" id="html">
+<h4>Вставка HTML тегов<a class="headerlink" href="#html" title="Ссылка на этот заголовок">¶</a></h4>
+<p>Добавляет вокруг выделенного текста указанный тег.</p>
+<ul class="simple">
+<li>Bold</li>
+<li>Italic</li>
+<li>Underline</li>
+<li>Strong</li>
+<li>Emphasis</li>
+<li>Link</li>
+<li>Image</li>
+<li>Unordered List</li>
+<li>List element</li>
+<li>Paragraph</li>
+<li>Break line</li>
+</ul>
+</div>
+<div class="section" id="id6">
+<h4>Рерайтер<a class="headerlink" href="#id6" title="Ссылка на этот заголовок">¶</a></h4>
+<p>Рерайтер текста.</p>
+<img alt="_images/articles_rewriter.png" src="_images/articles_rewriter.png" />
+<p>Содержит базу <em>русской</em> морфологии и тезаурус.</p>
+<div class="admonition note">
+<p class="first admonition-title">Примечание</p>
+<p class="last">Процесс определения формы слова довольно нетривиален, поэтому возможны ошибки при генерации по тезаурусу. В этом случае исправьте термин вручную.</p>
+</div>
+<dl class="glossary docutils">
+<dt id="term-">Статья</dt>
+<dd>Статья - страница</dd>
+</dl>
+</div>
+</div>
+<span id="document-process"></span><div class="section" id="id1">
+<h3>Обработка<a class="headerlink" href="#id1" title="Ссылка на этот заголовок">¶</a></h3>
+<div class="admonition note">
+<p class="first admonition-title">Примечание</p>
+<p class="last">Если статьи не выбраны то обрабатываются все статьи.
+Выбрать все статьи можно сочетанием клавиш <strong>Ctrl+A</strong></p>
+</div>
+<div class="section" id="id2">
+<h4>Переименование файлов изображений<a class="headerlink" href="#id2" title="Ссылка на этот заголовок">¶</a></h4>
+<p>Плагин переименовывает файлы изображений в указанном каталоге.
+см. <a class="reference external" href="http://content-monster.com/tutor/renamer.html">урок работы с плагином</a></p>
+</div>
+<div class="section" id="id4">
+<h4>Случайная дата<a class="headerlink" href="#id4" title="Ссылка на этот заголовок">¶</a></h4>
+<p>Устанавливает для статьи случайную дату из указанного диапазона.</p>
+<img alt="_images/process_randomdates.png" src="_images/process_randomdates.png" />
+<p>Если отключено <strong>Пермешивать</strong> то статьи публикуются в порядке указанном в программе</p>
+</div>
+<div class="section" id="id5">
+<h4>Генерация заголовков статей<a class="headerlink" href="#id5" title="Ссылка на этот заголовок">¶</a></h4>
+<p>Генерация заголовков из фрагмента текста до <em>разделителя</em>. При необходимости проводиться небольшая уникализации удалением <em>прилагательных</em>.</p>
+<img alt="_images/process_autotitles.png" src="_images/process_autotitles.png" />
+<p>Используются словари словоформ на трех языках(ru/en/de).</p>
+</div>
+<div class="section" id="id6">
+<h4>Обработка заголовков статей<a class="headerlink" href="#id6" title="Ссылка на этот заголовок">¶</a></h4>
+<p>Очистка заголовков статей от HTML тегов, изменение длины, исправление регистра букв(Капитализация).</p>
+<img alt="_images/process_titleclean.png" src="_images/process_titleclean.png" />
+</div>
+<div class="section" id="id7">
+<h4>Очистка страниц<a class="headerlink" href="#id7" title="Ссылка на этот заголовок">¶</a></h4>
+<p>Обработка страниц, удаление лишних пробелов, запрещенных HTML тегов.</p>
+<img alt="_images/process_textclean.png" src="_images/process_textclean.png" />
+<div class="admonition note">
+<p class="first admonition-title">Примечание</p>
+<p class="last">Очистка заголовков удаляет все теги</p>
+</div>
+</div>
+<div class="section" id="id8">
+<h4>Вставка изображений<a class="headerlink" href="#id8" title="Ссылка на этот заголовок">¶</a></h4>
+<p>Вставка ссылок на изображения из указанного каталога.</p>
+<img alt="_images/process_insertimages.png" src="_images/process_insertimages.png" />
+<p>Вставка ссылок на изображения происходит циклически. В качестве атрибутов ALT и TITLE тега IMG указывается заголовок статьи. Возможно добавление своего атрибута CLASS для управления стилями.</p>
+<div class="admonition note">
+<p class="first admonition-title">Примечание</p>
+<p class="last">В названиях изображений допустимы только цифры и латинские буквы.</p>
+</div>
+</div>
+<div class="section" id="id9">
+<h4>Замена синонимов<a class="headerlink" href="#id9" title="Ссылка на этот заголовок">¶</a></h4>
+<p>Обработка текста с использованием словарей YASyn.</p>
+<img alt="_images/process_syno.png" src="_images/process_syno.png" />
+<p>Есть встроенный словарь на 80000 словоформ. Возможно использование стоп-слов.</p>
+</div>
+<div class="section" id="id10">
+<h4>Автометки<a class="headerlink" href="#id10" title="Ссылка на этот заголовок">¶</a></h4>
+<p>Автоматическая генерация меток для статей на основе стеммера.</p>
+<img alt="_images/process_autotags.png" src="_images/process_autotags.png" />
+<p>Работа с тремя языками, русским, английским и немецким. Импорт списка меток в формате Wordpress Translator.</p>
+<p>Для работы необходимо выполнить следующие шаги:</p>
+<ul class="simple">
+<li>Генерация лемм с указанной длиной и частотой вхождений</li>
+<li>Удаление лишних, дописывание окончаний слов</li>
+<li>Запуск обработки статей</li>
+</ul>
+</div>
+<div class="section" id="id11">
+<h4>Вступительный текст<a class="headerlink" href="#id11" title="Ссылка на этот заголовок">¶</a></h4>
+<p>Генерация вступительного текста к статье из текста.</p>
+<img alt="_images/process_genintro.png" src="_images/process_genintro.png" />
+<p>Возможно указание длины вступительного текста и необходимость очистки тегов.</p>
+</div>
+<div class="section" id="id12">
+<h4>Вставка ссылок<a class="headerlink" href="#id12" title="Ссылка на этот заголовок">¶</a></h4>
+<p>Вставка ссылок с статью</p>
+<img alt="_images/process_insertlinks.png" src="_images/process_insertlinks.png" />
+<p>Возможно чтение ссылок из текстового файла(TXT) и карты сайта(XML, XML.GZ). Так-же можно указать либо количество ссылок на статью, либо равномерное распределение всех ссылок по статьям.</p>
+</div>
+<div class="section" id="id13">
+<h4>Циклическая вставка строк в статьи<a class="headerlink" href="#id13" title="Ссылка на этот заголовок">¶</a></h4>
+<p>Плагин вставки строк в статьи.</p>
+<img alt="_images/process_cycleinsert.png" src="_images/process_cycleinsert.png" />
+<p>Вставка возможна в начале статьи, в конце или с использованием регулярного выражения.</p>
+</div>
+<div class="section" id="php">
+<h4>PHP плагин &#8220;Зачистка контента&#8221;<a class="headerlink" href="#php" title="Ссылка на этот заголовок">¶</a></h4>
+<div class="highlight-php"><div class="highlight"><pre><span class="cp">&lt;?php</span>
+<span class="k">require_once</span> <span class="s1">&#39;strip_tags_smart.php&#39;</span><span class="p">;</span>
+<span class="k">require_once</span> <span class="s1">&#39;html_paragraph.php&#39;</span><span class="p">;</span>
+
+<span class="k">print</span><span class="p">(</span><span class="s2">&quot;Обрабатываем &lt;b&gt;</span><span class="si">$title</span><span class="s2">&lt;/b&gt;&quot;</span><span class="p">);</span>
+<span class="nv">$text</span> <span class="o">=</span> <span class="nx">html_paragraph</span><span class="p">(</span><span class="nx">strip_tags_smart</span> <span class="p">(</span><span class="nv">$text</span><span class="p">));</span>
+
+<span class="cp">?&gt;</span><span class="x"></span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="id14">
+<h4>PHP плагин &#8220;Удаление вложенных и непарных тэгов&#8221;<a class="headerlink" href="#id14" title="Ссылка на этот заголовок">¶</a></h4>
+<div class="highlight-php"><div class="highlight"><pre><span class="cp">&lt;?php</span>
+<span class="k">require_once</span> <span class="s1">&#39;html_tags_normalize.php&#39;</span><span class="p">;</span>
+<span class="k">print</span><span class="p">(</span><span class="s2">&quot;Обрабатываем &lt;b&gt;</span><span class="si">$title</span><span class="s2">&lt;/b&gt;&quot;</span><span class="p">);</span>
+<span class="nv">$text</span> <span class="o">=</span> <span class="nx">html_tags_normalize</span> <span class="p">(</span><span class="nv">$text</span><span class="p">,</span><span class="nv">$NoDeleteError</span><span class="p">,</span><span class="nv">$DeleteError</span><span class="p">);</span>
+<span class="nv">$NoDelet</span><span class="o">=</span><span class="nb">count</span><span class="p">(</span><span class="nv">$NoDeleteError</span><span class="p">);</span>
+<span class="nv">$Delet</span><span class="o">=</span><span class="nb">count</span><span class="p">(</span><span class="nv">$DeleteError</span><span class="p">);</span>
+<span class="k">print</span><span class="p">(</span> <span class="s2">&quot;Исправлено:</span><span class="si">$Delet</span><span class="s2">, неисправлено:</span><span class="si">$NoDelet</span><span class="s2"> ошиб.&quot;</span> <span class="p">);</span>
+<span class="k">if</span> <span class="p">(</span><span class="nv">$NoDelet</span> <span class="o">!=</span> <span class="m">0</span><span class="p">)</span>
+<span class="p">{</span>
+  <span class="k">for</span> <span class="p">(</span><span class="nv">$i</span><span class="o">=</span><span class="m">0</span><span class="p">;</span> <span class="nv">$i</span><span class="o">&lt;</span><span class="nv">$NoDelet</span><span class="p">;</span> <span class="nv">$i</span><span class="o">++</span><span class="p">)</span>
+  <span class="p">{</span>
+    <span class="nv">$myNoDeleteError</span> <span class="o">=</span><span class="nv">$NoDeleteError</span><span class="p">[</span><span class="nv">$i</span><span class="p">];</span>
+    <span class="k">print</span> <span class="p">(</span><span class="s2">&quot;&lt;b&gt;Ошибка $1&lt;/b&gt; - </span><span class="si">$myNoDeleteError</span><span class="s2">&quot;</span><span class="p">);</span>
+    <span class="p">}</span>
+  <span class="p">}</span>
+<span class="cp">?&gt;</span><span class="x"></span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="id15">
+<h4>Проверка уникальности статей<a class="headerlink" href="#id15" title="Ссылка на этот заголовок">¶</a></h4>
+<p>Диалог проверки статей на уникальность.</p>
+<p>Настройка параметров проверки</p>
+<img alt="_images/process_unic1.png" src="_images/process_unic1.png" />
+<p>Окно соответствий</p>
+<img alt="_images/process_unic2.png" src="_images/process_unic2.png" />
+<p>Проверка содержимого</p>
+<img alt="_images/process_unic3.png" src="_images/process_unic3.png" />
+</div>
+<div class="section" id="id16">
+<h4>Гобонизация<a class="headerlink" href="#id16" title="Ссылка на этот заголовок">¶</a></h4>
+<p>Плагин вставки Gobo Tooltip.</p>
+<img alt="_images/process_gobo.png" src="_images/process_gobo.png" />
+<div class="admonition note">
+<p class="first admonition-title">Примечание</p>
+<p class="last">Необходимы базы в gob или ods формате</p>
+</div>
+</div>
+<div class="section" id="id17">
+<h4>PHP плагин &#8220;Расстановка русских кавычек&#8221;<a class="headerlink" href="#id17" title="Ссылка на этот заголовок">¶</a></h4>
+<div class="highlight-php"><div class="highlight"><pre><span class="cp">&lt;?php</span>
+<span class="k">require_once</span> <span class="s1">&#39;kawychka_function.php&#39;</span><span class="p">;</span>
+
+<span class="k">print</span><span class="p">(</span><span class="s2">&quot;Start &lt;b&gt;</span><span class="si">$title</span><span class="s2">&lt;/b&gt;&quot;</span><span class="p">);</span>
+<span class="nv">$text</span> <span class="o">=</span> <span class="nx">kavych</span><span class="p">(</span><span class="nv">$text</span><span class="p">);</span>
+<span class="nv">$title</span> <span class="o">=</span> <span class="nx">kavych</span><span class="p">(</span><span class="nv">$title</span><span class="p">);</span>
+<span class="nv">$intro</span> <span class="o">=</span> <span class="nx">kavych</span><span class="p">(</span><span class="nv">$intro</span><span class="p">);</span>
+<span class="k">print</span><span class="p">(</span><span class="s2">&quot;done&quot;</span><span class="p">);</span>
+<span class="cp">?&gt;</span><span class="x"></span>
+</pre></div>
+</div>
+<dl class="glossary docutils">
+<dt id="term-">Обработка</dt>
+<dd>Различная обработка указанных статей</dd>
+</dl>
+</div>
+</div>
+<span id="document-other"></span><div class="section" id="id1">
+<h3>Разное<a class="headerlink" href="#id1" title="Ссылка на этот заголовок">¶</a></h3>
+<p>Различные дополнительные функции</p>
+<div class="section" id="id2">
+<h4>Статистика<a class="headerlink" href="#id2" title="Ссылка на этот заголовок">¶</a></h4>
+<img alt="_images/other_statistic.png" src="_images/other_statistic.png" />
+<p>Вывод общей информации по статьям</p>
+</div>
+<div class="section" id="youtube">
+<h4>Утилита получения ссылок на YouTube видео<a class="headerlink" href="#youtube" title="Ссылка на этот заголовок">¶</a></h4>
+<img alt="_images/youtube_utilite.png" src="_images/youtube_utilite.png" />
+<p>Возвращает список из указанного количества ссылок на видео по запросу.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="index.html#document-index">Оглавление</a></h3>
+  <ul>
+<li class="toctree-l1"><a class="reference internal" href="index.html#document-changes">Список изменений</a></li>
+<li class="toctree-l1"><a class="reference internal" href="index.html#document-roadmap">Дальнейшее развитие</a></li>
+<li class="toctree-l1"><a class="reference internal" href="index.html#document-faq">Часто задаваемые вопросы</a></li>
+<li class="toctree-l1"><a class="reference internal" href="index.html#document-links">Ссылки</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="index.html#document-import">Импорт</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="index.html#csv">CSV генератор</a></li>
+<li class="toctree-l2"><a class="reference internal" href="index.html#id2">Универсальный парсер</a></li>
+<li class="toctree-l2"><a class="reference internal" href="index.html#cms-simple">CMS Simple</a></li>
+<li class="toctree-l2"><a class="reference internal" href="index.html#wordpress-xml">Wordpress XML</a></li>
+<li class="toctree-l2"><a class="reference internal" href="index.html#articlesbase-rusarticle">Парсер статей articlesbase/rusarticle</a></li>
+<li class="toctree-l2"><a class="reference internal" href="index.html#txt-html">Каталог TXT и HTML файлов(плагин)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="index.html#rss-feed">RSS Feed</a></li>
+<li class="toctree-l2"><a class="reference internal" href="index.html#id3">Генератор текста &#8220;цепями Маркова&#8221;</a></li>
+<li class="toctree-l2"><a class="reference internal" href="index.html#advego-xml">Advego XML</a></li>
+<li class="toctree-l2"><a class="reference internal" href="index.html#rss-atom">Импорт страниц сайтов по ссылкам из RSS/Atom</a></li>
+<li class="toctree-l2"><a class="reference internal" href="index.html#php">Импорт на PHP</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="index.html#document-export">Экспорт</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="index.html#cms-simple">CMS Simple</a></li>
+<li class="toctree-l2"><a class="reference internal" href="index.html#wordpress-xml">WordPress XML</a></li>
+<li class="toctree-l2"><a class="reference internal" href="index.html#wordpress-xml-rpc-wp-metaweblog">WordPress XML-RPC(WP/metaWeblog)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="index.html#joomla-1-5">Joomla 1.5</a></li>
+<li class="toctree-l2"><a class="reference internal" href="index.html#datalife-engine-8">Datalife Engine 8</a></li>
+<li class="toctree-l2"><a class="reference internal" href="index.html#zebrum-lite">Zebrum Lite</a></li>
+<li class="toctree-l2"><a class="reference internal" href="index.html#id2">Статичный сайт</a></li>
+<li class="toctree-l2"><a class="reference internal" href="index.html#livejournal-com">Livejournal.com</a></li>
+<li class="toctree-l2"><a class="reference internal" href="index.html#blogger-com">Blogger.com</a></li>
+<li class="toctree-l2"><a class="reference internal" href="index.html#content-monster-2-xml-prc">Content Monster 2 XML-PRC</a></li>
+<li class="toctree-l2"><a class="reference internal" href="index.html#id3">Экспорт текстовых файлов</a></li>
+<li class="toctree-l2"><a class="reference internal" href="index.html#ucoz">Публикация материалов в UCOZ</a></li>
+<li class="toctree-l2"><a class="reference internal" href="index.html#maxsite-cms">Экспорт в MaxSite CMS</a></li>
+<li class="toctree-l2"><a class="reference internal" href="index.html#rss-feed">Экспорт в RSS Feed</a></li>
+<li class="toctree-l2"><a class="reference internal" href="index.html#datalife-engine-9-0">Экспорт в Datalife Engine 9.0</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="index.html#document-mysearch">Поиск</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="index.html#id2">Пакетный поиск</a></li>
+<li class="toctree-l2"><a class="reference internal" href="index.html#id3">Найти в текущей статье</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="index.html#document-articles">Статья</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="index.html#id2">Добавить вступление</a></li>
+<li class="toctree-l2"><a class="reference internal" href="index.html#id3">Разделить на две</a></li>
+<li class="toctree-l2"><a class="reference internal" href="index.html#id4">Автонарезка</a></li>
+<li class="toctree-l2"><a class="reference internal" href="index.html#id5">Проверка орфографии</a></li>
+<li class="toctree-l2"><a class="reference internal" href="index.html#html">Вставка HTML тегов</a></li>
+<li class="toctree-l2"><a class="reference internal" href="index.html#id6">Рерайтер</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="index.html#document-process">Обработка</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="index.html#id2">Переименование файлов изображений</a></li>
+<li class="toctree-l2"><a class="reference internal" href="index.html#id4">Случайная дата</a></li>
+<li class="toctree-l2"><a class="reference internal" href="index.html#id5">Генерация заголовков статей</a></li>
+<li class="toctree-l2"><a class="reference internal" href="index.html#id6">Обработка заголовков статей</a></li>
+<li class="toctree-l2"><a class="reference internal" href="index.html#id7">Очистка страниц</a></li>
+<li class="toctree-l2"><a class="reference internal" href="index.html#id8">Вставка изображений</a></li>
+<li class="toctree-l2"><a class="reference internal" href="index.html#id9">Замена синонимов</a></li>
+<li class="toctree-l2"><a class="reference internal" href="index.html#id10">Автометки</a></li>
+<li class="toctree-l2"><a class="reference internal" href="index.html#id11">Вступительный текст</a></li>
+<li class="toctree-l2"><a class="reference internal" href="index.html#id12">Вставка ссылок</a></li>
+<li class="toctree-l2"><a class="reference internal" href="index.html#id13">Циклическая вставка строк в статьи</a></li>
+<li class="toctree-l2"><a class="reference internal" href="index.html#php">PHP плагин &#8220;Зачистка контента&#8221;</a></li>
+<li class="toctree-l2"><a class="reference internal" href="index.html#id14">PHP плагин &#8220;Удаление вложенных и непарных тэгов&#8221;</a></li>
+<li class="toctree-l2"><a class="reference internal" href="index.html#id15">Проверка уникальности статей</a></li>
+<li class="toctree-l2"><a class="reference internal" href="index.html#id16">Гобонизация</a></li>
+<li class="toctree-l2"><a class="reference internal" href="index.html#id17">PHP плагин &#8220;Расстановка русских кавычек&#8221;</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="index.html#document-other">Разное</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="index.html#id2">Статистика</a></li>
+<li class="toctree-l2"><a class="reference internal" href="index.html#youtube">Утилита получения ссылок на YouTube видео</a></li>
+</ul>
+</li>
+</ul>
+
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related">
+      <h3>Просмотр</h3>
+      <ul>
+        <li><a href="index.html#document-index">Документация CM2 TreeEdit 1.3.9</a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer">
+        &copy; Copyright 2010, DrMax &amp; sNOa.
+      Создано с помощью <a href="http://sphinx-doc.org/">Sphinx</a> 1.2.1.
+    </div>
+  </body>
+</html>

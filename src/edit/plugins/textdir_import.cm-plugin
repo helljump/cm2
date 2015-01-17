@@ -1,0 +1,3 @@
+[Core]
+Name = Импорт каталога текстовых файлов
+Module = textdir_import

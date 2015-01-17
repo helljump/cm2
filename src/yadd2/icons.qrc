@@ -1,0 +1,16 @@
+<RCC>
+  <qresource prefix="/">
+    <file>../../../../icons/fatcow-hosting-icons-1700/32x32/cog_go.png</file>
+    <file>../../../../icons/fatcow-hosting-icons-1700/32x32/google.png</file>
+    <file>../../../../icons/fatcow-hosting-icons-1700/32x32/filter.png</file>
+    <file>../../../../icons/fatcow-hosting-icons-1700/32x32/page_world.png</file>
+    <file>../../../../icons/fatcow-hosting-icons-1700/32x32/add.png</file>
+    <file>../../../../icons/fatcow-hosting-icons-1700/16x16/add.png</file>
+    <file>../../../../icons/fatcow-hosting-icons-1700/32x32/delete.png</file>
+    <file>../../../../icons/fatcow-hosting-icons-1700/32x32/world_edit.png</file>
+    <file>../../../../icons/fatcow-hosting-icons-1700/32x32/page_white_put.png</file>
+    <file>../../../../icons/fatcow-hosting-icons-1700/16x16/accept.png</file>
+    <file>../../../../icons/fatcow-hosting-icons-1700/32x32/cart_remove.png</file>
+    <file>../../../../icons/fatcow-hosting-icons-1700/32x32/cart_put.png</file>
+  </qresource>
+</RCC>

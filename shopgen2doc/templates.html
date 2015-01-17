@@ -1,0 +1,1443 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ru" lang="ru">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="generator" content="Docutils 0.11: http://docutils.sourceforge.net/" />
+<title>Язык шаблонов Content Monster 3</title>
+<style type="text/css">
+
+/*
+:Author: David Goodger (goodger@python.org)
+:Id: $Id: html4css1.css 7614 2013-02-21 15:55:51Z milde $
+:Copyright: This stylesheet has been placed in the public domain.
+
+Default cascading style sheet for the HTML output of Docutils.
+
+See http://docutils.sf.net/docs/howto/html-stylesheets.html for how to
+customize this style sheet.
+*/
+
+/* used to remove borders from tables and images */
+.borderless, table.borderless td, table.borderless th {
+  border: 0 }
+
+table.borderless td, table.borderless th {
+  /* Override padding for "table.docutils td" with "! important".
+     The right padding separates the table cells. */
+  padding: 0 0.5em 0 0 ! important }
+
+.first {
+  /* Override more specific margin styles with "! important". */
+  margin-top: 0 ! important }
+
+.last, .with-subtitle {
+  margin-bottom: 0 ! important }
+
+.hidden {
+  display: none }
+
+a.toc-backref {
+  text-decoration: none ;
+  color: black }
+
+blockquote.epigraph {
+  margin: 2em 5em ; }
+
+dl.docutils dd {
+  margin-bottom: 0.5em }
+
+object[type="image/svg+xml"], object[type="application/x-shockwave-flash"] {
+  overflow: hidden;
+}
+
+/* Uncomment (and remove this text!) to get bold-faced definition list terms
+dl.docutils dt {
+  font-weight: bold }
+*/
+
+div.abstract {
+  margin: 2em 5em }
+
+div.abstract p.topic-title {
+  font-weight: bold ;
+  text-align: center }
+
+div.admonition, div.attention, div.caution, div.danger, div.error,
+div.hint, div.important, div.note, div.tip, div.warning {
+  margin: 2em ;
+  border: medium outset ;
+  padding: 1em }
+
+div.admonition p.admonition-title, div.hint p.admonition-title,
+div.important p.admonition-title, div.note p.admonition-title,
+div.tip p.admonition-title {
+  font-weight: bold ;
+  font-family: sans-serif }
+
+div.attention p.admonition-title, div.caution p.admonition-title,
+div.danger p.admonition-title, div.error p.admonition-title,
+div.warning p.admonition-title, .code .error {
+  color: red ;
+  font-weight: bold ;
+  font-family: sans-serif }
+
+/* Uncomment (and remove this text!) to get reduced vertical space in
+   compound paragraphs.
+div.compound .compound-first, div.compound .compound-middle {
+  margin-bottom: 0.5em }
+
+div.compound .compound-last, div.compound .compound-middle {
+  margin-top: 0.5em }
+*/
+
+div.dedication {
+  margin: 2em 5em ;
+  text-align: center ;
+  font-style: italic }
+
+div.dedication p.topic-title {
+  font-weight: bold ;
+  font-style: normal }
+
+div.figure {
+  margin-left: 2em ;
+  margin-right: 2em }
+
+div.footer, div.header {
+  clear: both;
+  font-size: smaller }
+
+div.line-block {
+  display: block ;
+  margin-top: 1em ;
+  margin-bottom: 1em }
+
+div.line-block div.line-block {
+  margin-top: 0 ;
+  margin-bottom: 0 ;
+  margin-left: 1.5em }
+
+div.sidebar {
+  margin: 0 0 0.5em 1em ;
+  border: medium outset ;
+  padding: 1em ;
+  background-color: #ffffee ;
+  width: 40% ;
+  float: right ;
+  clear: right }
+
+div.sidebar p.rubric {
+  font-family: sans-serif ;
+  font-size: medium }
+
+div.system-messages {
+  margin: 5em }
+
+div.system-messages h1 {
+  color: red }
+
+div.system-message {
+  border: medium outset ;
+  padding: 1em }
+
+div.system-message p.system-message-title {
+  color: red ;
+  font-weight: bold }
+
+div.topic {
+  margin: 2em }
+
+h1.section-subtitle, h2.section-subtitle, h3.section-subtitle,
+h4.section-subtitle, h5.section-subtitle, h6.section-subtitle {
+  margin-top: 0.4em }
+
+h1.title {
+  text-align: center }
+
+h2.subtitle {
+  text-align: center }
+
+hr.docutils {
+  width: 75% }
+
+img.align-left, .figure.align-left, object.align-left {
+  clear: left ;
+  float: left ;
+  margin-right: 1em }
+
+img.align-right, .figure.align-right, object.align-right {
+  clear: right ;
+  float: right ;
+  margin-left: 1em }
+
+img.align-center, .figure.align-center, object.align-center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.align-left {
+  text-align: left }
+
+.align-center {
+  clear: both ;
+  text-align: center }
+
+.align-right {
+  text-align: right }
+
+/* reset inner alignment in figures */
+div.align-right {
+  text-align: inherit }
+
+/* div.align-center * { */
+/*   text-align: left } */
+
+ol.simple, ul.simple {
+  margin-bottom: 1em }
+
+ol.arabic {
+  list-style: decimal }
+
+ol.loweralpha {
+  list-style: lower-alpha }
+
+ol.upperalpha {
+  list-style: upper-alpha }
+
+ol.lowerroman {
+  list-style: lower-roman }
+
+ol.upperroman {
+  list-style: upper-roman }
+
+p.attribution {
+  text-align: right ;
+  margin-left: 50% }
+
+p.caption {
+  font-style: italic }
+
+p.credits {
+  font-style: italic ;
+  font-size: smaller }
+
+p.label {
+  white-space: nowrap }
+
+p.rubric {
+  font-weight: bold ;
+  font-size: larger ;
+  color: maroon ;
+  text-align: center }
+
+p.sidebar-title {
+  font-family: sans-serif ;
+  font-weight: bold ;
+  font-size: larger }
+
+p.sidebar-subtitle {
+  font-family: sans-serif ;
+  font-weight: bold }
+
+p.topic-title {
+  font-weight: bold }
+
+pre.address {
+  margin-bottom: 0 ;
+  margin-top: 0 ;
+  font: inherit }
+
+pre.literal-block, pre.doctest-block, pre.math, pre.code {
+  margin-left: 2em ;
+  margin-right: 2em }
+
+pre.code .ln { color: grey; } /* line numbers */
+pre.code, code { background-color: #eeeeee }
+pre.code .comment, code .comment { color: #5C6576 }
+pre.code .keyword, code .keyword { color: #3B0D06; font-weight: bold }
+pre.code .literal.string, code .literal.string { color: #0C5404 }
+pre.code .name.builtin, code .name.builtin { color: #352B84 }
+pre.code .deleted, code .deleted { background-color: #DEB0A1}
+pre.code .inserted, code .inserted { background-color: #A3D289}
+
+span.classifier {
+  font-family: sans-serif ;
+  font-style: oblique }
+
+span.classifier-delimiter {
+  font-family: sans-serif ;
+  font-weight: bold }
+
+span.interpreted {
+  font-family: sans-serif }
+
+span.option {
+  white-space: nowrap }
+
+span.pre {
+  white-space: pre }
+
+span.problematic {
+  color: red }
+
+span.section-subtitle {
+  /* font-size relative to parent (h1..h6 element) */
+  font-size: 80% }
+
+table.citation {
+  border-left: solid 1px gray;
+  margin-left: 1px }
+
+table.docinfo {
+  margin: 2em 4em }
+
+table.docutils {
+  margin-top: 0.5em ;
+  margin-bottom: 0.5em }
+
+table.footnote {
+  border-left: solid 1px black;
+  margin-left: 1px }
+
+table.docutils td, table.docutils th,
+table.docinfo td, table.docinfo th {
+  padding-left: 0.5em ;
+  padding-right: 0.5em ;
+  vertical-align: top }
+
+table.docutils th.field-name, table.docinfo th.docinfo-name {
+  font-weight: bold ;
+  text-align: left ;
+  white-space: nowrap ;
+  padding-left: 0 }
+
+/* "booktabs" style (no vertical lines) */
+table.docutils.booktabs {
+  border: 0px;
+  border-top: 2px solid;
+  border-bottom: 2px solid;
+  border-collapse: collapse;
+}
+table.docutils.booktabs * {
+  border: 0px;
+}
+table.docutils.booktabs th {
+  border-bottom: thin solid;
+  text-align: left;
+}
+
+h1 tt.docutils, h2 tt.docutils, h3 tt.docutils,
+h4 tt.docutils, h5 tt.docutils, h6 tt.docutils {
+  font-size: 100% }
+
+ul.auto-toc {
+  list-style-type: none }
+
+</style>
+</head>
+<body>
+<div class="header">
+Язык шаблонов Content Monster 3 <a class="footnote-reference" href="#id26" id="id1">[1]</a>
+<hr class="header"/>
+</div>
+<div class="document" id="content-monster-3">
+<h1 class="title">Язык шаблонов Content Monster 3</h1>
+
+<div class="section" id="id2">
+<h1>Основное предназначение</h1>
+<ol class="arabic simple">
+<li>Генерация уникального, 100% читабельного контента</li>
+<li>Генерация недостающего контента на сайте для внутренней перелинковки</li>
+<li>Создание разделов сайта для поднятия трафика</li>
+</ol>
+<div class="section" id="id3">
+<h2>Краткий обзор возможностей</h2>
+<p>Рассмотрим следующий блок:</p>
+<pre class="literal-block">
+{{ [&quot;Дата публикации&quot;,&quot;Дата&quot;]|choice }}
+</pre>
+<p>Фильтром <cite>choice</cite> мы выводим 1 значение из списка. Тем самым мы добиваемся уникальности этой строки в пределах сайта. Обязательно расширяйте список!</p>
+<p>Разберем еще один блок:</p>
+<pre class="literal-block">
+{{ [&quot;новый&quot;,&quot;свежий&quot;,&quot;интересный&quot;,&quot;забавный&quot;,&quot;&quot;,&quot;&quot;]|choice }}
+{{ [ [&quot;он лайн&quot;,&quot;онлайн&quot;,&quot;он-лайн&quot;,&quot;online&quot;,&quot;&quot;]|choice, [&quot;видео&quot;,&quot;&quot;]|choice, &quot;ролик&quot; ]|shuffle|join(&quot; &quot;) }}
+</pre>
+<p>Здесь нам интересен фильтр <cite>shuffle</cite>, который произвольно перемешивает список, при этом список в свою очередь порождается из случайно выбранных значений списка (вложенная функция <cite>choice</cite>).
+Далее список объединяется фильтром <cite>join(&quot; &quot;)</cite> через пробел.</p>
+<p>На выходе могут быть такие значения:</p>
+<pre class="literal-block">
+ролик видео онлайн
+он-лайн ролик видео
+интересный online  ролик
+забавный  ролик он-лайн
+</pre>
+<p>Таким образом, манипулируя темплейтом, можно получать уникальные тематические описания какого угодно размера и степени уникальности.</p>
+</div>
+<div class="section" id="id4">
+<h2>Синтаксис</h2>
+<p>Шаблонный язык для генерирования контента использует технологию Jinja2 <a class="footnote-reference" href="#id28" id="id5">[2]</a>.</p>
+<p>Применяются два типа разделителей. <tt class="docutils literal">{% ... %}</tt> и <tt class="docutils literal">{{ ... }}</tt>.  Первый, для
+блочных тегов, таких как <tt class="docutils literal">for</tt> и <tt class="docutils literal">if</tt>, второй, для переменных.</p>
+</div>
+<div class="section" id="id6">
+<h2>Переменные</h2>
+<p>Для доступа к атрибутам либо переменным используется точка (<tt class="docutils literal">.</tt>). Кроме того
+возможно использованием квадратных скобок (<tt class="docutils literal">[]</tt>). Следующие строки идентичны:</p>
+<pre class="literal-block">
+{{ foo.bar }}
+{{ foo['bar'] }}
+</pre>
+<p>Важно знать, что фигурные скобки не являются частью переменной, и для доступа к переменным
+из тегов, их указывать не требуется.</p>
+<p>Если переменная не определена, то при печати будет выведена пустая стока, а в цикле не
+будет выполнено ни одной итерации. Однако другие действия вызовут ошибку генерации шаблона.</p>
+<div class="note">
+<p class="first admonition-title">Примечание</p>
+<p>При обработке <tt class="docutils literal">foo.bar</tt>:</p>
+<ul class="simple">
+<li>ищется атрибут <cite>bar</cite> в <cite>foo</cite>.</li>
+<li>если не найдено, ищется как ключ <tt class="docutils literal">'bar'</tt> в <cite>foo</cite>.</li>
+<li>если не найдено, возвращается неопределённый объект.</li>
+</ul>
+<p><tt class="docutils literal"><span class="pre">foo['bar']</span></tt> поиск работает в ином порядке:</p>
+<ul class="simple">
+<li>ищется как ключ <tt class="docutils literal">'bar'</tt> в <cite>foo</cite>.</li>
+<li>если не найден, ищется атрибут <cite>bar</cite> в <cite>foo</cite>.</li>
+<li>если не найдено, возвращается неопределённый объект.</li>
+</ul>
+<p class="last">Порядок поиска важен в случае если объект имеет одинаковые значения ключа и атрибута.</p>
+</div>
+</div>
+</div>
+<div class="section" id="id8">
+<span id="id7"></span><h1>Встроенные фильтры</h1>
+<div class="section" id="abs-number">
+<h2>abs(number)</h2>
+<p>Возвращает абсолютное значение (модуль) аргумента.</p>
+<p>Пример:</p>
+<pre class="literal-block">
+{% set zlo = -40 %}
+{{ zlo|abs }}
+</pre>
+<p>Результат:</p>
+<pre class="literal-block">
+40
+</pre>
+</div>
+<div class="section" id="capitalize-s">
+<h2>capitalize(s)</h2>
+<p>Капитализирует переменную. Первый символ  будет заглавным. Остальные символы - строчными.</p>
+<p>Пример:</p>
+<pre class="literal-block">
+{% set zlo = &quot;А вот кто на новенького? ВСЕХ ЗАБАНЮ!&quot; %}
+{{ zlo|capitalize }}
+</pre>
+<p>Результат:</p>
+<pre class="literal-block">
+А вот кто на новенького? всех забаню!
+</pre>
+</div>
+<div class="section" id="center-value-width-80">
+<h2>center(value, width=80)</h2>
+<p>Размещает переменную в поле указанной длины</p>
+<p>Пример:</p>
+<pre class="literal-block">
+{% set zlo = &quot;А вот кто на новенького? ВСЕХ ЗАРЕЖУ!&quot; %}
+{{ zlo|center(100) }}
+{{ zlo|center (10)}}
+</pre>
+<p>Результат:</p>
+<pre class="literal-block">
+                           А вот кто на новенького? ВСЕХ ЗАРЕЖУ!
+А вот кто на новенького? ВСЕХ ЗАРЕЖУ!
+</pre>
+</div>
+<div class="section" id="default-value-default-value-u-boolean-false">
+<h2>default(value, default_value=u'', boolean=false)</h2>
+<p>Если переменная не определена, возвращает значение по умолчанию</p>
+<p>Пример:</p>
+<pre class="literal-block">
+{{ zlo|default('переменная не определена') }}
+{% set zlo = &quot;определяем переменную&quot; %}
+{{ zlo }}
+</pre>
+<p>Результат:</p>
+<pre class="literal-block">
+переменная не определена
+определяем переменную
+</pre>
+</div>
+<div class="section" id="filesizeformat-value-binary-false">
+<h2>filesizeformat(value, binary=false)</h2>
+<p>Форматирует числовое значение размера файла в читабельный вид (например 13 kB, 4.1 MB, 102 Bytes, и т.д.).</p>
+</div>
+<div class="section" id="first-seq">
+<h2>first(seq)</h2>
+<p>Возвращает первое значение последовательности, в том числе первую букву строки.</p>
+<p>Пример 1:</p>
+<pre class="literal-block">
+{% set zlo = &quot;3452&quot; %}
+{{ zlo|first }}
+</pre>
+<p>Результат:</p>
+<pre class="literal-block">
+3
+</pre>
+<p>Пример 2:</p>
+<pre class="literal-block">
+{{ [1,2,3]|first }}
+</pre>
+<p>Результат:</p>
+<pre class="literal-block">
+1
+</pre>
+</div>
+<div class="section" id="float-value-default-0-0">
+<h2>float(value, default=0.0)</h2>
+<p>Преобразует значение к числу с плавающей точкой. Если конвертирование не удается - возвращает 0.0</p>
+</div>
+<div class="section" id="format-value-args-kwargs">
+<h2>format(value, *args, **kwargs)</h2>
+<p>Форматирует строку в соответствии с правилами python:</p>
+<pre class="literal-block">
+{{ &quot;%s - %s&quot;|format(&quot;Hello?&quot;, &quot;Foo!&quot;) }}
+    -&gt; Hello? - Foo!
+</pre>
+</div>
+<div class="section" id="groupby-value-attribute">
+<h2>groupby(value, attribute)</h2>
+<p>Группирует список значений по указанному атрибуту.</p>
+<p>К примеру, если у вас есть список или словарь содержащий имя, фамилию и пол человека,
+посредством команды groupby этот список можно сгруппировать по полю <cite>gender</cite>, как в
+следующем примере:</p>
+<pre class="literal-block">
+&lt;ul&gt;
+{% for group in persons|groupby('gender') %}
+    &lt;li&gt;{{ group.grouper }}&lt;ul&gt;
+    {% for person in group.list %}
+        &lt;li&gt;{{ person.first_name }} {{ person.last_name }}&lt;/li&gt;
+    {% endfor %}&lt;/ul&gt;&lt;/li&gt;
+{% endfor %}
+&lt;/ul&gt;
+</pre>
+<p>Кроме того, кортеж можно сразу распаковать:</p>
+<pre class="literal-block">
+&lt;ul&gt;
+{% for grouper, list in persons|groupby('gender') %}
+    ...
+{% endfor %}
+&lt;/ul&gt;
+</pre>
+<div class="attention">
+<p class="first admonition-title">Внимание!</p>
+<p class="last">Список перед группировкой должен быть уже отсортирован по полю группировки.</p>
+</div>
+</div>
+<div class="section" id="indent-s-width-4-indentfirst-false">
+<h2>indent(s, width=4, indentfirst=false)</h2>
+<p>Возвращает текст где каждая строка, кроме первой, сдвинута вправо на указанное количество
+пробелов(по умолчанию 4). Если необходимо обработать все строки,
+укажите <cite>indentfirst=true</cite>:</p>
+<pre class="literal-block">
+{{ mytext|indent(2, true) }}
+    indent by two spaces and indent the first line too.
+</pre>
+</div>
+<div class="section" id="int-value-default-0">
+<h2>int(value, default=0)</h2>
+<p>Преобразовывает переменную к целочисленному виду. Если преобразование не удалось, возвращает 0.</p>
+</div>
+<div class="section" id="join-value-d-u-attribute-none">
+<h2>join(value, d=u'', attribute=None)</h2>
+<p>Возвращает строку, являющейся конкатенацией(сложением) строк в последовательности.
+По умолчанию, разделителем является пустая строка. Разделитель можно задать отдельно.</p>
+<p>Пример:</p>
+<pre class="literal-block">
+{{ [1, 2, 3]|join('|') }}
+</pre>
+<p>Результат:</p>
+<pre class="literal-block">
+1|2|3
+</pre>
+<p>Пример 2:</p>
+<pre class="literal-block">
+{{ [&quot;один&quot;, 2, 3]|join }}
+</pre>
+<p>Результат:</p>
+<pre class="literal-block">
+один23
+</pre>
+</div>
+<div class="section" id="last-seq">
+<h2>last(seq)</h2>
+<p>Возвращает последний элемент из последовательности.</p>
+<p>Пример:</p>
+<pre class="literal-block">
+{{ [1, 2, 3]|last }}
+</pre>
+<p>Результат:</p>
+<pre class="literal-block">
+3
+</pre>
+</div>
+<div class="section" id="length-object">
+<h2>length(object)</h2>
+<p>Возвращает число элементов в последовательности. В том числе можно определить длину строки.</p>
+</div>
+<div class="section" id="list-value">
+<h2>list(value)</h2>
+<p>Преобразует переменную в список. Если переменная была строкой, возвращает список символов.</p>
+<p>Пример:</p>
+<pre class="literal-block">
+{{ &quot;злоба&quot;|list }}
+</pre>
+<p>Результат:</p>
+<pre class="literal-block">
+[&quot;з&quot;,&quot;л&quot;,&quot;о&quot;,&quot;б&quot;,&quot;а&quot;]
+</pre>
+</div>
+<div class="section" id="lower-s">
+<h2>lower(s)</h2>
+<p>Преобразует переменную к строчному виду</p>
+<p>Пример:</p>
+<pre class="literal-block">
+{{ &quot;BLAP.RU&quot;|lower }}
+</pre>
+<p>Результат:</p>
+<pre class="literal-block">
+blap.ru
+</pre>
+</div>
+<div class="section" id="pprint-value-verbose-false">
+<h2>pprint(value, verbose=false)</h2>
+<p>Выводит (печатает) переменную. Хорошо применять для отладки.</p>
+</div>
+<div class="section" id="random-seq">
+<h2>random(seq)</h2>
+<p>Возвращает случайный элемент из последовательности</p>
+</div>
+<div class="section" id="replace-s-old-new-count-none">
+<h2>replace(s, old, new, count=None)</h2>
+<p>Возвращает копию переменной, где все найденный подстроки заменяются на новые.
+Первая переменная - что ищем, вторая - на что меняем. Можно опционально указать число замен.</p>
+<p>Пример:</p>
+<pre class="literal-block">
+{{ &quot;Hello World&quot;|replace(&quot;Hello&quot;, &quot;Goodbye&quot;) }}
+</pre>
+<p>Результат:</p>
+<pre class="literal-block">
+Goodbye World
+</pre>
+<p>Пример:</p>
+<pre class="literal-block">
+{{ &quot;аааа убили кенни&quot;|replace(&quot;а&quot;, &quot;они &quot;, 2) }}
+</pre>
+<p>Результат:</p>
+<pre class="literal-block">
+они они аа убили кенни
+</pre>
+</div>
+<div class="section" id="reverse-value">
+<h2>reverse(value)</h2>
+<p>Возвращает последовательность, строку в обратном порядке.</p>
+</div>
+<div class="section" id="round-value-precision-0-method-common">
+<h2>round(value, precision=0, method='common')</h2>
+<p>Округляет число с заданной точностью. Первый параметр - точность округления, второй - метод округления.</p>
+<p><cite>common</cite>  - применяется по умолчанию, округляет по правилам
+<cite>ceil</cite> - всегда округляет до максимального
+<cite>floor</cite> - всегда округляет до минимального</p>
+<p>Пример:</p>
+<pre class="literal-block">
+{{ 42.55|round }}
+</pre>
+<p>Результат:</p>
+<pre class="literal-block">
+43.0
+</pre>
+<p>Пример:</p>
+<pre class="literal-block">
+{{ 42.55|round(1, 'floor') }}
+</pre>
+<p>Результат:</p>
+<pre class="literal-block">
+42.5
+</pre>
+<p>Обратите внимание, что если точность равна 0, то все равно будет выводится плавающая точка. Если нужно реально целое число - применяйте фильтр int</p>
+<p>Пример:</p>
+<pre class="literal-block">
+{{ 42.55|round|int }}
+</pre>
+<p>Результат:</p>
+<pre class="literal-block">
+43
+</pre>
+</div>
+<div class="section" id="slice-value-slices-fill-with-none">
+<h2>slice(value, slices, fill_with=None)</h2>
+<p>Нарезает последовательность на фрагменты. К примеру, если необходимо сформировать три столбца содержащие списки:</p>
+<pre class="literal-block">
+&lt;div class=&quot;columwrapper&quot;&gt;
+  {%- for column in items|slice(3) %}
+    &lt;ul class=&quot;column-{{ loop.index }}&quot;&gt;
+    {%- for item in column %}
+      &lt;li&gt;{{ item }}&lt;/li&gt;
+    {%- endfor %}
+    &lt;/ul&gt;
+  {%- endfor %}
+&lt;/div&gt;
+</pre>
+<p>Если вы укажете параметр fill_with, то недостающие элементы будут содержать переданное значение.</p>
+</div>
+<div class="section" id="sort-value-reverse-false-case-sensitive-false-attribute-none">
+<h2>sort(value, reverse=false, case_sensitive=false, attribute=None)</h2>
+<p>Сортировка последовательности. По умолчанию, в порядке возрастания. Если сортируются строки,
+то возможно указать регистр символов.:</p>
+<pre class="literal-block">
+{% for item in iterable|sort %}
+    ...
+{% endfor %}
+</pre>
+<p>Кроме того, при сортировке последовательностей, возможно указать поле по которому будет
+производиться сравнение.:</p>
+<pre class="literal-block">
+{% for item in iterable|sort(attribute='date') %}
+    ...
+{% endfor %}
+</pre>
+</div>
+<div class="section" id="string-object">
+<h2>string(object)</h2>
+<p>Приводит строку к уникоду.</p>
+</div>
+<div class="section" id="striptags-value">
+<h2>striptags(value)</h2>
+<p>Удаляет SGML/XML тэги и заменяет несколько пробелов одним.</p>
+</div>
+<div class="section" id="sum-iterable-attribute-none-start-0">
+<h2>sum(iterable, attribute=None, start=0)</h2>
+<p>Возвращает сумму элементов последовательности, прибавляя к ним <cite>start</cite>.
+Кроме того, можно рассчитать сумму указанных атрибутов элементов:</p>
+<pre class="literal-block">
+Total: {{ items|sum(attribute='price') }}
+</pre>
+</div>
+<div class="section" id="title-s">
+<h2>title(s)</h2>
+<p>Преобразовывает переменную таким образом, что первый символ слова будет Строчным, все остальные прописными</p>
+</div>
+<div class="section" id="trim-value">
+<h2>trim(value)</h2>
+<p>Удаляет пробелы впереди и сзади строки (переменной)</p>
+</div>
+<div class="section" id="truncate-s-length-255-killwords-false-end">
+<h2>truncate(s, length=255, killwords=false, end='...')</h2>
+<p>Возвращает усеченную копию строки. Длина задается первым параметром (по умолчанию 255). Если второй параметр true, то будет усекать строку по заданной длине, в противном случае постарается обрезать строку по окончании слова. Если текст был усечен, то добавляет троеточие, которое можно настроить в третьей переменной.</p>
+</div>
+<div class="section" id="upper-s">
+<h2>upper(s)</h2>
+<p>Конвертирует в заглавные символы.</p>
+</div>
+<div class="section" id="urlize-value-trim-url-limit-none-nofollow-false">
+<h2>urlize(value, trim_url_limit=None, nofollow=false)</h2>
+<p>Преобразует url переданный в виде текста в активную ссылку. Вторая переменная сокращает адрес до заданного целого числа знаков. Третья переменная добавляет атрибут rel=&quot;nofollow&quot;</p>
+</div>
+<div class="section" id="wordcount-s">
+<h2>wordcount(s)</h2>
+<p>Подсчитывает слова в строке</p>
+</div>
+<div class="section" id="wordwrap-s-width-79-break-long-words-true">
+<h2>wordwrap(s, width=79, break_long_words=true)</h2>
+<p>Возвращает копию строки, нарезанную на части (в данном случае - после 70 символа). Если вы установите второй параметр в false, то слова не будут делиться на части, даже если строка длинней установленного числа символов.</p>
+</div>
+<div class="section" id="xmlattr-d-autospace-true">
+<h2>xmlattr(d, autospace=true)</h2>
+<p>Создание SGML/XML аттрибутов строки на основании словаря.</p>
+<p>Пример:</p>
+<pre class="literal-block">
+&lt;ul{{ {'class': 'my_list', 'missing': none,
+        'id': 'list-%d'|format(variable)}|xmlattr }}&gt;
+...
+&lt;/ul&gt;
+</pre>
+<p>Результат:</p>
+<pre class="literal-block">
+&lt;ul class=&quot;my_list&quot; id=&quot;list-42&quot;&gt;
+...
+&lt;/ul&gt;
+</pre>
+</div>
+</div>
+<div class="section" id="id9">
+<h1>Расширенные фильтры Content Monster 3</h1>
+<div class="section" id="shuffle">
+<h2>shuffle(список)</h2>
+<p>Перемешивание списка:</p>
+<pre class="literal-block">
+{{ [&quot;раз&quot;,&quot;два&quot;,&quot;три&quot;]|shuffle|join(&quot;-&quot;) }}
+</pre>
+</div>
+<div class="section" id="by-dict">
+<h2>by_dict</h2>
+<p>Обработка встроенным словарем.</p>
+<p>Пример:</p>
+<pre class="literal-block">
+{{ &quot;Радость&quot;|by_dict }} {{ &quot;Урок&quot;|by_dict }}
+</pre>
+</div>
+<div class="section" id="choice">
+<h2>choice(список)</h2>
+<p>Выборка одного, случайного, значения из списка.</p>
+<p>Пример вызова:</p>
+<pre class="literal-block">
+{{ [&quot;раз&quot;,&quot;два&quot;,&quot;три&quot;]|choice }}
+</pre>
+</div>
+<div class="section" id="in-words">
+<h2>in_words(число)</h2>
+<p>Число прописью.</p>
+<p>Пример:</p>
+<pre class="literal-block">
+{{ &quot;55.5&quot;|in_words }}
+</pre>
+</div>
+<div class="section" id="split">
+<h2>split(разделитель)</h2>
+<p>Делит строку по заданному разделителю.</p>
+<p>Пример:</p>
+<pre class="literal-block">
+{{ &quot;1,2,3,4,5&quot;|split(',') }}
+</pre>
+</div>
+</div>
+<div class="section" id="id10">
+<h1>Комментарии</h1>
+<p>Для комментирования используется следующая комбинация <tt class="docutils literal">{# ... #}</tt>.</p>
+<p>Пример:</p>
+<pre class="literal-block">
+{# алярм: этот фрагмент более не нужен
+    {% for user in users %}
+        ...
+    {% endfor %}
+#}
+</pre>
+</div>
+<div class="section" id="id11">
+<h1>Управление переводами строк</h1>
+<p>По умолчанию каждая строка шаблона добавляет в конце перевод на следующую.</p>
+<p>Если такое поведение неприемлимо, вы можете изменить его, добавив знак минус(<tt class="docutils literal">-</tt>)
+в начале и конце блока (для примера тег for), примерно так:</p>
+<pre class="literal-block">
+{% for item in seq -%}
+    {{ item }}
+{%- endfor %}
+</pre>
+<p>Это выведет все значения от <tt class="docutils literal">1</tt> до <tt class="docutils literal">9</tt> без перевода строк, вот так <tt class="docutils literal">123456789</tt>.</p>
+<div class="attention">
+<p class="first admonition-title">Внимание!</p>
+<p>Между знаком минуса и знаком процента не должно быть пробелов.</p>
+<p><strong>правильно</strong>:</p>
+<pre class="literal-block">
+{%- if foo -%}...{% endif %}
+</pre>
+<p><strong>неправильно</strong>:</p>
+<pre class="last literal-block">
+{% - if foo - %}...{% endif %}
+</pre>
+</div>
+</div>
+<div class="section" id="id12">
+<h1>Экранирование</h1>
+<p>В тех случаях, когда требуется вывести символы, использующиеся для обозначения тегов
+или блоков тегов, самым простым вариантом является заключение их в строку. Например,
+если требуется вывести <tt class="docutils literal">{{</tt> то это сделать возможно следующим образом:</p>
+<pre class="literal-block">
+{{ '{{' }}
+</pre>
+<p>Однако, для большого объема информации, это не всегда удобно. В таком случае
+применяется блочный тег <cite>raw</cite>. Пример:</p>
+<pre class="literal-block">
+{% raw %}
+    &lt;ul&gt;
+    {% for item in seq %}
+        &lt;li&gt;{{ item }}&lt;/li&gt;
+    {% endfor %}
+    &lt;/ul&gt;
+{% endraw %}
+</pre>
+</div>
+<div class="section" id="id13">
+<h1>Блочные выражения</h1>
+<p>Управляющие структуры, на которых базируется логика работы шаблона(циклы, условия)
+Объявляются посредством блоков <tt class="docutils literal">{% ... %}</tt>.</p>
+<div class="section" id="for">
+<h2>For(цикл)</h2>
+<p>Для обхода последовательностей используется блочный тег <cite>for</cite>. Для примера,
+отображение всех user в списке <cite>users</cite>:</p>
+<pre class="literal-block">
+&lt;h1&gt;Пользователи&lt;/h1&gt;
+&lt;ul&gt;
+{% for user in users %}
+  &lt;li&gt;{{ user.username }}&lt;/li&gt;
+{% endfor %}
+&lt;/ul&gt;
+</pre>
+<p>Так-же, <cite>for</cite> возможно использовать для обхода словарей типа <cite>dict</cite>:</p>
+<pre class="literal-block">
+&lt;dl&gt;
+{% for key, value in my_dict.iteritems() %}
+    &lt;dt&gt;{{ key }}&lt;/dt&gt;
+    &lt;dd&gt;{{ value }}&lt;/dd&gt;
+{% endfor %}
+&lt;/dl&gt;
+</pre>
+<p>Обратите внимание, словари обычно не отсортированы в порядке добавления элементов.</p>
+<p>Внутри блочного <cite>for</cite> доступны следующие переменные:</p>
+<table border="1" class="docutils">
+<colgroup>
+<col width="31%" />
+<col width="69%" />
+</colgroup>
+<thead valign="bottom">
+<tr><th class="head">Переменная</th>
+<th class="head">Описание</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr><td><cite>loop.index</cite></td>
+<td>Текущая итерация. (начиная с 1)</td>
+</tr>
+<tr><td><cite>loop.index0</cite></td>
+<td>Текущая итерация. (начиная с 0)</td>
+</tr>
+<tr><td><cite>loop.revindex</cite></td>
+<td>Количество оставшихся итераций
+(начиная с 1)</td>
+</tr>
+<tr><td><cite>loop.revindex0</cite></td>
+<td>Количество оставшихся итераций
+(начиная с 0)</td>
+</tr>
+<tr><td><cite>loop.first</cite></td>
+<td>true если первая итерация
+(подходит для вывода заголовков таблицы).</td>
+</tr>
+<tr><td><cite>loop.last</cite></td>
+<td>true если крайняя итерация.</td>
+</tr>
+<tr><td><cite>loop.length</cite></td>
+<td>Количество элементов в последовательности.</td>
+</tr>
+<tr><td><cite>loop.cycle</cite></td>
+<td>Вспомогательная переменная для перебора
+внутреннего списка. К примеру для выделения
+четных строк. Пример далее.</td>
+</tr>
+</tbody>
+</table>
+<p id="loop-cycle">Внутри блока for возможно использование особой переменной <cite>loop.cycle</cite>:</p>
+<pre class="literal-block">
+{% for row in rows %}
+    &lt;li class=&quot;{{ loop.cycle('odd', 'even') }}&quot;&gt;{{ row }}&lt;/li&gt;
+{% endfor %}
+</pre>
+<p>В результате все нечетные строки получат класс <cite>odd</cite>, а четные <cite>even</cite>.</p>
+<p>Для фильтрации элементов вы можете использовать следующую <cite>if</cite> конструкцию:</p>
+<pre class="literal-block">
+{% for user in users if not user.hidden %}
+    &lt;li&gt;{{ user.username }}&lt;/li&gt;
+{% endfor %}
+</pre>
+<p>Если список пуст, либо он стал таковым после фильтрации <cite>if</cite>, то будет вызван блок <cite>else</cite>:</p>
+<pre class="literal-block">
+&lt;ul&gt;
+{% for user in users %}
+    &lt;li&gt;{{ user.username }}&lt;/li&gt;
+{% else %}
+    &lt;li&gt;&lt;em&gt;Нет пользователей&lt;/em&gt;&lt;/li&gt;
+{% endfor %}
+&lt;/ul&gt;
+</pre>
+<p>Так-же возможно использовать циклы рекурсивно. К примеру, для создания карты сайта.
+Для этого вам необходимо добавить модификатор <cite>recursive</cite> в объявлении цикла и вызывать функцию <cite>loop</cite>
+для создания рекурсии.</p>
+<p>Следующий пример показывает как это можно сделать:</p>
+<pre class="literal-block">
+&lt;ul class=&quot;sitemap&quot;&gt;
+{%- for item in sitemap recursive %}
+    &lt;li&gt;&lt;a href=&quot;{{ item.href }}&quot;&gt;{{ item.title }}&lt;/a&gt;
+    {%- if item.children -%}
+        &lt;ul class=&quot;submenu&quot;&gt;{{ loop(item.children) }}&lt;/ul&gt;
+    {%- endif %}&lt;/li&gt;
+{%- endfor %}
+&lt;/ul&gt;
+</pre>
+<p>Управление циклом возможно с помощью <cite>break</cite> and <cite>continue</cite> тегов.
+<cite>break</cite> прерывает цикл; <cite>continue</cite> вызывает переход на следующую итерацию.</p>
+<p>В следующем примере пропускаются чётные строки:</p>
+<pre class="literal-block">
+{% for user in users %}
+    {%- if loop.index is even %}{% continue %}{% endif %}
+    ...
+{% endfor %}
+</pre>
+<p>В этом примере происходит выход из цикла после десяти итераций:</p>
+<pre class="literal-block">
+{% for user in users %}
+    {%- if loop.index &gt;= 10 %}{% break %}{% endif %}
+{%- endfor %}
+</pre>
+</div>
+<div class="section" id="if">
+<h2>If(условие)</h2>
+<p>Тег <cite>if</cite> случит для проверки на true, не 0, или на то, что список(кортеж) не пустой:</p>
+<pre class="literal-block">
+{% if users %}
+&lt;ul&gt;
+{% for user in users %}
+    &lt;li&gt;{{ user.username }}&lt;/li&gt;
+{% endfor %}
+&lt;/ul&gt;
+{% endif %}
+</pre>
+<p>Для ветвления возможно использовать <cite>elif</cite> и <cite>else</cite>. Вы можете и более сложные
+значения:</p>
+<pre class="literal-block">
+{% if kenny.sick %}
+    Кенни болен.
+{% elif kenny.dead %}
+    Они убили Кенни! Сволочи!!!
+{% else %}
+    Кенни живой --- пока что
+{% endif %}
+</pre>
+<p>Вы так-же можете использовать <cite>if</cite> как выражение для фильтрации в циклах.</p>
+</div>
+<div class="section" id="id14">
+<h2>Макросы</h2>
+<p>Макросы представляют из себя обычные функции и служат для вызова повторяющего кода.</p>
+<p>Ниже пример вывода кода формы ввода:</p>
+<pre class="literal-block">
+{% macro input(name, value='', type='text', size=20) -%}
+    &lt;input type=&quot;{{ type }}&quot; name=&quot;{{ name }}&quot; value=&quot;{{
+        value|e }}&quot; size=&quot;{{ size }}&quot;&gt;
+{%- endmacro %}
+</pre>
+<p>Макрос может быть вызван следующим образом:</p>
+<pre class="literal-block">
+&lt;p&gt;{{ input('username') }}&lt;/p&gt;
+&lt;p&gt;{{ input('password', type='password') }}&lt;/p&gt;
+</pre>
+<p>Внутри макросов доступны следующие переменные:</p>
+<dl class="docutils">
+<dt><cite>varargs</cite></dt>
+<dd>Если в макрос передано позиционных переменных более чем объявлено
+доступ к ним можно получить посредством специальной переменной <cite>varargs</cite>
+содержащей список этих значений.</dd>
+<dt><cite>kwargs</cite></dt>
+<dd>Cлужит для доступа к переданным по ключу необъявленным параметрам.</dd>
+<dt><cite>caller</cite></dt>
+<dd>Если макрос был вызван из блока <cite>call&lt;call&gt;</cite> то <cite>caller</cite> содержит данные этого блока.</dd>
+</dl>
+<p>Кроме того макрос содержит некоторые внутренние поля:</p>
+<dl class="docutils">
+<dt><cite>name</cite></dt>
+<dd>Имя макроса.  <tt class="docutils literal">{{ input.name }}</tt> отобразит <tt class="docutils literal">input</tt>.</dd>
+<dt><cite>arguments</cite></dt>
+<dd>Кортеж имен аргументов принимаемых макросом.</dd>
+<dt><cite>defaults</cite></dt>
+<dd>Кортеж значений по умолчанию.</dd>
+<dt><cite>catch_kwargs</cite></dt>
+<dd>Возвращает <cite>true</cite>, если переданы дополнительные параметры по ключу.</dd>
+<dt><cite>catch_varargs</cite></dt>
+<dd>Возвращает <cite>true</cite>, если переданы дополнительные позиционные параметры.</dd>
+<dt><cite>caller</cite></dt>
+<dd>Возвращает <cite>true</cite> если макрос вызван специальным блоком <cite>caller</cite>.</dd>
+</dl>
+</div>
+<div class="section" id="id15">
+<h2>Цепочки макросов</h2>
+<p>Иногда возникает необходимость в передаче одного макроса другому. Для
+этих целей используется специальный блок <cite>call</cite>. Следующий пример показывается
+использование такого рода функционала:</p>
+<pre class="literal-block">
+{% macro render_dialog(title, class='dialog') -%}
+    &lt;div class=&quot;{{ class }}&quot;&gt;
+        &lt;h2&gt;{{ title }}&lt;/h2&gt;
+        &lt;div class=&quot;contents&quot;&gt;
+            {{ caller() }}
+        &lt;/div&gt;
+    &lt;/div&gt;
+{%- endmacro %}
+
+{% call render_dialog('Hello World') %}
+    Этот текст выводиться в блок content макроса render_dialog.
+{% endcall %}
+</pre>
+<p>Кроме того, существует возможность передать данные в вызывающий макрос.
+В таком случае цепочки макросов можно применять вместо циклов.
+В общем случае вызов блока работает как макрос не имеющий имени.</p>
+<p>Следующий пример отображает список всех пользователей из list_of_user:</p>
+<pre class="literal-block">
+{% macro dump_users(users) -%}
+    &lt;ul&gt;
+    {%- for user in users %}
+        &lt;li&gt;&lt;p&gt;{{ user.username|e }}&lt;/p&gt;{{ caller(user) }}&lt;/li&gt;
+    {%- endfor %}
+    &lt;/ul&gt;
+{%- endmacro %}
+
+{% call(user) dump_users(list_of_user) %}
+    &lt;dl&gt;
+        &lt;dl&gt;Имя&lt;/dl&gt;
+        &lt;dd&gt;{{ user.realname|e }}&lt;/dd&gt;
+        &lt;dl&gt;Характеристика на члена НСДАП&lt;/dl&gt;
+        &lt;dd&gt;{{ user.description }}&lt;/dd&gt;
+    &lt;/dl&gt;
+{% endcall %}
+</pre>
+</div>
+<div class="section" id="id16">
+<h2>Блочные фильтры</h2>
+<p>Все фильтры возможно применять для обработки фрагментов. Просто оборачивайте
+их специальным блоком filter:</p>
+<pre class="literal-block">
+{% filter upper %}
+    Этот текст выведется в верхнем регистре.
+{% endfilter %}
+</pre>
+</div>
+<div class="section" id="id17">
+<h2>Присваивание</h2>
+<p>Для присваивания значений используется тег <cite>set</cite>:</p>
+<pre class="literal-block">
+{% set navigation = [('index.html', 'Главная'), ('about.html', 'О нас')] %}
+{% set key, value = call_something() %}
+</pre>
+</div>
+</div>
+<div class="section" id="id18">
+<h1>Выражения</h1>
+<p>Jinja поддерживание базовые выражения во всех блоках.</p>
+<div class="section" id="id19">
+<h2>Литералы</h2>
+<p>Литералы представляют объекты Python, такие как списки, строки, цифры:</p>
+<dl class="docutils">
+<dt>&quot;Привет Мир&quot;:</dt>
+<dd>Всё, что находиться между одинарными или двойными кавычками - строка.</dd>
+<dt>42 / 42.23:</dt>
+<dd>Все что записано цифрами - есть либо целое число, либо с число плавающей запятой.</dd>
+<dt>['список', 'всех', 'объектов']:</dt>
+<dd><p class="first">Все, между квадратными скобками - список. Он может содержать последовательность
+различных данных. Например кортежи из ссылки и заголовка:</p>
+<pre class="last literal-block">
+&lt;ul&gt;
+{% for href, caption in [('index.html', 'Главная'), ('about.html', 'О нас'),
+                         ('downloads.html', 'Файлы')] %}
+    &lt;li&gt;&lt;a href=&quot;{{ href }}&quot;&gt;{{ caption }}&lt;/a&gt;&lt;/li&gt;
+{% endfor %}
+&lt;/ul&gt;
+</pre>
+</dd>
+<dt>('а', 'это ', 'кортеж'):</dt>
+<dd>Кортеж является неизменяемым списком. При определении кортежа состоящего из одного элемента,
+необходимо после него добавлять запятую, для отличия от вызова функции.</dd>
+<dt>{'ключ1': 'значение1', 'ключ2': 'значение2', 'ключ3': 'значение3'}:</dt>
+<dd>Словарь задается парами ключ-значение. Ключи должен быть уникальными.</dd>
+<dt>true / false:</dt>
+<dd>true всегда истинно и false всегда ложно.</dd>
+</dl>
+<div class="attention">
+<p class="first admonition-title">Внимание!</p>
+<p class="last">Специальные константы <cite>true</cite>, <cite>false</cite> и <cite>none</cite> необходимо задавать в нижнем регистре.</p>
+</div>
+</div>
+<div class="section" id="id20">
+<h2>Вычисление</h2>
+<p>Jinja позволяет выполнять математические операции с переменными:</p>
+<dl class="docutils">
+<dt>+</dt>
+<dd><p class="first">Сложение двух переменных. Если переменная - строка, то объединит строки. Однако для сложения строк лучше использовать оператор ~ .</p>
+<p>Пример:</p>
+<pre class="literal-block">
+{{ 1 + 1 }}
+</pre>
+<p>Результат:</p>
+<pre class="last literal-block">
+2
+</pre>
+</dd>
+</dl>
+<p>-</p>
+<blockquote>
+<p>Вычитание второй переменной из первой.</p>
+<p>Пример:</p>
+<pre class="literal-block">
+{{ 3 - 2 }}
+</pre>
+<p>Результат:</p>
+<pre class="literal-block">
+1
+</pre>
+</blockquote>
+<dl class="docutils">
+<dt>/</dt>
+<dd><p class="first">Деление 2-х чисел. Результат возвращается в виде числа с плавающей точкой.</p>
+<p>Пример:</p>
+<pre class="literal-block">
+{{ 1 / 2 }}
+</pre>
+<p>Результат:</p>
+<pre class="last literal-block">
+0.5
+</pre>
+</dd>
+</dl>
+<dl class="docutils">
+<dt>//</dt>
+<dd><p class="first">Деление нацело. Возвращает целую часть операции деления.</p>
+<p>Пример:</p>
+<pre class="literal-block">
+{{ 20 // 7 }}
+</pre>
+<p>Результат:</p>
+<pre class="last literal-block">
+2
+</pre>
+</dd>
+</dl>
+<dl class="docutils">
+<dt>%</dt>
+<dd><p class="first">Рассчитывает остаток целочисленного деления</p>
+<p>Пример:</p>
+<pre class="literal-block">
+{{ 11 % 7 }}
+</pre>
+<p>Результат:</p>
+<pre class="last literal-block">
+4
+</pre>
+</dd>
+<dt>*</dt>
+<dd><p class="first">Умножает левый операнд на правый</p>
+<p>Пример:</p>
+<pre class="literal-block">
+{{ 2 * 2 }}
+</pre>
+<p>Результат:</p>
+<pre class="literal-block">
+4
+</pre>
+<p>Может быть использован для генерации повторяющейся строки</p>
+<p>Пример:</p>
+<pre class="literal-block">
+{{ '=' * 10 }}
+</pre>
+<p>Результат:</p>
+<pre class="last literal-block">
+==========
+</pre>
+</dd>
+<dt>**</dt>
+<dd><p class="first">Возводит левый операнд в степень правого</p>
+<p>Пример:</p>
+<pre class="literal-block">
+{{ 2**3 }}
+</pre>
+<p>Результат:</p>
+<pre class="last literal-block">
+8
+</pre>
+</dd>
+</dl>
+</div>
+<div class="section" id="id21">
+<h2>Сравнение</h2>
+<dl class="docutils">
+<dt>==</dt>
+<dd>Сравнивает два объекта на равенство</dd>
+<dt>!=</dt>
+<dd>Сравнивает два объекта на неравенство</dd>
+</dl>
+<dl class="docutils">
+<dt>&gt;</dt>
+<dd>истина, когда левая часть сравнения больше правой</dd>
+<dt>&gt;=</dt>
+<dd>истина, когда левая часть сравнения больше или равно правой</dd>
+</dl>
+<dl class="docutils">
+<dt>&lt;</dt>
+<dd>истина, когда левая часть сравнения меньше правой</dd>
+<dt>&lt;=</dt>
+<dd>истина, когда левая часть сравнения меньше или равно правой</dd>
+</dl>
+</div>
+<div class="section" id="id22">
+<h2>Логические</h2>
+<p>Полезные операторы при задании сложных условий</p>
+<dl class="docutils">
+<dt>and</dt>
+<dd>Возвращает true если левый и правый операнд установлены в true</dd>
+<dt>or</dt>
+<dd>Возвращает true если левый или правый операнд установлены в true</dd>
+<dt>not</dt>
+<dd>отрицает заявленное</dd>
+<dt>(expr)</dt>
+<dd>группировать выражение</dd>
+</dl>
+<div class="attention">
+<p class="first admonition-title">Внимание!</p>
+<p class="last">При использовании операторов <tt class="docutils literal">is</tt> и <tt class="docutils literal">in</tt> при отрицании, применяйте
+<tt class="docutils literal">foo is not bar</tt> и <tt class="docutils literal">foo not in bar</tt> вместо <tt class="docutils literal">not foo is bar</tt>
+и <tt class="docutils literal">not foo in bar</tt>.
+Все остальные выражения требуют префиксной нотации:
+<tt class="docutils literal">not (foo and bar).</tt></p>
+</div>
+</div>
+<div class="section" id="id23">
+<h2>Другие операторы</h2>
+<dl class="docutils">
+<dt>in</dt>
+<dd><p class="first">Проверяет последовательность на вхождение элемента.
+Возвращает истину, если правый операнд содержит левый.</p>
+<p>Пример:</p>
+<pre class="literal-block">
+{{ 1 in [1, 2, 3] }}
+</pre>
+<p>Результат:</p>
+<pre class="last literal-block">
+true
+</pre>
+</dd>
+<dt>is</dt>
+<dd>Выполняет проверку на истину.</dd>
+<dt>|</dt>
+<dd>Применяет фильтр.</dd>
+</dl>
+<dl class="docutils">
+<dt>~</dt>
+<dd><p class="first">Преобразовывает все операнды в строку и складывает (объединяет) их.
+Пример:</p>
+<pre class="literal-block">
+{{ &quot;Hello &quot; ~ name ~ &quot;!&quot; }}
+</pre>
+<p class="last">возвращает строку (при установленном name в 'John') Hello John!.</p>
+</dd>
+<dt>()</dt>
+<dd>Вызывает callable: {{ post.render() }}.
+Внутри скобки можно использовать позиционные аргументы и ключевые аргументы,
+как в Python {{ post.render(user, full=true) }}.</dd>
+<dt>. / []</dt>
+<dd>Получает аттрибуты объекта</dd>
+</dl>
+</div>
+<div class="section" id="id24">
+<h2>Условные выражения</h2>
+<p>Тег <cite>if</cite> возможно использовать как условное выражение. Базовый синтаксис следующий:</p>
+<pre class="literal-block">
+``&lt;выполнить что-то&gt; if &lt;что-то истинно&gt; else &lt;выполнить что-то другое&gt;``.
+</pre>
+<p>Фрагмент <cite>else</cite> необязателен. Как пример, отобразить значение переменной page.title,
+если она определена:</p>
+<pre class="literal-block">
+{{ '[%s]' % page.title if page.title }}
+</pre>
+</div>
+</div>
+<div class="section" id="id25">
+<h1>Глобальные функции</h1>
+<div class="section" id="range-start-stop-step">
+<h2>range([start,] stop[, step])</h2>
+<blockquote>
+<p>Возвращает список содержащий арифметическую прогрессию.
+range(i, j) возвращает [i, i+1, i+2, ..., j-1]; start по умолчанию 0:</p>
+<pre class="literal-block">
+&lt;ul&gt;
+{% for user in users %}
+    &lt;li&gt;{{ user.username }}&lt;/li&gt;
+{% endfor %}
+{% for number in range(10 - users|count) %}
+    &lt;li class=&quot;empty&quot;&gt;&lt;span&gt;...&lt;/span&gt;&lt;/li&gt;
+{% endfor %}
+&lt;/ul&gt;
+</pre>
+</blockquote>
+</div>
+<div class="section" id="lipsum-n-5-html-true-min-20-max-100">
+<h2>lipsum(n=5, html=true, min=20, max=100)</h2>
+<p>Генерирует &quot;рыбу&quot;(lorem ipsum..). По умолчанию пять параграфов содержащие от 20 до 100 слов.
+Если html истинно, добавляет html тег параграфа.</p>
+</div>
+<div class="section" id="dict-items">
+<h2>dict(**items)</h2>
+<p>Альтернатива фигурным скобкам. <tt class="docutils literal">{'foo': 'bar'}</tt> то-же самое что <tt class="docutils literal"><span class="pre">dict(foo='bar')</span></tt>.</p>
+</div>
+<div class="section" id="cycler-items">
+<h2>cycler(*items)</h2>
+<p>Похоже на <a class="reference internal" href="#loop-cycle">loop.cycle</a> только вне цикла.</p>
+<p>Следующий пример показывает вариант использования <cite>cycler</cite>:</p>
+<pre class="literal-block">
+{% set row_class = cycler('odd', 'even') %}
+&lt;ul class=&quot;browser&quot;&gt;
+{% for folder in folders %}
+  &lt;li class=&quot;folder {{ row_class.next() }}&quot;&gt;{{ folder|e }}&lt;/li&gt;
+{% endfor %}
+{% for filename in files %}
+  &lt;li class=&quot;file {{ row_class.next() }}&quot;&gt;{{ filename|e }}&lt;/li&gt;
+{% endfor %}
+&lt;/ul&gt;
+</pre>
+<p>Cycler имеет следующие атрибуты и методы:</p>
+<pre class="literal-block">
+reset()
+
+    Выбор первого элемента в последовательности.
+
+next()
+
+    Возвращает текущий элемент и переходит на следующий.
+
+current
+
+    Возвращает текущий элемент.
+</pre>
+</div>
+<div class="section" id="joiner-sep">
+<h2>joiner(sep=', ')</h2>
+<p>Вспомогательная функция для объединения нескольких секций данных. Возвращает
+переданную строку, за исключением первого вызова:</p>
+<pre class="literal-block">
+{% set pipe = joiner(&quot;|&quot;) %}
+{% if categories %} {{ pipe() }}
+    Категории: {{ categories|join(&quot;, &quot;) }}
+{% endif %}
+{% if author %} {{ pipe() }}
+    Авторы: {{ author() }}
+{% endif %}
+{% if can_edit %} {{ pipe() }}
+    &lt;a href=&quot;?action=edit&quot;&gt;Редактировать&lt;/a&gt;
+{% endif %}
+</pre>
+<table class="docutils footnote" frame="void" id="id26" rules="none">
+<colgroup><col class="label" /><col /></colgroup>
+<tbody valign="top">
+<tr><td class="label"><a class="fn-backref" href="#id1">[1]</a></td><td>Официальный сайт <a class="reference external" href="http://zipta.ru/">Content Monster 3</a>.</td></tr>
+</tbody>
+</table>
+<table class="docutils footnote" frame="void" id="id28" rules="none">
+<colgroup><col class="label" /><col /></colgroup>
+<tbody valign="top">
+<tr><td class="label"><a class="fn-backref" href="#id5">[2]</a></td><td>Официальный сайт <a class="reference external" href="http://jinja.pocoo.org/docs/">Jinja2</a>.</td></tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<div class="footer">
+<hr class="footer" />
+© 2014 zipta.ru
+</div>
+</body>
+</html>

@@ -1,0 +1,6 @@
+[Core]
+Name = Парсер YouTube для Генератора магазинов 2
+Module = youtube_pro
+
+[Documentation]
+Version = 1.0

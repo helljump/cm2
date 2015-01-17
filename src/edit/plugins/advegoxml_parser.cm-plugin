@@ -1,0 +1,3 @@
+[Core]
+Name = Парсер XML Advego
+Module = advegoxml_parser

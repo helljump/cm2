@@ -1,0 +1,15 @@
+<RCC>
+  <qresource prefix="ico" >
+    <file>run.png</file>
+    <file>stop.png</file>
+    <file>import.png</file>
+    <file>export.png</file>
+    <file>remove.png</file>
+    <file>proxy.png</file>
+    <file>delete.png</file>
+    <file>add.png</file>
+    <file>parse.png</file>
+    <file>internet.png</file>
+    <file>rss.png</file>
+  </qresource>
+</RCC>

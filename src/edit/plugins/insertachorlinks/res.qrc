@@ -1,0 +1,7 @@
+<RCC>
+  <qresource>  
+    <file>add.png</file>
+    <file>delete.png</file>
+    <file>page_white_put.png</file>
+  </qresource>
+</RCC>

@@ -1,0 +1,18 @@
+Request:
+
+Response:
+HTTP/1.1 200 OK
+Vary: Cookie
+Content-Type: text/html; charset=utf-8
+Set-Cookie: csrftoken=37TbBF80twC21SzbiLlZxMuLLbxMGFEa; expires=Thu, 26-Mar-2015 04:20:52 GMT; Max-Age=31449600; Path=/
+Content-Encoding: gzip
+Set-Cookie: ACSID=AJKiYcFN9mOz-aFVdPzJidDnRhBzjjQn1E5RGeq8fot6W1KNQG-omqolVrAtoK8JO9SOat5NgwQzGVfVkrpsseeHz5V5GuGhAej2WyEQeWWFhfRHuvaYwmXxRPpoj_v6zVBRUHKyiyJFmuCU4qVZBpctDjPf0PMvqMU5eyBCtNZvLvx_PMtYRg1EQtVQV6qmUKI_lV9nFP7BRNGMG6dxase37cyTbv-jzdKmvyUgc1C-2SdmnZ8QgPW42Hfu7cDqLw59RqZ4DvydH5d-IgJJizPjQBMKyTDz-yHzOK2AEyAcfUuMVlUquYA1uezwbreHGGZ1GFOLmnltyPj3COo93lgfIKO3bIVg1UJlIse9qrzQilV4iepI5o0XKzX86dRFtLXunN4EDiDzFk5r44H3KmgGQmOe1i64k0UT1dsIiiv82VrmFFzHTEf25UYf-4W_00V5KbaopbrvCJaFSc9cY5QuR87qMknKsgOEKUkgnjC884uuuJrmpi1vJ8zcZOHKHJnReWnQJRsJiZEFM1J7dJvkiPlTTyrnDJTe5fDONmKvUfAo130NCDV_Due3Oo_kRSNA3fo5rhvp; expires=Thu, 10-Apr-2014 04:20:52 GMT; path=/; HttpOnly
+Vary: Accept-Encoding
+Date: Thu, 27 Mar 2014 04:20:52 GMT
+Pragma: no-cache
+Expires: Fri, 01 Jan 1990 00:00:00 GMT
+Cache-Control: no-cache, must-revalidate
+Server: Google Frontend
+Content-Length: 3025
+Alternate-Protocol: 80:quic,80:quic
+

@@ -1,0 +1,22 @@
+<RCC>
+  <qresource prefix="yadd" >
+    <file>run.png</file>
+    <file>add.png</file>
+    <file>remove.png</file>
+    <file>import.png</file>
+    <file>import_2.png</file>
+    <file>proxy.png</file>
+    <file>rss.png</file>
+    <file>about.html</file>
+    <file>about.png</file>
+    <file>yadd.png</file>
+    <file>done.png</file>
+    <file>djenah.png</file>
+    <file>undjenah.png</file>
+    <file>configure.png</file>
+    <file>sitemap.png</file>
+    <file>fileimport.png</file>
+    <file>disk.png</file>
+    <file>award.png</file>
+  </qresource>
+</RCC>

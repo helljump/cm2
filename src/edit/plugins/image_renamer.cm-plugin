@@ -1,0 +1,3 @@
+[Core]
+Name = Переименовывание изображений
+Module = image_renamer

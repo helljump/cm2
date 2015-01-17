@@ -1,0 +1,15 @@
+<RCC>
+  <qresource prefix="ico" >
+    <file>run.png</file>
+    <file>delete.png</file>
+    <file>save_all.png</file>
+    <file>add_sub_task.png</file>
+    <file>configure.png</file>
+    <file>proxy.png</file>
+    <file>rss.png</file>
+    <file>text_block.png</file>
+    <file>edit.png</file>
+    <file>view_tree.png</file>
+    <file>uberparser.png</file>
+  </qresource>
+</RCC>

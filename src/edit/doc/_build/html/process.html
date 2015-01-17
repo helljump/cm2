@@ -1,0 +1,287 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>Обработка &mdash; Документация CM2 TreeEdit 1.3.9</title>
+    
+    <link rel="stylesheet" href="_static/nature.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    './',
+        VERSION:     '1.3.9',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <script type="text/javascript" src="_static/translations.js"></script>
+    <link rel="top" title="Документация CM2 TreeEdit 1.3.9" href="index.html" />
+    <link rel="next" title="Разное" href="other.html" />
+    <link rel="prev" title="Статья" href="articles.html" /> 
+  </head>
+  <body>
+    <div class="related">
+      <h3>Просмотр</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="Алфавитный указатель"
+             accesskey="I">указатель</a></li>
+        <li class="right" >
+          <a href="other.html" title="Разное"
+             accesskey="N">следующий</a> |</li>
+        <li class="right" >
+          <a href="articles.html" title="Статья"
+             accesskey="P">предыдущий</a> |</li>
+        <li><a href="index.html">Документация CM2 TreeEdit 1.3.9</a> &raquo;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body">
+            
+  <div class="section" id="id1">
+<h1>Обработка<a class="headerlink" href="#id1" title="Ссылка на этот заголовок">¶</a></h1>
+<div class="admonition note">
+<p class="first admonition-title">Примечание</p>
+<p class="last">Если статьи не выбраны то обрабатываются все статьи.
+Выбрать все статьи можно сочетанием клавиш <strong>Ctrl+A</strong></p>
+</div>
+<div class="section" id="id2">
+<h2>Переименование файлов изображений<a class="headerlink" href="#id2" title="Ссылка на этот заголовок">¶</a></h2>
+<p>Плагин переименовывает файлы изображений в указанном каталоге.
+см. <a class="reference external" href="http://content-monster.com/tutor/renamer.html">урок работы с плагином</a></p>
+</div>
+<div class="section" id="id4">
+<h2>Случайная дата<a class="headerlink" href="#id4" title="Ссылка на этот заголовок">¶</a></h2>
+<p>Устанавливает для статьи случайную дату из указанного диапазона.</p>
+<img alt="_images/process_randomdates.png" src="_images/process_randomdates.png" />
+<p>Если отключено <strong>Пермешивать</strong> то статьи публикуются в порядке указанном в программе</p>
+</div>
+<div class="section" id="id5">
+<h2>Генерация заголовков статей<a class="headerlink" href="#id5" title="Ссылка на этот заголовок">¶</a></h2>
+<p>Генерация заголовков из фрагмента текста до <em>разделителя</em>. При необходимости проводиться небольшая уникализации удалением <em>прилагательных</em>.</p>
+<img alt="_images/process_autotitles.png" src="_images/process_autotitles.png" />
+<p>Используются словари словоформ на трех языках(ru/en/de).</p>
+</div>
+<div class="section" id="id6">
+<h2>Обработка заголовков статей<a class="headerlink" href="#id6" title="Ссылка на этот заголовок">¶</a></h2>
+<p>Очистка заголовков статей от HTML тегов, изменение длины, исправление регистра букв(Капитализация).</p>
+<img alt="_images/process_titleclean.png" src="_images/process_titleclean.png" />
+</div>
+<div class="section" id="id7">
+<h2>Очистка страниц<a class="headerlink" href="#id7" title="Ссылка на этот заголовок">¶</a></h2>
+<p>Обработка страниц, удаление лишних пробелов, запрещенных HTML тегов.</p>
+<img alt="_images/process_textclean.png" src="_images/process_textclean.png" />
+<div class="admonition note">
+<p class="first admonition-title">Примечание</p>
+<p class="last">Очистка заголовков удаляет все теги</p>
+</div>
+</div>
+<div class="section" id="id8">
+<h2>Вставка изображений<a class="headerlink" href="#id8" title="Ссылка на этот заголовок">¶</a></h2>
+<p>Вставка ссылок на изображения из указанного каталога.</p>
+<img alt="_images/process_insertimages.png" src="_images/process_insertimages.png" />
+<p>Вставка ссылок на изображения происходит циклически. В качестве атрибутов ALT и TITLE тега IMG указывается заголовок статьи. Возможно добавление своего атрибута CLASS для управления стилями.</p>
+<div class="admonition note">
+<p class="first admonition-title">Примечание</p>
+<p class="last">В названиях изображений допустимы только цифры и латинские буквы.</p>
+</div>
+</div>
+<div class="section" id="id9">
+<h2>Замена синонимов<a class="headerlink" href="#id9" title="Ссылка на этот заголовок">¶</a></h2>
+<p>Обработка текста с использованием словарей YASyn.</p>
+<img alt="_images/process_syno.png" src="_images/process_syno.png" />
+<p>Есть встроенный словарь на 80000 словоформ. Возможно использование стоп-слов.</p>
+</div>
+<div class="section" id="id10">
+<h2>Автометки<a class="headerlink" href="#id10" title="Ссылка на этот заголовок">¶</a></h2>
+<p>Автоматическая генерация меток для статей на основе стеммера.</p>
+<img alt="_images/process_autotags.png" src="_images/process_autotags.png" />
+<p>Работа с тремя языками, русским, английским и немецким. Импорт списка меток в формате Wordpress Translator.</p>
+<p>Для работы необходимо выполнить следующие шаги:</p>
+<ul class="simple">
+<li>Генерация лемм с указанной длиной и частотой вхождений</li>
+<li>Удаление лишних, дописывание окончаний слов</li>
+<li>Запуск обработки статей</li>
+</ul>
+</div>
+<div class="section" id="id11">
+<h2>Вступительный текст<a class="headerlink" href="#id11" title="Ссылка на этот заголовок">¶</a></h2>
+<p>Генерация вступительного текста к статье из текста.</p>
+<img alt="_images/process_genintro.png" src="_images/process_genintro.png" />
+<p>Возможно указание длины вступительного текста и необходимость очистки тегов.</p>
+</div>
+<div class="section" id="id12">
+<h2>Вставка ссылок<a class="headerlink" href="#id12" title="Ссылка на этот заголовок">¶</a></h2>
+<p>Вставка ссылок с статью</p>
+<img alt="_images/process_insertlinks.png" src="_images/process_insertlinks.png" />
+<p>Возможно чтение ссылок из текстового файла(TXT) и карты сайта(XML, XML.GZ). Так-же можно указать либо количество ссылок на статью, либо равномерное распределение всех ссылок по статьям.</p>
+</div>
+<div class="section" id="id13">
+<h2>Циклическая вставка строк в статьи<a class="headerlink" href="#id13" title="Ссылка на этот заголовок">¶</a></h2>
+<p>Плагин вставки строк в статьи.</p>
+<img alt="_images/process_cycleinsert.png" src="_images/process_cycleinsert.png" />
+<p>Вставка возможна в начале статьи, в конце или с использованием регулярного выражения.</p>
+</div>
+<div class="section" id="php">
+<h2>PHP плагин &#8220;Зачистка контента&#8221;<a class="headerlink" href="#php" title="Ссылка на этот заголовок">¶</a></h2>
+<div class="highlight-php"><div class="highlight"><pre><span class="cp">&lt;?php</span>
+<span class="k">require_once</span> <span class="s1">&#39;strip_tags_smart.php&#39;</span><span class="p">;</span>
+<span class="k">require_once</span> <span class="s1">&#39;html_paragraph.php&#39;</span><span class="p">;</span>
+
+<span class="k">print</span><span class="p">(</span><span class="s2">&quot;Обрабатываем &lt;b&gt;</span><span class="si">$title</span><span class="s2">&lt;/b&gt;&quot;</span><span class="p">);</span>
+<span class="nv">$text</span> <span class="o">=</span> <span class="nx">html_paragraph</span><span class="p">(</span><span class="nx">strip_tags_smart</span> <span class="p">(</span><span class="nv">$text</span><span class="p">));</span>
+
+<span class="cp">?&gt;</span><span class="x"></span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="id14">
+<h2>PHP плагин &#8220;Удаление вложенных и непарных тэгов&#8221;<a class="headerlink" href="#id14" title="Ссылка на этот заголовок">¶</a></h2>
+<div class="highlight-php"><div class="highlight"><pre><span class="cp">&lt;?php</span>
+<span class="k">require_once</span> <span class="s1">&#39;html_tags_normalize.php&#39;</span><span class="p">;</span>
+<span class="k">print</span><span class="p">(</span><span class="s2">&quot;Обрабатываем &lt;b&gt;</span><span class="si">$title</span><span class="s2">&lt;/b&gt;&quot;</span><span class="p">);</span>
+<span class="nv">$text</span> <span class="o">=</span> <span class="nx">html_tags_normalize</span> <span class="p">(</span><span class="nv">$text</span><span class="p">,</span><span class="nv">$NoDeleteError</span><span class="p">,</span><span class="nv">$DeleteError</span><span class="p">);</span>
+<span class="nv">$NoDelet</span><span class="o">=</span><span class="nb">count</span><span class="p">(</span><span class="nv">$NoDeleteError</span><span class="p">);</span>
+<span class="nv">$Delet</span><span class="o">=</span><span class="nb">count</span><span class="p">(</span><span class="nv">$DeleteError</span><span class="p">);</span>
+<span class="k">print</span><span class="p">(</span> <span class="s2">&quot;Исправлено:</span><span class="si">$Delet</span><span class="s2">, неисправлено:</span><span class="si">$NoDelet</span><span class="s2"> ошиб.&quot;</span> <span class="p">);</span>
+<span class="k">if</span> <span class="p">(</span><span class="nv">$NoDelet</span> <span class="o">!=</span> <span class="m">0</span><span class="p">)</span>
+<span class="p">{</span>
+  <span class="k">for</span> <span class="p">(</span><span class="nv">$i</span><span class="o">=</span><span class="m">0</span><span class="p">;</span> <span class="nv">$i</span><span class="o">&lt;</span><span class="nv">$NoDelet</span><span class="p">;</span> <span class="nv">$i</span><span class="o">++</span><span class="p">)</span>
+  <span class="p">{</span>
+    <span class="nv">$myNoDeleteError</span> <span class="o">=</span><span class="nv">$NoDeleteError</span><span class="p">[</span><span class="nv">$i</span><span class="p">];</span>
+    <span class="k">print</span> <span class="p">(</span><span class="s2">&quot;&lt;b&gt;Ошибка $1&lt;/b&gt; - </span><span class="si">$myNoDeleteError</span><span class="s2">&quot;</span><span class="p">);</span>
+    <span class="p">}</span>
+  <span class="p">}</span>
+<span class="cp">?&gt;</span><span class="x"></span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="id15">
+<h2>Проверка уникальности статей<a class="headerlink" href="#id15" title="Ссылка на этот заголовок">¶</a></h2>
+<p>Диалог проверки статей на уникальность.</p>
+<p>Настройка параметров проверки</p>
+<img alt="_images/process_unic1.png" src="_images/process_unic1.png" />
+<p>Окно соответствий</p>
+<img alt="_images/process_unic2.png" src="_images/process_unic2.png" />
+<p>Проверка содержимого</p>
+<img alt="_images/process_unic3.png" src="_images/process_unic3.png" />
+</div>
+<div class="section" id="id16">
+<h2>Гобонизация<a class="headerlink" href="#id16" title="Ссылка на этот заголовок">¶</a></h2>
+<p>Плагин вставки Gobo Tooltip.</p>
+<img alt="_images/process_gobo.png" src="_images/process_gobo.png" />
+<div class="admonition note">
+<p class="first admonition-title">Примечание</p>
+<p class="last">Необходимы базы в gob или ods формате</p>
+</div>
+</div>
+<div class="section" id="id17">
+<h2>PHP плагин &#8220;Расстановка русских кавычек&#8221;<a class="headerlink" href="#id17" title="Ссылка на этот заголовок">¶</a></h2>
+<div class="highlight-php"><div class="highlight"><pre><span class="cp">&lt;?php</span>
+<span class="k">require_once</span> <span class="s1">&#39;kawychka_function.php&#39;</span><span class="p">;</span>
+
+<span class="k">print</span><span class="p">(</span><span class="s2">&quot;Start &lt;b&gt;</span><span class="si">$title</span><span class="s2">&lt;/b&gt;&quot;</span><span class="p">);</span>
+<span class="nv">$text</span> <span class="o">=</span> <span class="nx">kavych</span><span class="p">(</span><span class="nv">$text</span><span class="p">);</span>
+<span class="nv">$title</span> <span class="o">=</span> <span class="nx">kavych</span><span class="p">(</span><span class="nv">$title</span><span class="p">);</span>
+<span class="nv">$intro</span> <span class="o">=</span> <span class="nx">kavych</span><span class="p">(</span><span class="nv">$intro</span><span class="p">);</span>
+<span class="k">print</span><span class="p">(</span><span class="s2">&quot;done&quot;</span><span class="p">);</span>
+<span class="cp">?&gt;</span><span class="x"></span>
+</pre></div>
+</div>
+<dl class="glossary docutils">
+<dt id="term-">Обработка</dt>
+<dd>Различная обработка указанных статей</dd>
+</dl>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="index.html">Оглавление</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Обработка</a><ul>
+<li><a class="reference internal" href="#id2">Переименование файлов изображений</a></li>
+<li><a class="reference internal" href="#id4">Случайная дата</a></li>
+<li><a class="reference internal" href="#id5">Генерация заголовков статей</a></li>
+<li><a class="reference internal" href="#id6">Обработка заголовков статей</a></li>
+<li><a class="reference internal" href="#id7">Очистка страниц</a></li>
+<li><a class="reference internal" href="#id8">Вставка изображений</a></li>
+<li><a class="reference internal" href="#id9">Замена синонимов</a></li>
+<li><a class="reference internal" href="#id10">Автометки</a></li>
+<li><a class="reference internal" href="#id11">Вступительный текст</a></li>
+<li><a class="reference internal" href="#id12">Вставка ссылок</a></li>
+<li><a class="reference internal" href="#id13">Циклическая вставка строк в статьи</a></li>
+<li><a class="reference internal" href="#php">PHP плагин &#8220;Зачистка контента&#8221;</a></li>
+<li><a class="reference internal" href="#id14">PHP плагин &#8220;Удаление вложенных и непарных тэгов&#8221;</a></li>
+<li><a class="reference internal" href="#id15">Проверка уникальности статей</a></li>
+<li><a class="reference internal" href="#id16">Гобонизация</a></li>
+<li><a class="reference internal" href="#id17">PHP плагин &#8220;Расстановка русских кавычек&#8221;</a></li>
+</ul>
+</li>
+</ul>
+
+  <h4>Предыдущий раздел</h4>
+  <p class="topless"><a href="articles.html"
+                        title="предыдущая глава">Статья</a></p>
+  <h4>Следующий раздел</h4>
+  <p class="topless"><a href="other.html"
+                        title="следующая глава">Разное</a></p>
+  <h3>На этой странице</h3>
+  <ul class="this-page-menu">
+    <li><a href="_sources/process.txt"
+           rel="nofollow">Исходный текст</a></li>
+  </ul>
+<div id="searchbox" style="display: none">
+  <h3>Быстрый поиск</h3>
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Искать" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Введите слова для поиска или имя модуля, класса или функции.
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related">
+      <h3>Просмотр</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="Алфавитный указатель"
+             >указатель</a></li>
+        <li class="right" >
+          <a href="other.html" title="Разное"
+             >следующий</a> |</li>
+        <li class="right" >
+          <a href="articles.html" title="Статья"
+             >предыдущий</a> |</li>
+        <li><a href="index.html">Документация CM2 TreeEdit 1.3.9</a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer">
+        &copy; Copyright 2010, DrMax &amp; sNOa.
+      Создано с помощью <a href="http://sphinx-doc.org/">Sphinx</a> 1.2.1.
+    </div>
+  </body>
+</html>

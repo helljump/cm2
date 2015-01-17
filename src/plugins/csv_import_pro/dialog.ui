@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>831</width>
+    <height>636</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>CSV Генератор</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout_2">
+   <item row="0" column="0" colspan="2">
+    <widget class="QGroupBox" name="groupBox">
+     <property name="title">
+      <string>Данные</string>
+     </property>
+     <layout class="QGridLayout" name="gridLayout">
+      <item row="0" column="0">
+       <widget class="QLabel" name="label">
+        <property name="text">
+         <string>Файл</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="1" colspan="5">
+       <widget class="QLineEdit" name="fname_le">
+        <property name="text">
+         <string>plugins/csv_import_pro/base.csv</string>
+        </property>
+        <property name="readOnly">
+         <bool>true</bool>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="6">
+       <widget class="QPushButton" name="selectfile_bp">
+        <property name="maximumSize">
+         <size>
+          <width>24</width>
+          <height>16777215</height>
+         </size>
+        </property>
+        <property name="text">
+         <string>...</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="7">
+       <widget class="QLabel" name="label_2">
+        <property name="text">
+         <string>Кодировка</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="8" colspan="2">
+       <widget class="QComboBox" name="encoding_cb">
+        <item>
+         <property name="text">
+          <string>Автоопределение</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>UTF-8</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Windows-1251</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>ASCII</string>
+         </property>
+        </item>
+       </widget>
+      </item>
+      <item row="1" column="0" colspan="2">
+       <widget class="QLabel" name="label_3">
+        <property name="text">
+         <string>Разделитель полей</string>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="2">
+       <widget class="QLineEdit" name="fielddelim_le">
+        <property name="text">
+         <string>;</string>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="3">
+       <widget class="QLabel" name="label_4">
+        <property name="text">
+         <string>Разделитель текста</string>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="4">
+       <widget class="QLineEdit" name="textdelim_le">
+        <property name="text">
+         <string>&quot;</string>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="5" colspan="4">
+       <widget class="QCheckBox" name="ignorefirst_cb">
+        <property name="text">
+         <string>Игнорировать первую строку</string>
+        </property>
+        <property name="checked">
+         <bool>true</bool>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="9">
+       <widget class="QCheckBox" name="allowcat_cb">
+        <property name="text">
+         <string>Один столбец - категория</string>
+        </property>
+        <property name="checked">
+         <bool>true</bool>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item row="3" column="0" colspan="2">
+    <widget class="QDialogButtonBox" name="buttonBox">
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+     <property name="standardButtons">
+      <set>QDialogButtonBox::Cancel|QDialogButtonBox::Ok</set>
+     </property>
+     <property name="centerButtons">
+      <bool>true</bool>
+     </property>
+    </widget>
+   </item>
+   <item row="2" column="0" colspan="2">
+    <widget class="QGroupBox" name="groupBox_3">
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+       <horstretch>0</horstretch>
+       <verstretch>1</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="title">
+      <string>Словари</string>
+     </property>
+     <layout class="QGridLayout" name="gridLayout_4">
+      <item row="0" column="0">
+       <widget class="QListWidget" name="dicts_lw">
+        <property name="alternatingRowColors">
+         <bool>true</bool>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="0">
+       <widget class="QCheckBox" name="inwords_cb">
+        <property name="text">
+         <string>Записывать прописью числа отсутствующие в словаре</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item row="1" column="0" colspan="2">
+    <widget class="QGroupBox" name="groupBox_2">
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+       <horstretch>0</horstretch>
+       <verstretch>3</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="title">
+      <string>Шаблоны</string>
+     </property>
+     <layout class="QGridLayout" name="gridLayout_3">
+      <item row="0" column="0">
+       <widget class="QLabel" name="label_5">
+        <property name="text">
+         <string>Заголовок</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="1">
+       <widget class="QLineEdit" name="title_le">
+        <property name="text">
+         <string>{$1}</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="2">
+       <widget class="QLabel" name="label_6">
+        <property name="text">
+         <string>Теги</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="3">
+       <widget class="QLineEdit" name="tags_le">
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="0">
+       <widget class="QLabel" name="label_7">
+        <property name="text">
+         <string>Текст</string>
+        </property>
+       </widget>
+      </item>
+      <item row="4" column="0" colspan="4">
+       <widget class="QPlainTextEdit" name="text_le">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+          <horstretch>0</horstretch>
+          <verstretch>2</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="plainText">
+         <string>&lt;img src=&quot;/images/{$3}&quot; align=&quot;left&quot;&gt;
+&lt;table&gt;
+&lt;tr&gt;&lt;td&gt;Цена({$р.|руб.|рублей}):&lt;/td&gt;&lt;td&gt;{$2}&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;Сезонность:&lt;/td&gt;&lt;td&gt;{$4}&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;Дополнительная информация:&lt;/td&gt;&lt;td&gt;{$5}&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;Индекс максимальной скорости:&lt;/td&gt;&lt;td&gt;{$6}&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;Технология RunFlat:&lt;/td&gt;&lt;td&gt;{$7}&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;Способ герметизации:&lt;/td&gt;&lt;td&gt;{$8}&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;Диаметр:&lt;/td&gt;&lt;td&gt;{$9}&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;Высота профиля:&lt;/td&gt;&lt;td&gt;{$10}&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;Шипы:&lt;/td&gt;&lt;td&gt;{$11}&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;Индекс нагрузки:&lt;/td&gt;&lt;td&gt;{$12}&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;Максимальная нагрузка (на одну шину):&lt;/td&gt;&lt;td&gt;{$13}&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;Тип автомобиля:&lt;/td&gt;&lt;td&gt;{$14}&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;Конструкция:&lt;/td&gt;&lt;td&gt;{$15}&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;Ширина профиля:&lt;/td&gt;&lt;td&gt;{$16}&lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;</string>
+        </property>
+       </widget>
+      </item>
+      <item row="5" column="0">
+       <widget class="QLabel" name="label_8">
+        <property name="text">
+         <string>Вступление</string>
+        </property>
+       </widget>
+      </item>
+      <item row="7" column="0">
+       <widget class="QLabel" name="label_9">
+        <property name="text">
+         <string>Категория</string>
+        </property>
+       </widget>
+      </item>
+      <item row="6" column="0" colspan="4">
+       <widget class="QPlainTextEdit" name="intro_le">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+          <horstretch>0</horstretch>
+          <verstretch>1</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="plainText">
+         <string>&lt;img src=&quot;/images/{$3}&quot; align=&quot;left&quot;&gt;{$Стоимость|Цена|Стоимость на текущий момент|Сезонная цена} {$2}({$р.|руб.|рублей}). Диаметры {$шины|шин} {$9} при {$высоте профиля|профиле} {$10}. Наличие шипов: {$11}. {$Шина предназначена для автомобилей|Назначение - автомобиль} типа &quot;{$14}&quot;.
+</string>
+        </property>
+       </widget>
+      </item>
+      <item row="8" column="0" colspan="4">
+       <widget class="QLineEdit" name="cattitle_le">
+        <property name="text">
+         <string>{$1}</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>buttonBox</sender>
+   <signal>accepted()</signal>
+   <receiver>Dialog</receiver>
+   <slot>accept()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>257</x>
+     <y>626</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>157</x>
+     <y>274</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>buttonBox</sender>
+   <signal>rejected()</signal>
+   <receiver>Dialog</receiver>
+   <slot>reject()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>325</x>
+     <y>626</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>286</x>
+     <y>274</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>allowcat_cb</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>cattitle_le</receiver>
+   <slot>setEnabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>683</x>
+     <y>70</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>150</x>
+     <y>446</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>

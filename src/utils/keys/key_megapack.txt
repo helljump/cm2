@@ -1,0 +1,77 @@
+Добрый день.
+Мы благодарим Вас за покупку Content Monster II TreeEdit, CMS Cadaver и Генератора Магазинов Pro
+
+--- Content Monster 2 ---
+Для начала работы
+
+1. Зайдите в клиентскую зону CM-II TreeEdit
+Адрес страницы http://content-monster.com/klientam
+Пароль для входа: cm2cli8ts
+
+2. Скачайте последнюю версию CM-II TreeEdit
+
+3. Установите (с правами администратора) вашу копию CM-II TreeEdit
+
+4. Запустите CM-II TreeEdit
+
+5. Пройдите в главном меню программы в раздел Помощь - Регистрация и введите ключ
+
+------ Начинать копировать после этой строки ----------------
+gAJ9cQEoVQh1c2VybmFtZXECWBIAAABjYXBvMTk2OUBnbWFpbC5jb21xA1UEZGF0ZXEEVRoyMDEz
+LTEyLTI4IDE1OjQxOjE4LjcyMzAwMHEFVQdwcm9kdWN0cQZVGmNvbnRlbnQtbW9uc3Rlci0yLXRy
+ZWVlZGl0cQdVB3ZlcnNpb25xCFUDMS4wcQlVA2tleXEKVTjcorZheCZV13gbuDI/+oexcaJKZNbT
+fFefvsHUb+v1eF5qQzAhIhN/HmdLrY3mot/5j9nNk2UatXELdS4=
+------ Эту строчку - не копировать --------------------------
+
+Будьте внимательными при копировании ключа!
+Ключ является уникальным для вашей копии CM-II TreeEdit
+и предназначен для использования на 2 машинах
+
+6. Ваша копия готова к работе!
+
+По всем вопросам пишите на форуме поддержки
+http://blap.ru/forum/index.php?board=75.0
+
+--- Генератор магазинов PRO 2 ---
+
+Документация: http://blap.ru/exchange/shopgen2.pdf
+Ссылка: http://content-monster.com/download/csv_import2_pro-2.2-cm2plugin-install.exe
+
+Предыдущая версия плагина:
+1. Пройдите в клиентскую зону Content Monster II: http://content-monster.com/klientam
+2. Скачайте дистрибутив из раздела ПЛАТНЫЕ ПЛАГИНЫ
+3. Распакуйте архив с паролем: fe7xdEwo73vb#dx
+4. Запустите инсталлятор и установите плагин
+5. Ознакомтесь с документацией на плагин:
+http://content-monster.com/rasshireniya/generator-magazinov-pro
+
+По всем вопросам пишите на форуме поддержки
+http://blap.ru/forum/index.php?topic=1015.0
+
+Бонус - платные базы!
+    http://blap.ru/exchange/bases14/csv_import_pro-2.1-base-dvd.zip
+    http://blap.ru/exchange/bases14/csv_import_pro-2.1-base-obogrev.zip
+    http://blap.ru/exchange/bases14/csv_import_pro-2.1-base-shiny.zip
+Примеры настроек лежат в архивах баз в template.txt
+По умолчанию каталог базы расположен в каталоге плагина\base
+
+--- Кадавр ---
+
+1. Пройдите в клиентскую зону CMS
+http://content-monster.com/cms-kadavr/klientskaya-zona-kadavr-cms
+Для входа используйте пароль: CM2CMSTREE
+
+2. Скачайте дистрибутив CMS из клиентской зоны
+
+3. Ознакомьтесь с документацией по использованию
+http://content-monster.com/doc-cadaver/
+
+4. Посмотрите видео демонстрацию
+http://blap.ru/exchange/demo/cadavre.html
+
+По всем вопросам пишите на форуме поддержки
+http://blap.ru/forum/index.php?topic=953.0
+
+Желаем Вам удачи!
+
+С уважением DrMax и sNOa

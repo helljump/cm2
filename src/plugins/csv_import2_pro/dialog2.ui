@@ -1,0 +1,369 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>888</width>
+    <height>685</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Генератор Магазинов 2</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout_2">
+   <item row="0" column="0" colspan="2">
+    <widget class="QGroupBox" name="groupBox">
+     <property name="title">
+      <string>Данные</string>
+     </property>
+     <layout class="QGridLayout" name="gridLayout">
+      <item row="0" column="0">
+       <widget class="QLabel" name="label">
+        <property name="text">
+         <string>Файл</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="1" colspan="5">
+       <widget class="QLineEdit" name="fname_le">
+        <property name="text">
+         <string>plugins/youtube_pro/base.csv</string>
+        </property>
+        <property name="readOnly">
+         <bool>true</bool>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="6">
+       <widget class="QPushButton" name="selectfile_bp">
+        <property name="maximumSize">
+         <size>
+          <width>24</width>
+          <height>16777215</height>
+         </size>
+        </property>
+        <property name="text">
+         <string>...</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="7">
+       <widget class="QLabel" name="label_2">
+        <property name="text">
+         <string>Кодировка</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="8" colspan="2">
+       <widget class="QComboBox" name="encoding_cb">
+        <item>
+         <property name="text">
+          <string>Автоопределение</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>UTF-8</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Windows-1251</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>ASCII</string>
+         </property>
+        </item>
+       </widget>
+      </item>
+      <item row="1" column="0" colspan="2">
+       <widget class="QLabel" name="label_3">
+        <property name="text">
+         <string>Разделитель полей</string>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="2">
+       <widget class="QLineEdit" name="fielddelim_le">
+        <property name="text">
+         <string>;</string>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="3">
+       <widget class="QLabel" name="label_4">
+        <property name="text">
+         <string>Разделитель текста</string>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="4">
+       <widget class="QLineEdit" name="textdelim_le">
+        <property name="text">
+         <string>&quot;</string>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="5" colspan="4">
+       <widget class="QCheckBox" name="ignorefirst_cb">
+        <property name="text">
+         <string>Игнорировать первую строку</string>
+        </property>
+        <property name="checked">
+         <bool>false</bool>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="9">
+       <widget class="QCheckBox" name="allowcat_cb">
+        <property name="text">
+         <string>Один столбец - категория</string>
+        </property>
+        <property name="checked">
+         <bool>false</bool>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item row="3" column="1">
+    <widget class="QDialogButtonBox" name="buttonBox">
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+     <property name="standardButtons">
+      <set>QDialogButtonBox::Cancel|QDialogButtonBox::Help|QDialogButtonBox::Ok</set>
+     </property>
+    </widget>
+   </item>
+   <item row="1" column="0" colspan="2">
+    <widget class="QGroupBox" name="groupBox_2">
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+       <horstretch>0</horstretch>
+       <verstretch>3</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="title">
+      <string>Шаблоны</string>
+     </property>
+     <layout class="QGridLayout" name="gridLayout_4">
+      <item row="0" column="0">
+       <widget class="QLabel" name="label_5">
+        <property name="text">
+         <string>Заголовок</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="1">
+       <widget class="QLineEdit" name="title_le">
+        <property name="text">
+         <string>{{ data.1 }} : {{ data.8 }}</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="2">
+       <widget class="QLabel" name="label_6">
+        <property name="text">
+         <string>Теги</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="3">
+       <widget class="QLineEdit" name="tags_le">
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="0" colspan="4">
+       <widget class="QSplitter" name="splitter">
+        <property name="orientation">
+         <enum>Qt::Vertical</enum>
+        </property>
+        <property name="childrenCollapsible">
+         <bool>false</bool>
+        </property>
+        <widget class="QFrame" name="frame">
+         <property name="frameShape">
+          <enum>QFrame::StyledPanel</enum>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Raised</enum>
+         </property>
+         <layout class="QGridLayout" name="gridLayout_3">
+          <property name="margin">
+           <number>4</number>
+          </property>
+          <property name="spacing">
+           <number>3</number>
+          </property>
+          <item row="0" column="0">
+           <widget class="QLabel" name="label_7">
+            <property name="text">
+             <string>Текст</string>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="0">
+           <widget class="QPlainTextEdit" name="text_le">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+              <horstretch>0</horstretch>
+              <verstretch>2</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="plainText">
+             <string>&lt;object width=&quot;700&quot; height=&quot;394&quot;&gt;&lt;param name=&quot;movie&quot; value=&quot;http://www.youtube.com/v/{{ data.0 }}?version=3&amp;amp;hl=ru_RU&amp;amp;rel=0&quot;&gt;&lt;/param&gt;&lt;param name=&quot;allowFullScreen&quot; value=&quot;true&quot;&gt;&lt;/param&gt;&lt;param name=&quot;allowscriptaccess&quot; value=&quot;always&quot;&gt;&lt;/param&gt;&lt;embed src=&quot;http://www.youtube.com/v/{{ data.0 }}?version=3&amp;amp;hl=ru_RU&amp;amp;rel=0&quot; type=&quot;application/x-shockwave-flash&quot; width=&quot;700&quot; height=&quot;394&quot; allowscriptaccess=&quot;always&quot; allowfullscreen=&quot;true&quot;&gt;&lt;/embed&gt;&lt;/object&gt;
+&lt;table border=&quot;0&quot;&gt;
+&lt;tr&gt;
+&lt;td width=&quot;250&quot;&gt;
+{{ choice([&quot;Дата публикации&quot;,&quot;Дата&quot;]) }}: {{ data.3 }}&lt;br&gt;
+{{ choice([&quot;Рейтинг&quot;,&quot;Оценка&quot;]) }}: {{ data.4 }} {{ choice([&quot;&quot;,&quot;баллов&quot;,&quot;*&quot;,&quot;звезд&quot;]) }}
+Длительность:{% set egg = randint(1,2) %}{% if egg==1 -%}{{ data.6 }} секунд{% else -%}{%- set spam = data.6|int -%}{%- set m = spam//60 -%}{%- set s = spam%60 -%}{{ m }}:{{ &quot;%02i&quot;|format(s) }}{% endif -%}&lt;br&gt;
+Количество просмотров: {{ data.7 }}
+&lt;/td&gt;
+&lt;td&gt;
+&lt;h2&gt;{{ data.1 }}&lt;/h2&gt;
+{{ data.2 }}
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;
+{{ choice([&quot;Вы хотели узнать&quot;,&quot;Вы, наверное, всегда хотели узнать&quot;,&quot;Хотите узнать&quot;,&quot;А Вы знали&quot;,&quot;А Вы хотели б узнать&quot;,&quot;Знаете ли ВЫ&quot;,&quot;Сегодня многие хотят узнать&quot;,&quot;В интернете сейчас популярна тема&quot;,&quot;Хотели бы Вы узнать&quot;,&quot;Среди пользователей сайта популярна тема&quot;,&quot;Наши пользователи часто спрашивают&quot;,&quot;Пользователи сайта часто спрашивают&quot;,&quot;Наши посетители часто задают вопрос&quot;]) }} &quot;{{ data.8 }}&quot; {{ choice([&quot;:&quot;,&quot;-&quot;]) }} {{ choice([&quot;смотрите&quot;,&quot;посмотрите&quot;,&quot;поглядите&quot;,&quot;мы представляем&quot;,&quot;мы выложили&quot;,&quot;мы опубликовали&quot;,&quot;мы добавили&quot;,&quot;мы разместили&quot;,&quot;поэтому мы выложили&quot;,&quot;сегодня мы разместили&quot;,&quot;сегодня мы опубликовали&quot;,&quot;мы предлагаем Вам посмотреть&quot;,&quot;мы предлагаем изучить&quot;]) }} {{ choice([&quot;новый&quot;,&quot;свежий&quot;,&quot;интересный&quot;,&quot;забавный&quot;,&quot;&quot;,&quot;&quot;]) }} {{[choice([&quot;он лайн&quot;,&quot;онлайн&quot;,&quot;он-лайн&quot;,&quot;online&quot;,&quot;&quot;]),choice([&quot;видео&quot;,&quot;&quot;]),&quot;ролик&quot;]|shuffle|join(&quot; &quot;)}} &quot;{{ data.1 }}&quot;.
+{%- set spam2 = data.4|int -%}
+{%- set m2 = spam2//1 -%}
+В {{choice([&quot;популярном&quot;,&quot;интересном&quot;,&quot;пользующемся популярностью&quot;,&quot;&quot;])}} {{choice([&quot;ролике&quot;,&quot;видео&quot;,&quot;онлайн видео&quot;,&quot;видео онлайн&quot;])}} с {{ choice([&quot;рейтингом&quot;,&quot;оценкой&quot;]) }} {{ choice([&quot;более чем&quot;,&quot;больше чем&quot;]) }} {{ m2|in_words }} {{ choice([&quot;балла&quot;,&quot;звезды&quot;,&quot;*&quot;]) }} вы {{ choice([&quot;узнаете&quot;,&quot;поймете&quot;]) }} {{ data.8 }}.
+&lt;h3&gt;Комментарии&lt;/h3&gt;
+&lt;ul&gt;
+{% set comments = data[9:] %}
+{% for c in comments|shuffle -%}
+  {% if c %}
+    &lt;li&gt;{{ c|yasyn(&quot;internal&quot;, 3) }}&lt;/li&gt;
+  {% endif %}
+{%- endfor %}
+&lt;/ul&gt;
+</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+        <widget class="QFrame" name="frame_2">
+         <property name="frameShape">
+          <enum>QFrame::StyledPanel</enum>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Raised</enum>
+         </property>
+         <layout class="QGridLayout" name="gridLayout_5">
+          <property name="margin">
+           <number>4</number>
+          </property>
+          <property name="spacing">
+           <number>3</number>
+          </property>
+          <item row="0" column="0">
+           <widget class="QLabel" name="label_8">
+            <property name="text">
+             <string>Вступление</string>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="0">
+           <widget class="QPlainTextEdit" name="intro_le">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+              <horstretch>0</horstretch>
+              <verstretch>1</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="plainText">
+             <string>&lt;img src=&quot;{{ data.5 }}&quot; alt=&quot;{{ data.1 }}&quot; width=&quot;245&quot; height=&quot;183&quot;/&gt;&lt;br&gt;
+Длительность:{% set egg = randint(1,2) %}{% if egg==1 -%}{{ data.6 }} секунд{% else -%}{%- set spam = data.6|int -%}{%- set m = spam//60 -%}{%- set s = spam%60 -%}{{ m }}:{{ &quot;%02i&quot;|format(s) }}{% endif -%} &lt;br&gt;
+Количество просмотров: {{ data.7 }}&lt;br&gt;
+{{ choice([&quot;Рейтинг&quot;,&quot;Оценка&quot;]) }}: {{ data.4 }} {{ choice([&quot;&quot;,&quot;баллов&quot;,&quot;*&quot;,&quot;звезд&quot;]) }}
+</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </widget>
+      </item>
+      <item row="2" column="0">
+       <widget class="QLabel" name="label_9">
+        <property name="text">
+         <string>Категория</string>
+        </property>
+       </widget>
+      </item>
+      <item row="3" column="0" colspan="4">
+       <widget class="QLineEdit" name="cattitle_le">
+        <property name="text">
+         <string>{{ data.0 }}</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>buttonBox</sender>
+   <signal>accepted()</signal>
+   <receiver>Dialog</receiver>
+   <slot>accept()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>257</x>
+     <y>626</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>157</x>
+     <y>274</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>buttonBox</sender>
+   <signal>rejected()</signal>
+   <receiver>Dialog</receiver>
+   <slot>reject()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>325</x>
+     <y>626</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>286</x>
+     <y>274</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>allowcat_cb</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>cattitle_le</receiver>
+   <slot>setEnabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>683</x>
+     <y>70</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>150</x>
+     <y>446</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>

@@ -1,0 +1,3 @@
+[Core]
+Name = Построчный экспорт
+Module = plain_export
